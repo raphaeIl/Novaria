@@ -8,19 +8,53 @@ namespace Novaria.GameServer.Controllers
     [Route("/")]
     public class SDKController : ControllerBase
     {
+        [HttpPost("yostar/send-code")]
+        public IResult SendCode()
+        {
+            return Results.Content(
+@"
+{
+    ""Code"": 200,
+    ""Data"": {},
+    ""Msg"": ""OK""
+}
+"
+        , "application/json");
+        }
+
+        [HttpPost("yostar/get-auth")]
+        public IResult GetAuth()
+        {
+            return Results.Content(
+@"
+{
+    ""Code"": 200,
+    ""Data"": {
+        ""Account"": ""seggs@gmail.com"",
+        ""Token"": ""sdfsdfsdfsdf"",
+        ""UID"": ""seggs@gmail.com""
+    },
+    ""Msg"": ""OK""
+}
+"
+        , "application/json");
+        }
+
+
         [HttpPost("user/oauth2/v2/grant")]
         public IResult OAuthGrant()
         {
             return Results.Content(
 @"
 {
-    ""msg"": ""夏萝莉是小楠梁"",
+    ""msg"": ""sss"",
     ""status"": 106,
     ""type"": ""A""
 }",
 "application/json"
 );
         }
+
         [Route("")]
         public IResult GetNothing()
         {

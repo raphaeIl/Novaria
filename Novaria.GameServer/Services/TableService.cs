@@ -47,7 +47,7 @@ namespace Novaria.GameServer.Services
              
             this.LoadCommonBin<T>(bytesFilePath); // after this, loaded table will be in the cache
 
-            logger.LogDebug("{Excel} loaded and cached", type.Name);
+            Log.Information("{Excel} Table loaded and cached", type.Name);
 
             return caches[currentTableTypeCache];
         }

@@ -29,12 +29,14 @@ namespace Novaria.Common.Crypto
         //public static byte[] PS_PUBLIC_KEY { get => DiffieHellman.Instance.ServerPublicKey.GetBytes(); }
         public static string TOKEN = "seggs"; // hardcoded for now
 
-        public static readonly byte[] DEFAULT_SERVERLIST_KEY = new byte[] { 74, 72, 42, 67, 80, 51, 50, 57, 89, 120, 111, 103, 81, 74, 69, 120 };
+        //public static readonly byte[] DEFAULT_SERVERLIST_KEY = new byte[] { 74, 72, 42, 67, 80, 51, 50, 57, 89, 120, 111, 103, 81, 74, 69, 120 };
         public static readonly byte[] DEFAULT_SERVERLIST_IV = new byte[] { 225, 92, 61, 72, 193, 89, 3, 64, 50, 61, 50, 145, 59, 128, 99, 72 };
         public static readonly byte[] DEFAULT_AND_IV = new byte[] { 105, 7, 110, 72, 167, 117, 102, 212, 150, 44, 52, 229, 65, 61, 204, 205 };
         public static readonly byte[] DEFAULT_WIN_IV = new byte[] { 144, 129, 81, 233, 8, 4, 33, 39, 106, 181, 229, 64, 68, 134, 31, 107 };
 
-        public static readonly byte[] IKE_KEY = Encoding.ASCII.GetBytes("3LS9&oYdsp^5wi8&ZxC#c7MZg73hbEDw");
+        public static readonly byte[] DEFAULT_SERVERLIST_KEY = Encoding.ASCII.GetBytes("qPmz8@Pd&F!N38Xm");
+
+        public static readonly byte[] IKE_KEY = Encoding.ASCII.GetBytes("D&4r2fnroZgBaRmueWyW%A4KL!!@Arvs");
 
         private static DiffieHellmanManaged SendKey;
         private static BigInteger p = BigInteger.Parse("1552518092300708935130918131258481755631334049434514313202351194902966239949102107258669453876591642442910007680288864229150803718918046342632727613031282983744380820890196288509170691316593175367469551763119843371637221007210577919");
