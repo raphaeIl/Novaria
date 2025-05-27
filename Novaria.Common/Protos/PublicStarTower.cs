@@ -29,222 +29,206 @@ namespace Proto {
             "d2VySW5mbxIiCgRNZXRhGAEgASgLMhQucHJvdG8uU3RhclRvd2VyTWV0YRIi",
             "CgRSb29tGAIgASgLMhQucHJvdG8uU3RhclRvd2VyUm9vbRIgCgNCYWcYAyAB",
             "KAsyEy5wcm90by5TdGFyVG93ZXJCYWcSFAoLTmV4dFBhY2thZ2UY/w8gASgM",
-            "IpADCg1TdGFyVG93ZXJNZXRhEgoKAklkGAEgASgNEg4KBkNoYXJIcBgCIAEo",
+            "It0CCg1TdGFyVG93ZXJNZXRhEgoKAklkGAEgASgNEg4KBkNoYXJIcBgCIAEo",
             "DRIRCglUZWFtTGV2ZWwYAyABKA0SDwoHVGVhbUV4cBgEIAEoDRIjCgVDaGFy",
             "cxgFIAMoCzIULnByb3RvLlN0YXJUb3dlckNoYXISIwoFRGlzY3MYBiADKAsy",
             "FC5wcm90by5TdGFyVG93ZXJEaXNjEg8KB0RhdGVMZW4YByABKA0SEgoKQ2xp",
-            "ZW50RGF0YRgIIAEoCRIdChVEaXNjU2tpbGxBY3RpdmVOdW1iZXIYCSABKA0S",
-            "FwoPSGFybW9ueVNraWxsSWRzGAogAygNEhgKEFRvd2VyR3Jvd3RoTm9kZXMY",
-            "CyADKA0SFwoPUmVzdXJyZWN0aW9uQ250GAwgASgNEhUKDVJhbmtUb3RhbFRp",
-            "bWUYDSABKA0SEQoJVG90YWxUaW1lGA4gASgNEhQKDFRvdGFsRGFtYWdlcxgP",
-            "IAMoBBIPCgdCdWlsZElkGBAgASgEEhQKC05leHRQYWNrYWdlGP8PIAEoDCJd",
-            "Cg1TdGFyVG93ZXJEaXNjEgoKAklkGAEgASgNEg0KBUxldmVsGAIgASgNEg0K",
-            "BVBoYXNlGAMgASgNEgwKBFN0YXIYBCABKA0SFAoLTmV4dFBhY2thZ2UY/w8g",
-            "ASgMIr4BCg1TdGFyVG93ZXJDaGFyEgoKAklkGAEgASgNEi0KCkVxdWlwbWVu",
-            "dHMYAiADKAsyGS5wcm90by5TdGFyVG93ZXJFcXVpcG1lbnQSDQoFTGV2ZWwY",
-            "AyABKA0SEAoIU2tpbGxMdnMYBCADKA0SFQoNQWZmaW5pdHlMZXZlbBgFIAEo",
-            "DRIPCgdBZHZhbmNlGAYgASgNEhMKC1RhbGVudE5vZGVzGAcgASgMEhQKC05l",
-            "eHRQYWNrYWdlGP8PIAEoDCJ3ChJTdGFyVG93ZXJFcXVpcG1lbnQSCwoDVGlk",
-            "GAEgASgNEgsKA0V4cBgCIAEoDRIMCgRUYWdzGAMgAygNEiMKBUF0dHJzGAQg",
-            "AygLMhQucHJvdG8uRXF1aXBtZW50QXR0chIUCgtOZXh0UGFja2FnZRj/DyAB",
-            "KAwiywEKDFN0YXJUb3dlckJhZxIlCghGYXRlQ2FyZBgBIAMoCzITLnByb3Rv",
-            "LkZhdGVDYXJkSW5mbxINCgVOb3RlcxgCIAMoDRIoCgpQb3RlbnRpYWxzGAMg",
-            "AygLMhQucHJvdG8uUG90ZW50aWFsSW5mbxIjCgVJdGVtcxgEIAMoCzIULnBy",
-            "b3RvLlRvd2VySXRlbUluZm8SIAoDUmVzGAUgAygLMhMucHJvdG8uVG93ZXJS",
-            "ZXNJbmZvEhQKC05leHRQYWNrYWdlGP8PIAEoDCJ2Cg1TdGFyVG93ZXJSb29t",
-            "EiYKBERhdGEYASABKAsyGC5wcm90by5TdGFyVG93ZXJSb29tRGF0YRInCgVD",
-            "YXNlcxgCIAMoCzIYLnByb3RvLlN0YXJUb3dlclJvb21DYXNlEhQKC05leHRQ",
-            "YWNrYWdlGP8PIAEoDCKQAQoRU3RhclRvd2VyUm9vbURhdGESDQoFRmxvb3IY",
-            "ASABKA0SDQoFTWFwSWQYAiABKA0SDwoHUGFyYW1JZBgDIAEoDRIQCghSb29t",
-            "VHlwZRgEIAEoDRIQCghNYXBQYXJhbRgFIAEoCRISCgpNYXBUYWJsZUlkGAYg",
-            "ASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDCKcBgoRU3RhclRvd2VyUm9vbUNh",
-            "c2USCgoCSWQYASABKA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMEisKCkJhdHRs",
-            "ZUNhc2UYAiABKAsyFS5wcm90by5CYXR0bGVDYXNlRGF0YUgAEicKCERvb3JD",
-            "YXNlGAMgASgLMhMucHJvdG8uRG9vckNhc2VEYXRhSAASSwoaU2VsZWN0U3Bl",
-            "Y2lhbFBvdGVudGlhbENhc2UYBCABKAsyJS5wcm90by5TZWxlY3RTcGVjaWFs",
-            "UG90ZW50aWFsQ2FzZURhdGFIABI9ChNTZWxlY3RQb3RlbnRpYWxDYXNlGAUg",
-            "ASgLMh4ucHJvdG8uU2VsZWN0UG90ZW50aWFsQ2FzZURhdGFIABI7ChJTZWxl",
-            "Y3RGYXRlQ2FyZENhc2UYBiABKAsyHS5wcm90by5TZWxlY3RGYXRlQ2FyZENh",
-            "c2VEYXRhSAASMwoOU2VsZWN0Tm90ZUNhc2UYByABKAsyGS5wcm90by5TZWxl",
-            "Y3ROb3RlQ2FzZURhdGFIABJDChZTZWxlY3RPcHRpb25zRXZlbnRDYXNlGAgg",
-            "ASgLMiEucHJvdG8uU2VsZWN0T3B0aW9uc0V2ZW50Q2FzZURhdGFIABIzCg5S",
-            "ZWNvdmVyeUhQQ2FzZRgJIAEoCzIZLnByb3RvLlJlY292ZXJ5SFBDYXNlRGF0",
-            "YUgAEjkKEU5wY1JlY292ZXJ5SFBDYXNlGAogASgLMhwucHJvdG8uTnBjUmVj",
-            "b3ZlcnlIUENhc2VEYXRhSAASKwoKSGF3a2VyQ2FzZRgLIAEoCzIVLnByb3Rv",
-            "Lkhhd2tlckNhc2VEYXRhSAASQQoVU3RyZW5ndGhlbk1hY2hpbmVDYXNlGAwg",
-            "ASgLMiAucHJvdG8uU3RyZW5ndGhlbk1hY2hpbmVDYXNlRGF0YUgAEjcKEEhh",
-            "cm1vbnlTa2lsbENhc2UYDSABKAsyGy5wcm90by5IYXJtb255U2tpbGxDYXNl",
-            "RGF0YUgAEisKClN5bmNIUENhc2UYDyABKAsyFS5wcm90by5TeW5jSFBDYXNl",
-            "RGF0YUgAQgYKBERhdGEiSwoOQmF0dGxlQ2FzZURhdGESEQoJVGltZUxpbWl0",
-            "GAEgASgIEhAKCEZhdGVDYXJkGAIgASgIEhQKC05leHRQYWNrYWdlGP8PIAEo",
-            "DCJBCgxEb29yQ2FzZURhdGESDQoFRmxvb3IYASABKA0SDAoEVHlwZRgCIAEo",
-            "DRIUCgtOZXh0UGFja2FnZRj/DyABKAwijgEKHlNlbGVjdFNwZWNpYWxQb3Rl",
-            "bnRpYWxDYXNlRGF0YRILCgNJZHMYASADKA0SEQoJVGVhbUxldmVsGAIgASgN",
-            "Eg4KBk5ld0lkcxgDIAMoDRIRCglDYW5SZVJvbGwYByABKAgSEwoLUmVSb2xs",
-            "UHJpY2UYCCABKA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMIr8BChdTZWxlY3RQ",
-            "b3RlbnRpYWxDYXNlRGF0YRIjCgVJbmZvcxgBIAMoCzIULnByb3RvLlBvdGVu",
-            "dGlhbEluZm8SEQoJVGVhbUxldmVsGAIgASgNEg4KBk5ld0lkcxgDIAMoDRIQ",
-            "CghMdWNreUlkcxgMIAMoDRIRCglDYW5SZVJvbGwYDSABKAgSEwoLUmVSb2xs",
-            "UHJpY2UYDiABKA0SDAoEVHlwZRgPIAEoDRIUCgtOZXh0UGFja2FnZRj/DyAB",
-            "KAwiZwoaU2VsZWN0T3B0aW9uc0V2ZW50Q2FzZURhdGESDQoFRXZ0SWQYASAB",
-            "KA0SDwoHT3B0aW9ucxgCIAMoDRITCgtGYWlsZWRJZHhlcxgDIAMoDRIUCgtO",
-            "ZXh0UGFja2FnZRj/DyABKAwiSwoSU2VsZWN0Tm90ZUNhc2VEYXRhEh8KBElu",
-            "Zm8YASADKAsyES5wcm90by5TZWxlY3ROb3RlEhQKC05leHRQYWNrYWdlGP8P",
-            "IAEoDCKBAQoWU2VsZWN0RmF0ZUNhcmRDYXNlRGF0YRILCgNJZHMYASADKA0S",
-            "DgoGTmV3SWRzGAIgAygNEgwKBEdpdmUYAyABKAgSEQoJQ2FuUmVSb2xsGAcg",
-            "ASgIEhMKC1JlUm9sbFByaWNlGAggASgNEhQKC05leHRQYWNrYWdlGP8PIAEo",
-            "DCI8ChJSZWNvdmVyeUhQQ2FzZURhdGESEAoIRWZmZWN0SWQYASABKA0SFAoL",
-            "TmV4dFBhY2thZ2UY/w8gASgMIj8KFU5wY1JlY292ZXJ5SFBDYXNlRGF0YRIQ",
-            "CghFZmZlY3RJZBgBIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwiJgoOU3lu",
-            "Y0hQQ2FzZURhdGESFAoLTmV4dFBhY2thZ2UY/w8gASgMIm8KC0hhd2tlckdv",
-            "b2RzEgsKA1NpZBgBIAEoDRILCgNJZHgYAiABKA0SDwoHQ2hhclBvcxgDIAEo",
-            "DRINCgVQcmljZRgEIAEoBRIQCghEaXNjb3VudBgFIAEoBRIUCgtOZXh0UGFj",
-            "a2FnZRj/DyABKAwilwEKDkhhd2tlckNhc2VEYXRhEiAKBExpc3QYASADKAsy",
-            "Ei5wcm90by5IYXdrZXJHb29kcxIQCghQdXJjaGFzZRgCIAMoDRIRCglDYW5S",
-            "ZVJvbGwYByABKAgSEwoLUmVSb2xsUHJpY2UYCCABKA0SEwoLUmVSb2xsVGlt",
-            "ZXMYCSABKA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMIlQKEUludGVyYWN0SGF3",
-            "a2VyUmVxEhQKC05leHRQYWNrYWdlGP8PIAEoDBINCgNTaWQYASABKA1IABIQ",
-            "CgZSZVJvbGwYAiABKAhIAEIICgZBY3Rpb24iSQodSW50ZXJhY3RTdHJlbmd0",
-            "aGVuTWFjaGluZVJlc3ASEgoKQnV5U3VjY2VlZBgBIAEoCBIUCgtOZXh0UGFj",
-            "a2FnZRj/DyABKAwiZQoZU3RyZW5ndGhlbk1hY2hpbmVDYXNlRGF0YRINCgVU",
-            "aW1lcxgBIAEoDRIRCglGaXJzdEZyZWUYByABKAgSEAoIRGlzY291bnQYCCAB",
-            "KA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMImMKFEhhcm1vbnlTa2lsbENhc2VE",
-            "YXRhEg0KBVNraWxsGAEgASgNEhEKCUNhblJlUm9sbBgCIAEoCBITCgtSZVJv",
-            "bGxQcmljZRgDIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwipQEKEEludGVy",
-            "YWN0RW50ZXJSZXESDQoFTWFwSWQYASABKA0SDwoHUGFyYW1JZBgCIAEoDRIP",
-            "CgdEYXRlTGVuGAMgASgNEhIKCkNsaWVudERhdGEYBCABKAkSEAoITWFwUGFy",
-            "YW0YBSABKAkSEgoKTWFwVGFibGVJZBgGIAEoDRIQCghDaGVja3N1bRgHIAEo",
-            "BBIUCgtOZXh0UGFja2FnZRj/DyABKAwiTQoRSW50ZXJhY3RFbnRlclJlc3AS",
-            "IgoEUm9vbRgBIAEoCzIULnByb3RvLlN0YXJUb3dlclJvb20SFAoLTmV4dFBh",
-            "Y2thZ2UY/w8gASgMIuECChRJbnRlcmFjdEJhdHRsZUVuZFJlcRIUCgtOZXh0",
-            "UGFja2FnZRj/DyABKAwSOgoHVmljdG9yeRgBIAEoCzInLnByb3RvLkludGVy",
-            "YWN0QmF0dGxlRW5kUmVxLlZpY3RvcnlEYXRhSAASEAoGRGVmZWF0GAIgASgI",
-            "SAAa2gEKC1ZpY3RvcnlEYXRhEgoKAkhQGAEgASgNEgwKBFRpbWUYAiABKA0S",
-            "DwoHRGF0ZUxlbhgDIAEoDRISCgpDbGllbnREYXRhGAQgASgJEisKDWZhdGVD",
-            "YXJkVXNhZ2UYBSADKAsyFC5wcm90by5GYXRlQ2FyZFVzYWdlEg8KB0RhbWFn",
-            "ZXMYBiADKA0SLwoGU2FtcGxlGA4gAygLMh8ucHJvdG8uVHJhdmVsZXJEdWVs",
-            "QmF0dGxlU2FtcGxlEh0KBkV2ZW50cxgPIAEoCzINLnByb3RvLkV2ZW50c0II",
-            "CgZSZXN1bHQihQIKFUludGVyYWN0QmF0dGxlRW5kUmVzcBIUCgtOZXh0UGFj",
-            "a2FnZRj/DyABKAwSOwoHVmljdG9yeRgBIAEoCzIoLnByb3RvLkludGVyYWN0",
-            "QmF0dGxlRW5kUmVzcC5WaWN0b3J5RGF0YUgAEjkKBkRlZmVhdBgCIAEoCzIn",
-            "LnByb3RvLkludGVyYWN0QmF0dGxlRW5kUmVzcC5EZWZlYXREYXRhSAAaOgoL",
-            "VmljdG9yeURhdGESCwoDRXhwGAEgASgNEgoKAkx2GAIgASgNEhIKCkJhdHRs",
-            "ZVRpbWUYCiABKA0aGAoKRGVmZWF0RGF0YRIKCgJMdhgBIAEoDUIICgZSZXN1",
-            "bHQiOQoVSW50ZXJhY3RSZWNvdmVyeUhQUmVxEgoKAkhwGAEgASgNEhQKC05l",
-            "eHRQYWNrYWdlGP8PIAEoDCJACg1GYXRlQ2FyZFVzYWdlEgoKAklkGAEgASgN",
-            "Eg0KBVRpbWVzGAIgASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDCJWChFJbnRl",
-            "cmFjdFNlbGVjdFJlcRIUCgtOZXh0UGFja2FnZRj/DyABKAwSDwoFSW5kZXgY",
-            "ASABKA1IABIQCgZSZVJvbGwYAiABKAhIAEIICgZTZWxlY3Qi/gMKEkludGVy",
-            "YWN0U2VsZWN0UmVzcBIUCgtOZXh0UGFja2FnZRj/DyABKAwSMQoEUmVzcBgB",
-            "IAEoCzIhLnByb3RvLkludGVyYWN0U2VsZWN0UmVzcC5TdWNjZXNzSAASSwoa",
-            "U2VsZWN0U3BlY2lhbFBvdGVudGlhbENhc2UYAiABKAsyJS5wcm90by5TZWxl",
-            "Y3RTcGVjaWFsUG90ZW50aWFsQ2FzZURhdGFIABI9ChNTZWxlY3RQb3RlbnRp",
-            "YWxDYXNlGAMgASgLMh4ucHJvdG8uU2VsZWN0UG90ZW50aWFsQ2FzZURhdGFI",
-            "ABI7ChJTZWxlY3RGYXRlQ2FyZENhc2UYBCABKAsyHS5wcm90by5TZWxlY3RG",
-            "YXRlQ2FyZENhc2VEYXRhSAASKwoKSGF3a2VyQ2FzZRgFIAEoCzIVLnByb3Rv",
-            "Lkhhd2tlckNhc2VEYXRhSAASNwoQSGFybW9ueVNraWxsQ2FzZRgGIAEoCzIb",
-            "LnByb3RvLkhhcm1vbnlTa2lsbENhc2VEYXRhSAAaZgoHU3VjY2VzcxIdCgVJ",
-            "dGVtcxgBIAMoCzIOLnByb3RvLkl0ZW1UcGwSFQoNT3B0aW9uc1Jlc3VsdBgC",
-            "IAEoCBIlCghGYXRlQ2FyZBgDIAMoCzITLnByb3RvLkZhdGVDYXJkSW5mb0II",
-            "CgZSZXN1bHQiXAoMRmF0ZUNhcmRJbmZvEgsKA1RpZBgBIAEoDRILCgNRdHkY",
-            "AiABKAUSDgoGUmVtYWluGAMgASgFEgwKBFJvb20YBCABKAUSFAoLTmV4dFBh",
-            "Y2thZ2UY/w8gASgMIkEKDVBvdGVudGlhbEluZm8SCwoDVGlkGAEgASgNEg0K",
-            "BUxldmVsGAIgASgFEhQKC05leHRQYWNrYWdlGP8PIAEoDCI6CghOb3RlSW5m",
-            "bxILCgNUaWQYASABKA0SCwoDUXR5GAIgASgFEhQKC05leHRQYWNrYWdlGP8P",
-            "IAEoDCI/Cg1Ub3dlckl0ZW1JbmZvEgsKA1RpZBgBIAEoDRILCgNRdHkYAiAB",
-            "KAUSFAoLTmV4dFBhY2thZ2UY/w8gASgMIj4KDFRvd2VyUmVzSW5mbxILCgNU",
-            "aWQYASABKA0SCwoDUXR5GAIgASgFEhQKC05leHRQYWNrYWdlGP8PIAEoDCJb",
-            "CgpTZWxlY3ROb3RlEgsKA0lkeBgBIAEoDRIMCgRMaXN0GAIgAygNEg0KBUZp",
-            "bmFsGAMgAygNEg0KBUJvbnVzGAQgAygNEhQKC05leHRQYWNrYWdlGP8PIAEo",
-            "DCKSAgoOU2V0dGxlRGF0YVJlc3ASIQoGQ2hhbmdlGAEgASgLMhEucHJvdG8u",
-            "Q2hhbmdlSW5mbxIoCgVCdWlsZBgCIAEoCzIZLnByb3RvLlN0YXJUb3dlckJ1",
-            "aWxkSW5mbxINCgVUb2tlbhgHIAEoCRIRCglCYXNlU2NvcmUYCCABKA0SEQoJ",
-            "VGltZVNjb3JlGAkgASgNEhIKCkZpbmFsU2NvcmUYCiABKA0SCwoDT2xkGAsg",
-            "ASgNEgsKA05ldxgMIAEoDRIRCglSYW5rVGltZXMYDSABKA0SEQoJVG90YWxU",
-            "aW1lGA4gASgNEhQKDFRvdGFsRGFtYWdlcxgPIAMoBBIUCgtOZXh0UGFja2Fn",
-            "ZRj/DyABKAwiiQEKCUJ1aWxkRGlzYxIOCgZEaXNjSWQYASABKA0SKgoMQ29t",
-            "bW9uU2tpbGxzGAIgAygLMhQucHJvdG8uRGlzY1NraWxsSW5mbxIqCgxQYXNz",
-            "aXZlU2tpbGwYAyABKAsyFC5wcm90by5EaXNjU2tpbGxJbmZvEhQKC05leHRQ",
-            "YWNrYWdlGP8PIAEoDCJMCg5Ub3dlckJ1aWxkQ2hhchIOCgZDaGFySWQYASAB",
-            "KA0SFAoMUG90ZW50aWFsQ250GAIgASgNEhQKC05leHRQYWNrYWdlGP8PIAEo",
-            "DCJKCg5CdWlsZFBvdGVudGlhbBITCgtQb3RlbnRpYWxJZBgBIAEoDRINCgVM",
-            "ZXZlbBgCIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwilQEKElN0YXJUb3dl",
-            "ckJ1aWxkSW5mbxIpCgVCcmllZhgBIAEoCzIaLnByb3RvLlN0YXJUb3dlckJ1",
-            "aWxkQnJpZWYSKwoGRGV0YWlsGAIgASgLMhsucHJvdG8uU3RhclRvd2VyQnVp",
-            "bGREZXRhaWwSEQoJQnVpbGRDb2luGAMgASgNEhQKC05leHRQYWNrYWdlGP8P",
-            "IAEoDCKtAQoTU3RhclRvd2VyQnVpbGRCcmllZhIKCgJJZBgBIAEoBBIMCgRO",
-            "YW1lGAIgASgJEgwKBExvY2sYAyABKAgSEgoKUHJlZmVyZW5jZRgEIAEoCBIN",
-            "CgVTY29yZRgFIAEoDRIPCgdEaXNjSWRzGAYgAygNEiQKBUNoYXJzGAcgAygL",
-            "MhUucHJvdG8uVG93ZXJCdWlsZENoYXISFAoLTmV4dFBhY2thZ2UY/w8gASgM",
-            "IqABChRTdGFyVG93ZXJCdWlsZERldGFpbBIfCgVEaXNjcxgBIAMoCzIQLnBy",
-            "b3RvLkJ1aWxkRGlzYxIpCgpQb3RlbnRpYWxzGAIgAygLMhUucHJvdG8uQnVp",
-            "bGRQb3RlbnRpYWwSDQoFTm90ZXMYAyADKA0SFwoPSGFybW9ueVNraWxsSWRz",
-            "GAQgAygNEhQKC05leHRQYWNrYWdlGP8PIAEoDCJWCh9TdGFyVG93ZXJCb29r",
-            "Q2hhclBvdGVudGlhbEJyaWVmEg4KBkNoYXJJZBgBIAEoDRINCgVDb3VudBgC",
-            "IAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwiSQoWU3RhclRvd2VyQm9va1Bv",
-            "dGVudGlhbBIKCgJJZBgBIAEoDRINCgVMZXZlbBgCIAEoDRIUCgtOZXh0UGFj",
-            "a2FnZRj/DyABKAwidQoaU3RhclRvd2VyQm9va0NoYXJQb3RlbnRpYWwSDgoG",
-            "Q2hhcklkGAEgASgNEjEKClBvdGVudGlhbHMYAiADKAsyHS5wcm90by5TdGFy",
-            "VG93ZXJCb29rUG90ZW50aWFsEhQKC05leHRQYWNrYWdlGP8PIAEoDCJACg1E",
-            "aXNjU2tpbGxJbmZvEgoKAklkGAEgASgNEg0KBUxldmVsGAIgASgNEhQKC05l",
-            "eHRQYWNrYWdlGP8PIAEoDCJfCg9Ub3dlckNoYW5nZURhdGESHQoVRGlzY1Nr",
-            "aWxsQWN0aXZlTnVtYmVyGAEgASgNEhcKD0hhcm1vbnlTa2lsbElkcxgCIAMo",
-            "DRIUCgtOZXh0UGFja2FnZRj/DyABKAxQAFABYgZwcm90bzM="));
+            "ZW50RGF0YRgIIAEoCRIaChJBY3RpdmVTZWNvbmRhcnlJZHMYCSADKA0SGAoQ",
+            "VG93ZXJHcm93dGhOb2RlcxgLIAMoDRIXCg9SZXN1cnJlY3Rpb25DbnQYDCAB",
+            "KA0SEQoJVG90YWxUaW1lGA4gASgNEhQKDFRvdGFsRGFtYWdlcxgPIAMoBBIP",
+            "CgdCdWlsZElkGBAgASgEEhQKC05leHRQYWNrYWdlGP8PIAEoDCJdCg1TdGFy",
+            "VG93ZXJEaXNjEgoKAklkGAEgASgNEg0KBUxldmVsGAIgASgNEg0KBVBoYXNl",
+            "GAMgASgNEgwKBFN0YXIYBCABKA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMIr4B",
+            "Cg1TdGFyVG93ZXJDaGFyEgoKAklkGAEgASgNEi0KCkVxdWlwbWVudHMYAiAD",
+            "KAsyGS5wcm90by5TdGFyVG93ZXJFcXVpcG1lbnQSDQoFTGV2ZWwYAyABKA0S",
+            "EAoIU2tpbGxMdnMYBCADKA0SFQoNQWZmaW5pdHlMZXZlbBgFIAEoDRIPCgdB",
+            "ZHZhbmNlGAYgASgNEhMKC1RhbGVudE5vZGVzGAcgASgMEhQKC05leHRQYWNr",
+            "YWdlGP8PIAEoDCJ3ChJTdGFyVG93ZXJFcXVpcG1lbnQSCwoDVGlkGAEgASgN",
+            "EgsKA0V4cBgCIAEoDRIMCgRUYWdzGAMgAygNEiMKBUF0dHJzGAQgAygLMhQu",
+            "cHJvdG8uRXF1aXBtZW50QXR0chIUCgtOZXh0UGFja2FnZRj/DyABKAwivAEK",
+            "DFN0YXJUb3dlckJhZxIlCghGYXRlQ2FyZBgBIAMoCzITLnByb3RvLkZhdGVD",
+            "YXJkSW5mbxIoCgpQb3RlbnRpYWxzGAIgAygLMhQucHJvdG8uUG90ZW50aWFs",
+            "SW5mbxIjCgVJdGVtcxgDIAMoCzIULnByb3RvLlRvd2VySXRlbUluZm8SIAoD",
+            "UmVzGAQgAygLMhMucHJvdG8uVG93ZXJSZXNJbmZvEhQKC05leHRQYWNrYWdl",
+            "GP8PIAEoDCJ2Cg1TdGFyVG93ZXJSb29tEiYKBERhdGEYASABKAsyGC5wcm90",
+            "by5TdGFyVG93ZXJSb29tRGF0YRInCgVDYXNlcxgCIAMoCzIYLnByb3RvLlN0",
+            "YXJUb3dlclJvb21DYXNlEhQKC05leHRQYWNrYWdlGP8PIAEoDCKQAQoRU3Rh",
+            "clRvd2VyUm9vbURhdGESDQoFRmxvb3IYASABKA0SDQoFTWFwSWQYAiABKA0S",
+            "DwoHUGFyYW1JZBgDIAEoDRIQCghSb29tVHlwZRgEIAEoDRIQCghNYXBQYXJh",
+            "bRgFIAEoCRISCgpNYXBUYWJsZUlkGAYgASgNEhQKC05leHRQYWNrYWdlGP8P",
+            "IAEoDCKuBQoRU3RhclRvd2VyUm9vbUNhc2USCgoCSWQYASABKA0SFAoLTmV4",
+            "dFBhY2thZ2UY/w8gASgMEisKCkJhdHRsZUNhc2UYAiABKAsyFS5wcm90by5C",
+            "YXR0bGVDYXNlRGF0YUgAEicKCERvb3JDYXNlGAMgASgLMhMucHJvdG8uRG9v",
+            "ckNhc2VEYXRhSAASSwoaU2VsZWN0U3BlY2lhbFBvdGVudGlhbENhc2UYBCAB",
+            "KAsyJS5wcm90by5TZWxlY3RTcGVjaWFsUG90ZW50aWFsQ2FzZURhdGFIABI9",
+            "ChNTZWxlY3RQb3RlbnRpYWxDYXNlGAUgASgLMh4ucHJvdG8uU2VsZWN0UG90",
+            "ZW50aWFsQ2FzZURhdGFIABI7ChJTZWxlY3RGYXRlQ2FyZENhc2UYBiABKAsy",
+            "HS5wcm90by5TZWxlY3RGYXRlQ2FyZENhc2VEYXRhSAASQwoWU2VsZWN0T3B0",
+            "aW9uc0V2ZW50Q2FzZRgIIAEoCzIhLnByb3RvLlNlbGVjdE9wdGlvbnNFdmVu",
+            "dENhc2VEYXRhSAASMwoOUmVjb3ZlcnlIUENhc2UYCSABKAsyGS5wcm90by5S",
+            "ZWNvdmVyeUhQQ2FzZURhdGFIABI5ChFOcGNSZWNvdmVyeUhQQ2FzZRgKIAEo",
+            "CzIcLnByb3RvLk5wY1JlY292ZXJ5SFBDYXNlRGF0YUgAEisKCkhhd2tlckNh",
+            "c2UYCyABKAsyFS5wcm90by5IYXdrZXJDYXNlRGF0YUgAEkEKFVN0cmVuZ3Ro",
+            "ZW5NYWNoaW5lQ2FzZRgMIAEoCzIgLnByb3RvLlN0cmVuZ3RoZW5NYWNoaW5l",
+            "Q2FzZURhdGFIABIrCgpTeW5jSFBDYXNlGA8gASgLMhUucHJvdG8uU3luY0hQ",
+            "Q2FzZURhdGFIAEIGCgREYXRhImQKDkJhdHRsZUNhc2VEYXRhEhEKCVRpbWVM",
+            "aW1pdBgBIAEoCBIQCghGYXRlQ2FyZBgCIAEoCBIXCg9TdWJOb3RlU2tpbGxO",
+            "dW0YAyABKA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMIkEKDERvb3JDYXNlRGF0",
+            "YRINCgVGbG9vchgBIAEoDRIMCgRUeXBlGAIgASgNEhQKC05leHRQYWNrYWdl",
+            "GP8PIAEoDCKOAQoeU2VsZWN0U3BlY2lhbFBvdGVudGlhbENhc2VEYXRhEgsK",
+            "A0lkcxgBIAMoDRIRCglUZWFtTGV2ZWwYAiABKA0SDgoGTmV3SWRzGAMgAygN",
+            "EhEKCUNhblJlUm9sbBgHIAEoCBITCgtSZVJvbGxQcmljZRgIIAEoDRIUCgtO",
+            "ZXh0UGFja2FnZRj/DyABKAwivwEKF1NlbGVjdFBvdGVudGlhbENhc2VEYXRh",
+            "EiMKBUluZm9zGAEgAygLMhQucHJvdG8uUG90ZW50aWFsSW5mbxIRCglUZWFt",
+            "TGV2ZWwYAiABKA0SDgoGTmV3SWRzGAMgAygNEhAKCEx1Y2t5SWRzGAwgAygN",
+            "EhEKCUNhblJlUm9sbBgNIAEoCBITCgtSZVJvbGxQcmljZRgOIAEoDRIMCgRU",
+            "eXBlGA8gASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDCJnChpTZWxlY3RPcHRp",
+            "b25zRXZlbnRDYXNlRGF0YRINCgVFdnRJZBgBIAEoDRIPCgdPcHRpb25zGAIg",
+            "AygNEhMKC0ZhaWxlZElkeGVzGAMgAygNEhQKC05leHRQYWNrYWdlGP8PIAEo",
+            "DCKBAQoWU2VsZWN0RmF0ZUNhcmRDYXNlRGF0YRILCgNJZHMYASADKA0SDgoG",
+            "TmV3SWRzGAIgAygNEgwKBEdpdmUYAyABKAgSEQoJQ2FuUmVSb2xsGAcgASgI",
+            "EhMKC1JlUm9sbFByaWNlGAggASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDCI8",
+            "ChJSZWNvdmVyeUhQQ2FzZURhdGESEAoIRWZmZWN0SWQYASABKA0SFAoLTmV4",
+            "dFBhY2thZ2UY/w8gASgMIj8KFU5wY1JlY292ZXJ5SFBDYXNlRGF0YRIQCghF",
+            "ZmZlY3RJZBgBIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwiJgoOU3luY0hQ",
+            "Q2FzZURhdGESFAoLTmV4dFBhY2thZ2UY/w8gASgMIpsBCgtIYXdrZXJHb29k",
+            "cxILCgNTaWQYASABKA0SCwoDSWR4GAIgASgNEg8KB0NoYXJQb3MYAyABKA0S",
+            "DQoFUHJpY2UYBCABKAUSEAoIRGlzY291bnQYBSABKAUSDAoEVHlwZRgGIAEo",
+            "DRIPCgdHb29kc0lkGAcgASgNEgsKA1RhZxgPIAEoDRIUCgtOZXh0UGFja2Fn",
+            "ZRj/DyABKAwilwEKDkhhd2tlckNhc2VEYXRhEiAKBExpc3QYASADKAsyEi5w",
+            "cm90by5IYXdrZXJHb29kcxIQCghQdXJjaGFzZRgCIAMoDRIRCglDYW5SZVJv",
+            "bGwYByABKAgSEwoLUmVSb2xsUHJpY2UYCCABKA0SEwoLUmVSb2xsVGltZXMY",
+            "CSABKA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMIlQKEUludGVyYWN0SGF3a2Vy",
+            "UmVxEhQKC05leHRQYWNrYWdlGP8PIAEoDBINCgNTaWQYASABKA1IABIQCgZS",
+            "ZVJvbGwYAiABKAhIAEIICgZBY3Rpb24iSQodSW50ZXJhY3RTdHJlbmd0aGVu",
+            "TWFjaGluZVJlc3ASEgoKQnV5U3VjY2VlZBgBIAEoCBIUCgtOZXh0UGFja2Fn",
+            "ZRj/DyABKAwiZQoZU3RyZW5ndGhlbk1hY2hpbmVDYXNlRGF0YRINCgVUaW1l",
+            "cxgBIAEoDRIRCglGaXJzdEZyZWUYByABKAgSEAoIRGlzY291bnQYCCABKA0S",
+            "FAoLTmV4dFBhY2thZ2UY/w8gASgMIqUBChBJbnRlcmFjdEVudGVyUmVxEg0K",
+            "BU1hcElkGAEgASgNEg8KB1BhcmFtSWQYAiABKA0SDwoHRGF0ZUxlbhgDIAEo",
+            "DRISCgpDbGllbnREYXRhGAQgASgJEhAKCE1hcFBhcmFtGAUgASgJEhIKCk1h",
+            "cFRhYmxlSWQYBiABKA0SEAoIQ2hlY2tzdW0YByABKAQSFAoLTmV4dFBhY2th",
+            "Z2UY/w8gASgMIk0KEUludGVyYWN0RW50ZXJSZXNwEiIKBFJvb20YASABKAsy",
+            "FC5wcm90by5TdGFyVG93ZXJSb29tEhQKC05leHRQYWNrYWdlGP8PIAEoDCKw",
+            "AgoUSW50ZXJhY3RCYXR0bGVFbmRSZXESFAoLTmV4dFBhY2thZ2UY/w8gASgM",
+            "EjoKB1ZpY3RvcnkYASABKAsyJy5wcm90by5JbnRlcmFjdEJhdHRsZUVuZFJl",
+            "cS5WaWN0b3J5RGF0YUgAEhAKBkRlZmVhdBgCIAEoCEgAGqkBCgtWaWN0b3J5",
+            "RGF0YRIKCgJIUBgBIAEoDRIMCgRUaW1lGAIgASgNEg8KB0RhdGVMZW4YAyAB",
+            "KA0SEgoKQ2xpZW50RGF0YRgEIAEoCRIrCg1mYXRlQ2FyZFVzYWdlGAUgAygL",
+            "MhQucHJvdG8uRmF0ZUNhcmRVc2FnZRIPCgdEYW1hZ2VzGAYgAygNEh0KBkV2",
+            "ZW50cxgPIAEoCzINLnByb3RvLkV2ZW50c0IICgZSZXN1bHQihQIKFUludGVy",
+            "YWN0QmF0dGxlRW5kUmVzcBIUCgtOZXh0UGFja2FnZRj/DyABKAwSOwoHVmlj",
+            "dG9yeRgBIAEoCzIoLnByb3RvLkludGVyYWN0QmF0dGxlRW5kUmVzcC5WaWN0",
+            "b3J5RGF0YUgAEjkKBkRlZmVhdBgCIAEoCzInLnByb3RvLkludGVyYWN0QmF0",
+            "dGxlRW5kUmVzcC5EZWZlYXREYXRhSAAaOgoLVmljdG9yeURhdGESCwoDRXhw",
+            "GAEgASgNEgoKAkx2GAIgASgNEhIKCkJhdHRsZVRpbWUYCiABKA0aGAoKRGVm",
+            "ZWF0RGF0YRIKCgJMdhgBIAEoDUIICgZSZXN1bHQiOQoVSW50ZXJhY3RSZWNv",
+            "dmVyeUhQUmVxEgoKAkhwGAEgASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDCJA",
+            "Cg1GYXRlQ2FyZFVzYWdlEgoKAklkGAEgASgNEg0KBVRpbWVzGAIgASgNEhQK",
+            "C05leHRQYWNrYWdlGP8PIAEoDCJWChFJbnRlcmFjdFNlbGVjdFJlcRIUCgtO",
+            "ZXh0UGFja2FnZRj/DyABKAwSDwoFSW5kZXgYASABKA1IABIQCgZSZVJvbGwY",
+            "AiABKAhIAEIICgZTZWxlY3QijgQKEkludGVyYWN0U2VsZWN0UmVzcBIUCgtO",
+            "ZXh0UGFja2FnZRj/DyABKAwSMQoEUmVzcBgBIAEoCzIhLnByb3RvLkludGVy",
+            "YWN0U2VsZWN0UmVzcC5TdWNjZXNzSAASSwoaU2VsZWN0U3BlY2lhbFBvdGVu",
+            "dGlhbENhc2UYAiABKAsyJS5wcm90by5TZWxlY3RTcGVjaWFsUG90ZW50aWFs",
+            "Q2FzZURhdGFIABI9ChNTZWxlY3RQb3RlbnRpYWxDYXNlGAMgASgLMh4ucHJv",
+            "dG8uU2VsZWN0UG90ZW50aWFsQ2FzZURhdGFIABI7ChJTZWxlY3RGYXRlQ2Fy",
+            "ZENhc2UYBCABKAsyHS5wcm90by5TZWxlY3RGYXRlQ2FyZENhc2VEYXRhSAAS",
+            "KwoKSGF3a2VyQ2FzZRgFIAEoCzIVLnByb3RvLkhhd2tlckNhc2VEYXRhSAAa",
+            "rgEKB1N1Y2Nlc3MSHQoFSXRlbXMYASADKAsyDi5wcm90by5JdGVtVHBsEhUK",
+            "DU9wdGlvbnNSZXN1bHQYAiABKAgSJQoIRmF0ZUNhcmQYAyADKAsyEy5wcm90",
+            "by5GYXRlQ2FyZEluZm8SLgoNU3ViTm90ZVNraWxscxgEIAMoCzIXLnByb3Rv",
+            "LlN1Yk5vdGVTa2lsbEluZm8SFgoOT3B0aW9uc1BhcmFtSWQYBSABKA1CCAoG",
+            "UmVzdWx0IlwKDEZhdGVDYXJkSW5mbxILCgNUaWQYASABKA0SCwoDUXR5GAIg",
+            "ASgFEg4KBlJlbWFpbhgDIAEoBRIMCgRSb29tGAQgASgFEhQKC05leHRQYWNr",
+            "YWdlGP8PIAEoDCJBCg1Qb3RlbnRpYWxJbmZvEgsKA1RpZBgBIAEoDRINCgVM",
+            "ZXZlbBgCIAEoBRIUCgtOZXh0UGFja2FnZRj/DyABKAwiPwoNVG93ZXJJdGVt",
+            "SW5mbxILCgNUaWQYASABKA0SCwoDUXR5GAIgASgFEhQKC05leHRQYWNrYWdl",
+            "GP8PIAEoDCI+CgxUb3dlclJlc0luZm8SCwoDVGlkGAEgASgNEgsKA1F0eRgC",
+            "IAEoBRIUCgtOZXh0UGFja2FnZRj/DyABKAwiYwoQU3ViTm90ZVNraWxsSW5m",
+            "bxILCgNUaWQYASABKA0SCwoDUXR5GAIgASgFEgsKA05ldxgDIAEoCBISCgpM",
+            "dWNreUxldmVsGAQgASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDCKcAQoOU2V0",
+            "dGxlRGF0YVJlc3ASIQoGQ2hhbmdlGAEgASgLMhEucHJvdG8uQ2hhbmdlSW5m",
+            "bxIoCgVCdWlsZBgCIAEoCzIZLnByb3RvLlN0YXJUb3dlckJ1aWxkSW5mbxIR",
+            "CglUb3RhbFRpbWUYDiABKA0SFAoMVG90YWxEYW1hZ2VzGA8gAygEEhQKC05l",
+            "eHRQYWNrYWdlGP8PIAEoDCJMCg5Ub3dlckJ1aWxkQ2hhchIOCgZDaGFySWQY",
+            "ASABKA0SFAoMUG90ZW50aWFsQ250GAIgASgNEhQKC05leHRQYWNrYWdlGP8P",
+            "IAEoDCJKCg5CdWlsZFBvdGVudGlhbBITCgtQb3RlbnRpYWxJZBgBIAEoDRIN",
+            "CgVMZXZlbBgCIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwilQEKElN0YXJU",
+            "b3dlckJ1aWxkSW5mbxIpCgVCcmllZhgBIAEoCzIaLnByb3RvLlN0YXJUb3dl",
+            "ckJ1aWxkQnJpZWYSKwoGRGV0YWlsGAIgASgLMhsucHJvdG8uU3RhclRvd2Vy",
+            "QnVpbGREZXRhaWwSEQoJQnVpbGRDb2luGAMgASgNEhQKC05leHRQYWNrYWdl",
+            "GP8PIAEoDCLCAQoTU3RhclRvd2VyQnVpbGRCcmllZhIKCgJJZBgBIAEoBBIM",
+            "CgROYW1lGAIgASgJEgwKBExvY2sYAyABKAgSEgoKUHJlZmVyZW5jZRgEIAEo",
+            "CBINCgVTY29yZRgFIAEoDRIPCgdEaXNjSWRzGAYgAygNEiQKBUNoYXJzGAcg",
+            "AygLMhUucHJvdG8uVG93ZXJCdWlsZENoYXISEwoLU3RhclRvd2VySWQYCCAB",
+            "KA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMIpoBChRTdGFyVG93ZXJCdWlsZERl",
+            "dGFpbBIpCgpQb3RlbnRpYWxzGAEgAygLMhUucHJvdG8uQnVpbGRQb3RlbnRp",
+            "YWwSJQoNU3ViTm90ZVNraWxscxgCIAMoCzIOLnByb3RvLkl0ZW1UcGwSGgoS",
+            "QWN0aXZlU2Vjb25kYXJ5SWRzGAMgAygNEhQKC05leHRQYWNrYWdlGP8PIAEo",
+            "DCJWCh9TdGFyVG93ZXJCb29rQ2hhclBvdGVudGlhbEJyaWVmEg4KBkNoYXJJ",
+            "ZBgBIAEoDRINCgVDb3VudBgCIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwi",
+            "SQoWU3RhclRvd2VyQm9va1BvdGVudGlhbBIKCgJJZBgBIAEoDRINCgVMZXZl",
+            "bBgCIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwidQoaU3RhclRvd2VyQm9v",
+            "a0NoYXJQb3RlbnRpYWwSDgoGQ2hhcklkGAEgASgNEjEKClBvdGVudGlhbHMY",
+            "AiADKAsyHS5wcm90by5TdGFyVG93ZXJCb29rUG90ZW50aWFsEhQKC05leHRQ",
+            "YWNrYWdlGP8PIAEoDCKCAQoPVG93ZXJDaGFuZ2VEYXRhEiYKBUluZm9zGAEg",
+            "AygLMhcucHJvdG8uU3ViTm90ZVNraWxsSW5mbxIxCgtTZWNvbmRhcmllcxgC",
+            "IAMoCzIcLnByb3RvLkFjdGl2ZVNlY29uZGFyeUNoYW5nZRIUCgtOZXh0UGFj",
+            "a2FnZRj/DyABKAwiUgoVQWN0aXZlU2Vjb25kYXJ5Q2hhbmdlEhMKC1NlY29u",
+            "ZGFyeUlkGAEgASgNEg4KBkFjdGl2ZRgCIAEoCBIUCgtOZXh0UGFja2FnZRj/",
+            "DyABKAxQAFABYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Proto.PublicReflection.Descriptor, global::Proto.TravelerDuelRankUploadReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerInfo), global::Proto.StarTowerInfo.Parser, new[]{ "Meta", "Room", "Bag", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerMeta), global::Proto.StarTowerMeta.Parser, new[]{ "Id", "CharHp", "TeamLevel", "TeamExp", "Chars", "Discs", "DateLen", "ClientData", "DiscSkillActiveNumber", "HarmonySkillIds", "TowerGrowthNodes", "ResurrectionCnt", "RankTotalTime", "TotalTime", "TotalDamages", "BuildId", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerMeta), global::Proto.StarTowerMeta.Parser, new[]{ "Id", "CharHp", "TeamLevel", "TeamExp", "Chars", "Discs", "DateLen", "ClientData", "ActiveSecondaryIds", "TowerGrowthNodes", "ResurrectionCnt", "TotalTime", "TotalDamages", "BuildId", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerDisc), global::Proto.StarTowerDisc.Parser, new[]{ "Id", "Level", "Phase", "Star", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerChar), global::Proto.StarTowerChar.Parser, new[]{ "Id", "Equipments", "Level", "SkillLvs", "AffinityLevel", "Advance", "TalentNodes", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerEquipment), global::Proto.StarTowerEquipment.Parser, new[]{ "Tid", "Exp", "Tags", "Attrs", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBag), global::Proto.StarTowerBag.Parser, new[]{ "FateCard", "Notes", "Potentials", "Items", "Res", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBag), global::Proto.StarTowerBag.Parser, new[]{ "FateCard", "Potentials", "Items", "Res", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerRoom), global::Proto.StarTowerRoom.Parser, new[]{ "Data", "Cases", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerRoomData), global::Proto.StarTowerRoomData.Parser, new[]{ "Floor", "MapId", "ParamId", "RoomType", "MapParam", "MapTableId", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerRoomCase), global::Proto.StarTowerRoomCase.Parser, new[]{ "Id", "NextPackage", "BattleCase", "DoorCase", "SelectSpecialPotentialCase", "SelectPotentialCase", "SelectFateCardCase", "SelectNoteCase", "SelectOptionsEventCase", "RecoveryHPCase", "NpcRecoveryHPCase", "HawkerCase", "StrengthenMachineCase", "HarmonySkillCase", "SyncHPCase" }, new[]{ "Data" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.BattleCaseData), global::Proto.BattleCaseData.Parser, new[]{ "TimeLimit", "FateCard", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerRoomCase), global::Proto.StarTowerRoomCase.Parser, new[]{ "Id", "NextPackage", "BattleCase", "DoorCase", "SelectSpecialPotentialCase", "SelectPotentialCase", "SelectFateCardCase", "SelectOptionsEventCase", "RecoveryHPCase", "NpcRecoveryHPCase", "HawkerCase", "StrengthenMachineCase", "SyncHPCase" }, new[]{ "Data" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.BattleCaseData), global::Proto.BattleCaseData.Parser, new[]{ "TimeLimit", "FateCard", "SubNoteSkillNum", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.DoorCaseData), global::Proto.DoorCaseData.Parser, new[]{ "Floor", "Type", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SelectSpecialPotentialCaseData), global::Proto.SelectSpecialPotentialCaseData.Parser, new[]{ "Ids", "TeamLevel", "NewIds", "CanReRoll", "ReRollPrice", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SelectPotentialCaseData), global::Proto.SelectPotentialCaseData.Parser, new[]{ "Infos", "TeamLevel", "NewIds", "LuckyIds", "CanReRoll", "ReRollPrice", "Type", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SelectOptionsEventCaseData), global::Proto.SelectOptionsEventCaseData.Parser, new[]{ "EvtId", "Options", "FailedIdxes", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SelectNoteCaseData), global::Proto.SelectNoteCaseData.Parser, new[]{ "Info", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SelectFateCardCaseData), global::Proto.SelectFateCardCaseData.Parser, new[]{ "Ids", "NewIds", "Give", "CanReRoll", "ReRollPrice", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.RecoveryHPCaseData), global::Proto.RecoveryHPCaseData.Parser, new[]{ "EffectId", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.NpcRecoveryHPCaseData), global::Proto.NpcRecoveryHPCaseData.Parser, new[]{ "EffectId", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SyncHPCaseData), global::Proto.SyncHPCaseData.Parser, new[]{ "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.HawkerGoods), global::Proto.HawkerGoods.Parser, new[]{ "Sid", "Idx", "CharPos", "Price", "Discount", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.HawkerGoods), global::Proto.HawkerGoods.Parser, new[]{ "Sid", "Idx", "CharPos", "Price", "Discount", "Type", "GoodsId", "Tag", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.HawkerCaseData), global::Proto.HawkerCaseData.Parser, new[]{ "List", "Purchase", "CanReRoll", "ReRollPrice", "ReRollTimes", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractHawkerReq), global::Proto.InteractHawkerReq.Parser, new[]{ "NextPackage", "Sid", "ReRoll" }, new[]{ "Action" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractStrengthenMachineResp), global::Proto.InteractStrengthenMachineResp.Parser, new[]{ "BuySucceed", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StrengthenMachineCaseData), global::Proto.StrengthenMachineCaseData.Parser, new[]{ "Times", "FirstFree", "Discount", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.HarmonySkillCaseData), global::Proto.HarmonySkillCaseData.Parser, new[]{ "Skill", "CanReRoll", "ReRollPrice", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractEnterReq), global::Proto.InteractEnterReq.Parser, new[]{ "MapId", "ParamId", "DateLen", "ClientData", "MapParam", "MapTableId", "Checksum", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractEnterResp), global::Proto.InteractEnterResp.Parser, new[]{ "Room", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractBattleEndReq), global::Proto.InteractBattleEndReq.Parser, new[]{ "NextPackage", "Victory", "Defeat" }, new[]{ "Result" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractBattleEndReq.Types.VictoryData), global::Proto.InteractBattleEndReq.Types.VictoryData.Parser, new[]{ "HP", "Time", "DateLen", "ClientData", "FateCardUsage", "Damages", "Sample", "Events" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractBattleEndReq), global::Proto.InteractBattleEndReq.Parser, new[]{ "NextPackage", "Victory", "Defeat" }, new[]{ "Result" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractBattleEndReq.Types.VictoryData), global::Proto.InteractBattleEndReq.Types.VictoryData.Parser, new[]{ "HP", "Time", "DateLen", "ClientData", "FateCardUsage", "Damages", "Events" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractBattleEndResp), global::Proto.InteractBattleEndResp.Parser, new[]{ "NextPackage", "Victory", "Defeat" }, new[]{ "Result" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractBattleEndResp.Types.VictoryData), global::Proto.InteractBattleEndResp.Types.VictoryData.Parser, new[]{ "Exp", "Lv", "BattleTime" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractBattleEndResp.Types.DefeatData), global::Proto.InteractBattleEndResp.Types.DefeatData.Parser, new[]{ "Lv" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractRecoveryHPReq), global::Proto.InteractRecoveryHPReq.Parser, new[]{ "Hp", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.FateCardUsage), global::Proto.FateCardUsage.Parser, new[]{ "Id", "Times", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractSelectReq), global::Proto.InteractSelectReq.Parser, new[]{ "NextPackage", "Index", "ReRoll" }, new[]{ "Select" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractSelectResp), global::Proto.InteractSelectResp.Parser, new[]{ "NextPackage", "Resp", "SelectSpecialPotentialCase", "SelectPotentialCase", "SelectFateCardCase", "HawkerCase", "HarmonySkillCase" }, new[]{ "Result" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractSelectResp.Types.Success), global::Proto.InteractSelectResp.Types.Success.Parser, new[]{ "Items", "OptionsResult", "FateCard" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractSelectResp), global::Proto.InteractSelectResp.Parser, new[]{ "NextPackage", "Resp", "SelectSpecialPotentialCase", "SelectPotentialCase", "SelectFateCardCase", "HawkerCase" }, new[]{ "Result" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InteractSelectResp.Types.Success), global::Proto.InteractSelectResp.Types.Success.Parser, new[]{ "Items", "OptionsResult", "FateCard", "SubNoteSkills", "OptionsParamId" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.FateCardInfo), global::Proto.FateCardInfo.Parser, new[]{ "Tid", "Qty", "Remain", "Room", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.PotentialInfo), global::Proto.PotentialInfo.Parser, new[]{ "Tid", "Level", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.NoteInfo), global::Proto.NoteInfo.Parser, new[]{ "Tid", "Qty", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.TowerItemInfo), global::Proto.TowerItemInfo.Parser, new[]{ "Tid", "Qty", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.TowerResInfo), global::Proto.TowerResInfo.Parser, new[]{ "Tid", "Qty", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SelectNote), global::Proto.SelectNote.Parser, new[]{ "Idx", "List", "Final", "Bonus", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SettleDataResp), global::Proto.SettleDataResp.Parser, new[]{ "Change", "Build", "Token", "BaseScore", "TimeScore", "FinalScore", "Old", "New", "RankTimes", "TotalTime", "TotalDamages", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.BuildDisc), global::Proto.BuildDisc.Parser, new[]{ "DiscId", "CommonSkills", "PassiveSkill", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SubNoteSkillInfo), global::Proto.SubNoteSkillInfo.Parser, new[]{ "Tid", "Qty", "New", "LuckyLevel", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SettleDataResp), global::Proto.SettleDataResp.Parser, new[]{ "Change", "Build", "TotalTime", "TotalDamages", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.TowerBuildChar), global::Proto.TowerBuildChar.Parser, new[]{ "CharId", "PotentialCnt", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.BuildPotential), global::Proto.BuildPotential.Parser, new[]{ "PotentialId", "Level", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildInfo), global::Proto.StarTowerBuildInfo.Parser, new[]{ "Brief", "Detail", "BuildCoin", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildBrief), global::Proto.StarTowerBuildBrief.Parser, new[]{ "Id", "Name", "Lock", "Preference", "Score", "DiscIds", "Chars", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildDetail), global::Proto.StarTowerBuildDetail.Parser, new[]{ "Discs", "Potentials", "Notes", "HarmonySkillIds", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildBrief), global::Proto.StarTowerBuildBrief.Parser, new[]{ "Id", "Name", "Lock", "Preference", "Score", "DiscIds", "Chars", "StarTowerId", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildDetail), global::Proto.StarTowerBuildDetail.Parser, new[]{ "Potentials", "SubNoteSkills", "ActiveSecondaryIds", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBookCharPotentialBrief), global::Proto.StarTowerBookCharPotentialBrief.Parser, new[]{ "CharId", "Count", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBookPotential), global::Proto.StarTowerBookPotential.Parser, new[]{ "Id", "Level", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBookCharPotential), global::Proto.StarTowerBookCharPotential.Parser, new[]{ "CharId", "Potentials", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.DiscSkillInfo), global::Proto.DiscSkillInfo.Parser, new[]{ "Id", "Level", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.TowerChangeData), global::Proto.TowerChangeData.Parser, new[]{ "DiscSkillActiveNumber", "HarmonySkillIds", "NextPackage" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.TowerChangeData), global::Proto.TowerChangeData.Parser, new[]{ "Infos", "Secondaries", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.ActiveSecondaryChange), global::Proto.ActiveSecondaryChange.Parser, new[]{ "SecondaryId", "Active", "NextPackage" }, null, null, null, null)
           }));
     }
     #endregion
@@ -630,11 +614,9 @@ namespace Proto {
       discs_ = other.discs_.Clone();
       dateLen_ = other.dateLen_;
       clientData_ = other.clientData_;
-      discSkillActiveNumber_ = other.discSkillActiveNumber_;
-      harmonySkillIds_ = other.harmonySkillIds_.Clone();
+      activeSecondaryIds_ = other.activeSecondaryIds_.Clone();
       towerGrowthNodes_ = other.towerGrowthNodes_.Clone();
       resurrectionCnt_ = other.resurrectionCnt_;
-      rankTotalTime_ = other.rankTotalTime_;
       totalTime_ = other.totalTime_;
       totalDamages_ = other.totalDamages_.Clone();
       buildId_ = other.buildId_;
@@ -742,27 +724,15 @@ namespace Proto {
       }
     }
 
-    /// <summary>Field number for the "DiscSkillActiveNumber" field.</summary>
-    public const int DiscSkillActiveNumberFieldNumber = 9;
-    private uint discSkillActiveNumber_;
+    /// <summary>Field number for the "ActiveSecondaryIds" field.</summary>
+    public const int ActiveSecondaryIdsFieldNumber = 9;
+    private static readonly pb::FieldCodec<uint> _repeated_activeSecondaryIds_codec
+        = pb::FieldCodec.ForUInt32(74);
+    private readonly pbc::RepeatedField<uint> activeSecondaryIds_ = new pbc::RepeatedField<uint>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint DiscSkillActiveNumber {
-      get { return discSkillActiveNumber_; }
-      set {
-        discSkillActiveNumber_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "HarmonySkillIds" field.</summary>
-    public const int HarmonySkillIdsFieldNumber = 10;
-    private static readonly pb::FieldCodec<uint> _repeated_harmonySkillIds_codec
-        = pb::FieldCodec.ForUInt32(82);
-    private readonly pbc::RepeatedField<uint> harmonySkillIds_ = new pbc::RepeatedField<uint>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> HarmonySkillIds {
-      get { return harmonySkillIds_; }
+    public pbc::RepeatedField<uint> ActiveSecondaryIds {
+      get { return activeSecondaryIds_; }
     }
 
     /// <summary>Field number for the "TowerGrowthNodes" field.</summary>
@@ -785,18 +755,6 @@ namespace Proto {
       get { return resurrectionCnt_; }
       set {
         resurrectionCnt_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "RankTotalTime" field.</summary>
-    public const int RankTotalTimeFieldNumber = 13;
-    private uint rankTotalTime_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint RankTotalTime {
-      get { return rankTotalTime_; }
-      set {
-        rankTotalTime_ = value;
       }
     }
 
@@ -870,11 +828,9 @@ namespace Proto {
       if(!discs_.Equals(other.discs_)) return false;
       if (DateLen != other.DateLen) return false;
       if (ClientData != other.ClientData) return false;
-      if (DiscSkillActiveNumber != other.DiscSkillActiveNumber) return false;
-      if(!harmonySkillIds_.Equals(other.harmonySkillIds_)) return false;
+      if(!activeSecondaryIds_.Equals(other.activeSecondaryIds_)) return false;
       if(!towerGrowthNodes_.Equals(other.towerGrowthNodes_)) return false;
       if (ResurrectionCnt != other.ResurrectionCnt) return false;
-      if (RankTotalTime != other.RankTotalTime) return false;
       if (TotalTime != other.TotalTime) return false;
       if(!totalDamages_.Equals(other.totalDamages_)) return false;
       if (BuildId != other.BuildId) return false;
@@ -894,11 +850,9 @@ namespace Proto {
       hash ^= discs_.GetHashCode();
       if (DateLen != 0) hash ^= DateLen.GetHashCode();
       if (ClientData.Length != 0) hash ^= ClientData.GetHashCode();
-      if (DiscSkillActiveNumber != 0) hash ^= DiscSkillActiveNumber.GetHashCode();
-      hash ^= harmonySkillIds_.GetHashCode();
+      hash ^= activeSecondaryIds_.GetHashCode();
       hash ^= towerGrowthNodes_.GetHashCode();
       if (ResurrectionCnt != 0) hash ^= ResurrectionCnt.GetHashCode();
-      if (RankTotalTime != 0) hash ^= RankTotalTime.GetHashCode();
       if (TotalTime != 0) hash ^= TotalTime.GetHashCode();
       hash ^= totalDamages_.GetHashCode();
       if (BuildId != 0UL) hash ^= BuildId.GetHashCode();
@@ -947,19 +901,11 @@ namespace Proto {
         output.WriteRawTag(66);
         output.WriteString(ClientData);
       }
-      if (DiscSkillActiveNumber != 0) {
-        output.WriteRawTag(72);
-        output.WriteUInt32(DiscSkillActiveNumber);
-      }
-      harmonySkillIds_.WriteTo(output, _repeated_harmonySkillIds_codec);
+      activeSecondaryIds_.WriteTo(output, _repeated_activeSecondaryIds_codec);
       towerGrowthNodes_.WriteTo(output, _repeated_towerGrowthNodes_codec);
       if (ResurrectionCnt != 0) {
         output.WriteRawTag(96);
         output.WriteUInt32(ResurrectionCnt);
-      }
-      if (RankTotalTime != 0) {
-        output.WriteRawTag(104);
-        output.WriteUInt32(RankTotalTime);
       }
       if (TotalTime != 0) {
         output.WriteRawTag(112);
@@ -1010,19 +956,11 @@ namespace Proto {
         output.WriteRawTag(66);
         output.WriteString(ClientData);
       }
-      if (DiscSkillActiveNumber != 0) {
-        output.WriteRawTag(72);
-        output.WriteUInt32(DiscSkillActiveNumber);
-      }
-      harmonySkillIds_.WriteTo(ref output, _repeated_harmonySkillIds_codec);
+      activeSecondaryIds_.WriteTo(ref output, _repeated_activeSecondaryIds_codec);
       towerGrowthNodes_.WriteTo(ref output, _repeated_towerGrowthNodes_codec);
       if (ResurrectionCnt != 0) {
         output.WriteRawTag(96);
         output.WriteUInt32(ResurrectionCnt);
-      }
-      if (RankTotalTime != 0) {
-        output.WriteRawTag(104);
-        output.WriteUInt32(RankTotalTime);
       }
       if (TotalTime != 0) {
         output.WriteRawTag(112);
@@ -1067,16 +1005,10 @@ namespace Proto {
       if (ClientData.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClientData);
       }
-      if (DiscSkillActiveNumber != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(DiscSkillActiveNumber);
-      }
-      size += harmonySkillIds_.CalculateSize(_repeated_harmonySkillIds_codec);
+      size += activeSecondaryIds_.CalculateSize(_repeated_activeSecondaryIds_codec);
       size += towerGrowthNodes_.CalculateSize(_repeated_towerGrowthNodes_codec);
       if (ResurrectionCnt != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(ResurrectionCnt);
-      }
-      if (RankTotalTime != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RankTotalTime);
       }
       if (TotalTime != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TotalTime);
@@ -1120,16 +1052,10 @@ namespace Proto {
       if (other.ClientData.Length != 0) {
         ClientData = other.ClientData;
       }
-      if (other.DiscSkillActiveNumber != 0) {
-        DiscSkillActiveNumber = other.DiscSkillActiveNumber;
-      }
-      harmonySkillIds_.Add(other.harmonySkillIds_);
+      activeSecondaryIds_.Add(other.activeSecondaryIds_);
       towerGrowthNodes_.Add(other.towerGrowthNodes_);
       if (other.ResurrectionCnt != 0) {
         ResurrectionCnt = other.ResurrectionCnt;
-      }
-      if (other.RankTotalTime != 0) {
-        RankTotalTime = other.RankTotalTime;
       }
       if (other.TotalTime != 0) {
         TotalTime = other.TotalTime;
@@ -1192,13 +1118,9 @@ namespace Proto {
             ClientData = input.ReadString();
             break;
           }
+          case 74:
           case 72: {
-            DiscSkillActiveNumber = input.ReadUInt32();
-            break;
-          }
-          case 82:
-          case 80: {
-            harmonySkillIds_.AddEntriesFrom(input, _repeated_harmonySkillIds_codec);
+            activeSecondaryIds_.AddEntriesFrom(input, _repeated_activeSecondaryIds_codec);
             break;
           }
           case 90:
@@ -1208,10 +1130,6 @@ namespace Proto {
           }
           case 96: {
             ResurrectionCnt = input.ReadUInt32();
-            break;
-          }
-          case 104: {
-            RankTotalTime = input.ReadUInt32();
             break;
           }
           case 112: {
@@ -1282,13 +1200,9 @@ namespace Proto {
             ClientData = input.ReadString();
             break;
           }
+          case 74:
           case 72: {
-            DiscSkillActiveNumber = input.ReadUInt32();
-            break;
-          }
-          case 82:
-          case 80: {
-            harmonySkillIds_.AddEntriesFrom(ref input, _repeated_harmonySkillIds_codec);
+            activeSecondaryIds_.AddEntriesFrom(ref input, _repeated_activeSecondaryIds_codec);
             break;
           }
           case 90:
@@ -1298,10 +1212,6 @@ namespace Proto {
           }
           case 96: {
             ResurrectionCnt = input.ReadUInt32();
-            break;
-          }
-          case 104: {
-            RankTotalTime = input.ReadUInt32();
             break;
           }
           case 112: {
@@ -2473,7 +2383,6 @@ namespace Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public StarTowerBag(StarTowerBag other) : this() {
       fateCard_ = other.fateCard_.Clone();
-      notes_ = other.notes_.Clone();
       potentials_ = other.potentials_.Clone();
       items_ = other.items_.Clone();
       res_ = other.res_.Clone();
@@ -2498,21 +2407,10 @@ namespace Proto {
       get { return fateCard_; }
     }
 
-    /// <summary>Field number for the "Notes" field.</summary>
-    public const int NotesFieldNumber = 2;
-    private static readonly pb::FieldCodec<uint> _repeated_notes_codec
-        = pb::FieldCodec.ForUInt32(18);
-    private readonly pbc::RepeatedField<uint> notes_ = new pbc::RepeatedField<uint>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> Notes {
-      get { return notes_; }
-    }
-
     /// <summary>Field number for the "Potentials" field.</summary>
-    public const int PotentialsFieldNumber = 3;
+    public const int PotentialsFieldNumber = 2;
     private static readonly pb::FieldCodec<global::Proto.PotentialInfo> _repeated_potentials_codec
-        = pb::FieldCodec.ForMessage(26, global::Proto.PotentialInfo.Parser);
+        = pb::FieldCodec.ForMessage(18, global::Proto.PotentialInfo.Parser);
     private readonly pbc::RepeatedField<global::Proto.PotentialInfo> potentials_ = new pbc::RepeatedField<global::Proto.PotentialInfo>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2521,9 +2419,9 @@ namespace Proto {
     }
 
     /// <summary>Field number for the "Items" field.</summary>
-    public const int ItemsFieldNumber = 4;
+    public const int ItemsFieldNumber = 3;
     private static readonly pb::FieldCodec<global::Proto.TowerItemInfo> _repeated_items_codec
-        = pb::FieldCodec.ForMessage(34, global::Proto.TowerItemInfo.Parser);
+        = pb::FieldCodec.ForMessage(26, global::Proto.TowerItemInfo.Parser);
     private readonly pbc::RepeatedField<global::Proto.TowerItemInfo> items_ = new pbc::RepeatedField<global::Proto.TowerItemInfo>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2532,9 +2430,9 @@ namespace Proto {
     }
 
     /// <summary>Field number for the "Res" field.</summary>
-    public const int ResFieldNumber = 5;
+    public const int ResFieldNumber = 4;
     private static readonly pb::FieldCodec<global::Proto.TowerResInfo> _repeated_res_codec
-        = pb::FieldCodec.ForMessage(42, global::Proto.TowerResInfo.Parser);
+        = pb::FieldCodec.ForMessage(34, global::Proto.TowerResInfo.Parser);
     private readonly pbc::RepeatedField<global::Proto.TowerResInfo> res_ = new pbc::RepeatedField<global::Proto.TowerResInfo>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -2570,7 +2468,6 @@ namespace Proto {
         return true;
       }
       if(!fateCard_.Equals(other.fateCard_)) return false;
-      if(!notes_.Equals(other.notes_)) return false;
       if(!potentials_.Equals(other.potentials_)) return false;
       if(!items_.Equals(other.items_)) return false;
       if(!res_.Equals(other.res_)) return false;
@@ -2583,7 +2480,6 @@ namespace Proto {
     public override int GetHashCode() {
       int hash = 1;
       hash ^= fateCard_.GetHashCode();
-      hash ^= notes_.GetHashCode();
       hash ^= potentials_.GetHashCode();
       hash ^= items_.GetHashCode();
       hash ^= res_.GetHashCode();
@@ -2607,7 +2503,6 @@ namespace Proto {
       output.WriteRawMessage(this);
     #else
       fateCard_.WriteTo(output, _repeated_fateCard_codec);
-      notes_.WriteTo(output, _repeated_notes_codec);
       potentials_.WriteTo(output, _repeated_potentials_codec);
       items_.WriteTo(output, _repeated_items_codec);
       res_.WriteTo(output, _repeated_res_codec);
@@ -2626,7 +2521,6 @@ namespace Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
       fateCard_.WriteTo(ref output, _repeated_fateCard_codec);
-      notes_.WriteTo(ref output, _repeated_notes_codec);
       potentials_.WriteTo(ref output, _repeated_potentials_codec);
       items_.WriteTo(ref output, _repeated_items_codec);
       res_.WriteTo(ref output, _repeated_res_codec);
@@ -2645,7 +2539,6 @@ namespace Proto {
     public int CalculateSize() {
       int size = 0;
       size += fateCard_.CalculateSize(_repeated_fateCard_codec);
-      size += notes_.CalculateSize(_repeated_notes_codec);
       size += potentials_.CalculateSize(_repeated_potentials_codec);
       size += items_.CalculateSize(_repeated_items_codec);
       size += res_.CalculateSize(_repeated_res_codec);
@@ -2665,7 +2558,6 @@ namespace Proto {
         return;
       }
       fateCard_.Add(other.fateCard_);
-      notes_.Add(other.notes_);
       potentials_.Add(other.potentials_);
       items_.Add(other.items_);
       res_.Add(other.res_);
@@ -2695,20 +2587,15 @@ namespace Proto {
             fateCard_.AddEntriesFrom(input, _repeated_fateCard_codec);
             break;
           }
-          case 18:
-          case 16: {
-            notes_.AddEntriesFrom(input, _repeated_notes_codec);
-            break;
-          }
-          case 26: {
+          case 18: {
             potentials_.AddEntriesFrom(input, _repeated_potentials_codec);
             break;
           }
-          case 34: {
+          case 26: {
             items_.AddEntriesFrom(input, _repeated_items_codec);
             break;
           }
-          case 42: {
+          case 34: {
             res_.AddEntriesFrom(input, _repeated_res_codec);
             break;
           }
@@ -2739,20 +2626,15 @@ namespace Proto {
             fateCard_.AddEntriesFrom(ref input, _repeated_fateCard_codec);
             break;
           }
-          case 18:
-          case 16: {
-            notes_.AddEntriesFrom(ref input, _repeated_notes_codec);
-            break;
-          }
-          case 26: {
+          case 18: {
             potentials_.AddEntriesFrom(ref input, _repeated_potentials_codec);
             break;
           }
-          case 34: {
+          case 26: {
             items_.AddEntriesFrom(ref input, _repeated_items_codec);
             break;
           }
-          case 42: {
+          case 34: {
             res_.AddEntriesFrom(ref input, _repeated_res_codec);
             break;
           }
@@ -3510,9 +3392,6 @@ namespace Proto {
         case DataOneofCase.SelectFateCardCase:
           SelectFateCardCase = other.SelectFateCardCase.Clone();
           break;
-        case DataOneofCase.SelectNoteCase:
-          SelectNoteCase = other.SelectNoteCase.Clone();
-          break;
         case DataOneofCase.SelectOptionsEventCase:
           SelectOptionsEventCase = other.SelectOptionsEventCase.Clone();
           break;
@@ -3527,9 +3406,6 @@ namespace Proto {
           break;
         case DataOneofCase.StrengthenMachineCase:
           StrengthenMachineCase = other.StrengthenMachineCase.Clone();
-          break;
-        case DataOneofCase.HarmonySkillCase:
-          HarmonySkillCase = other.HarmonySkillCase.Clone();
           break;
         case DataOneofCase.SyncHPCase:
           SyncHPCase = other.SyncHPCase.Clone();
@@ -3629,18 +3505,6 @@ namespace Proto {
       }
     }
 
-    /// <summary>Field number for the "SelectNoteCase" field.</summary>
-    public const int SelectNoteCaseFieldNumber = 7;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Proto.SelectNoteCaseData SelectNoteCase {
-      get { return dataCase_ == DataOneofCase.SelectNoteCase ? (global::Proto.SelectNoteCaseData) data_ : null; }
-      set {
-        data_ = value;
-        dataCase_ = value == null ? DataOneofCase.None : DataOneofCase.SelectNoteCase;
-      }
-    }
-
     /// <summary>Field number for the "SelectOptionsEventCase" field.</summary>
     public const int SelectOptionsEventCaseFieldNumber = 8;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3701,18 +3565,6 @@ namespace Proto {
       }
     }
 
-    /// <summary>Field number for the "HarmonySkillCase" field.</summary>
-    public const int HarmonySkillCaseFieldNumber = 13;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Proto.HarmonySkillCaseData HarmonySkillCase {
-      get { return dataCase_ == DataOneofCase.HarmonySkillCase ? (global::Proto.HarmonySkillCaseData) data_ : null; }
-      set {
-        data_ = value;
-        dataCase_ = value == null ? DataOneofCase.None : DataOneofCase.HarmonySkillCase;
-      }
-    }
-
     /// <summary>Field number for the "SyncHPCase" field.</summary>
     public const int SyncHPCaseFieldNumber = 15;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3734,13 +3586,11 @@ namespace Proto {
       SelectSpecialPotentialCase = 4,
       SelectPotentialCase = 5,
       SelectFateCardCase = 6,
-      SelectNoteCase = 7,
       SelectOptionsEventCase = 8,
       RecoveryHPCase = 9,
       NpcRecoveryHPCase = 10,
       HawkerCase = 11,
       StrengthenMachineCase = 12,
-      HarmonySkillCase = 13,
       SyncHPCase = 15,
     }
     private DataOneofCase dataCase_ = DataOneofCase.None;
@@ -3779,13 +3629,11 @@ namespace Proto {
       if (!object.Equals(SelectSpecialPotentialCase, other.SelectSpecialPotentialCase)) return false;
       if (!object.Equals(SelectPotentialCase, other.SelectPotentialCase)) return false;
       if (!object.Equals(SelectFateCardCase, other.SelectFateCardCase)) return false;
-      if (!object.Equals(SelectNoteCase, other.SelectNoteCase)) return false;
       if (!object.Equals(SelectOptionsEventCase, other.SelectOptionsEventCase)) return false;
       if (!object.Equals(RecoveryHPCase, other.RecoveryHPCase)) return false;
       if (!object.Equals(NpcRecoveryHPCase, other.NpcRecoveryHPCase)) return false;
       if (!object.Equals(HawkerCase, other.HawkerCase)) return false;
       if (!object.Equals(StrengthenMachineCase, other.StrengthenMachineCase)) return false;
-      if (!object.Equals(HarmonySkillCase, other.HarmonySkillCase)) return false;
       if (!object.Equals(SyncHPCase, other.SyncHPCase)) return false;
       if (DataCase != other.DataCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -3802,13 +3650,11 @@ namespace Proto {
       if (dataCase_ == DataOneofCase.SelectSpecialPotentialCase) hash ^= SelectSpecialPotentialCase.GetHashCode();
       if (dataCase_ == DataOneofCase.SelectPotentialCase) hash ^= SelectPotentialCase.GetHashCode();
       if (dataCase_ == DataOneofCase.SelectFateCardCase) hash ^= SelectFateCardCase.GetHashCode();
-      if (dataCase_ == DataOneofCase.SelectNoteCase) hash ^= SelectNoteCase.GetHashCode();
       if (dataCase_ == DataOneofCase.SelectOptionsEventCase) hash ^= SelectOptionsEventCase.GetHashCode();
       if (dataCase_ == DataOneofCase.RecoveryHPCase) hash ^= RecoveryHPCase.GetHashCode();
       if (dataCase_ == DataOneofCase.NpcRecoveryHPCase) hash ^= NpcRecoveryHPCase.GetHashCode();
       if (dataCase_ == DataOneofCase.HawkerCase) hash ^= HawkerCase.GetHashCode();
       if (dataCase_ == DataOneofCase.StrengthenMachineCase) hash ^= StrengthenMachineCase.GetHashCode();
-      if (dataCase_ == DataOneofCase.HarmonySkillCase) hash ^= HarmonySkillCase.GetHashCode();
       if (dataCase_ == DataOneofCase.SyncHPCase) hash ^= SyncHPCase.GetHashCode();
       hash ^= (int) dataCase_;
       if (_unknownFields != null) {
@@ -3853,10 +3699,6 @@ namespace Proto {
         output.WriteRawTag(50);
         output.WriteMessage(SelectFateCardCase);
       }
-      if (dataCase_ == DataOneofCase.SelectNoteCase) {
-        output.WriteRawTag(58);
-        output.WriteMessage(SelectNoteCase);
-      }
       if (dataCase_ == DataOneofCase.SelectOptionsEventCase) {
         output.WriteRawTag(66);
         output.WriteMessage(SelectOptionsEventCase);
@@ -3876,10 +3718,6 @@ namespace Proto {
       if (dataCase_ == DataOneofCase.StrengthenMachineCase) {
         output.WriteRawTag(98);
         output.WriteMessage(StrengthenMachineCase);
-      }
-      if (dataCase_ == DataOneofCase.HarmonySkillCase) {
-        output.WriteRawTag(106);
-        output.WriteMessage(HarmonySkillCase);
       }
       if (dataCase_ == DataOneofCase.SyncHPCase) {
         output.WriteRawTag(122);
@@ -3923,10 +3761,6 @@ namespace Proto {
         output.WriteRawTag(50);
         output.WriteMessage(SelectFateCardCase);
       }
-      if (dataCase_ == DataOneofCase.SelectNoteCase) {
-        output.WriteRawTag(58);
-        output.WriteMessage(SelectNoteCase);
-      }
       if (dataCase_ == DataOneofCase.SelectOptionsEventCase) {
         output.WriteRawTag(66);
         output.WriteMessage(SelectOptionsEventCase);
@@ -3946,10 +3780,6 @@ namespace Proto {
       if (dataCase_ == DataOneofCase.StrengthenMachineCase) {
         output.WriteRawTag(98);
         output.WriteMessage(StrengthenMachineCase);
-      }
-      if (dataCase_ == DataOneofCase.HarmonySkillCase) {
-        output.WriteRawTag(106);
-        output.WriteMessage(HarmonySkillCase);
       }
       if (dataCase_ == DataOneofCase.SyncHPCase) {
         output.WriteRawTag(122);
@@ -3990,9 +3820,6 @@ namespace Proto {
       if (dataCase_ == DataOneofCase.SelectFateCardCase) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SelectFateCardCase);
       }
-      if (dataCase_ == DataOneofCase.SelectNoteCase) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SelectNoteCase);
-      }
       if (dataCase_ == DataOneofCase.SelectOptionsEventCase) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SelectOptionsEventCase);
       }
@@ -4007,9 +3834,6 @@ namespace Proto {
       }
       if (dataCase_ == DataOneofCase.StrengthenMachineCase) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(StrengthenMachineCase);
-      }
-      if (dataCase_ == DataOneofCase.HarmonySkillCase) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(HarmonySkillCase);
       }
       if (dataCase_ == DataOneofCase.SyncHPCase) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(SyncHPCase);
@@ -4063,12 +3887,6 @@ namespace Proto {
           }
           SelectFateCardCase.MergeFrom(other.SelectFateCardCase);
           break;
-        case DataOneofCase.SelectNoteCase:
-          if (SelectNoteCase == null) {
-            SelectNoteCase = new global::Proto.SelectNoteCaseData();
-          }
-          SelectNoteCase.MergeFrom(other.SelectNoteCase);
-          break;
         case DataOneofCase.SelectOptionsEventCase:
           if (SelectOptionsEventCase == null) {
             SelectOptionsEventCase = new global::Proto.SelectOptionsEventCaseData();
@@ -4098,12 +3916,6 @@ namespace Proto {
             StrengthenMachineCase = new global::Proto.StrengthenMachineCaseData();
           }
           StrengthenMachineCase.MergeFrom(other.StrengthenMachineCase);
-          break;
-        case DataOneofCase.HarmonySkillCase:
-          if (HarmonySkillCase == null) {
-            HarmonySkillCase = new global::Proto.HarmonySkillCaseData();
-          }
-          HarmonySkillCase.MergeFrom(other.HarmonySkillCase);
           break;
         case DataOneofCase.SyncHPCase:
           if (SyncHPCase == null) {
@@ -4181,15 +3993,6 @@ namespace Proto {
             SelectFateCardCase = subBuilder;
             break;
           }
-          case 58: {
-            global::Proto.SelectNoteCaseData subBuilder = new global::Proto.SelectNoteCaseData();
-            if (dataCase_ == DataOneofCase.SelectNoteCase) {
-              subBuilder.MergeFrom(SelectNoteCase);
-            }
-            input.ReadMessage(subBuilder);
-            SelectNoteCase = subBuilder;
-            break;
-          }
           case 66: {
             global::Proto.SelectOptionsEventCaseData subBuilder = new global::Proto.SelectOptionsEventCaseData();
             if (dataCase_ == DataOneofCase.SelectOptionsEventCase) {
@@ -4233,15 +4036,6 @@ namespace Proto {
             }
             input.ReadMessage(subBuilder);
             StrengthenMachineCase = subBuilder;
-            break;
-          }
-          case 106: {
-            global::Proto.HarmonySkillCaseData subBuilder = new global::Proto.HarmonySkillCaseData();
-            if (dataCase_ == DataOneofCase.HarmonySkillCase) {
-              subBuilder.MergeFrom(HarmonySkillCase);
-            }
-            input.ReadMessage(subBuilder);
-            HarmonySkillCase = subBuilder;
             break;
           }
           case 122: {
@@ -4325,15 +4119,6 @@ namespace Proto {
             SelectFateCardCase = subBuilder;
             break;
           }
-          case 58: {
-            global::Proto.SelectNoteCaseData subBuilder = new global::Proto.SelectNoteCaseData();
-            if (dataCase_ == DataOneofCase.SelectNoteCase) {
-              subBuilder.MergeFrom(SelectNoteCase);
-            }
-            input.ReadMessage(subBuilder);
-            SelectNoteCase = subBuilder;
-            break;
-          }
           case 66: {
             global::Proto.SelectOptionsEventCaseData subBuilder = new global::Proto.SelectOptionsEventCaseData();
             if (dataCase_ == DataOneofCase.SelectOptionsEventCase) {
@@ -4377,15 +4162,6 @@ namespace Proto {
             }
             input.ReadMessage(subBuilder);
             StrengthenMachineCase = subBuilder;
-            break;
-          }
-          case 106: {
-            global::Proto.HarmonySkillCaseData subBuilder = new global::Proto.HarmonySkillCaseData();
-            if (dataCase_ == DataOneofCase.HarmonySkillCase) {
-              subBuilder.MergeFrom(HarmonySkillCase);
-            }
-            input.ReadMessage(subBuilder);
-            HarmonySkillCase = subBuilder;
             break;
           }
           case 122: {
@@ -4445,6 +4221,7 @@ namespace Proto {
     public BattleCaseData(BattleCaseData other) : this() {
       timeLimit_ = other.timeLimit_;
       fateCard_ = other.fateCard_;
+      subNoteSkillNum_ = other.subNoteSkillNum_;
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -4479,6 +4256,18 @@ namespace Proto {
       }
     }
 
+    /// <summary>Field number for the "SubNoteSkillNum" field.</summary>
+    public const int SubNoteSkillNumFieldNumber = 3;
+    private uint subNoteSkillNum_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint SubNoteSkillNum {
+      get { return subNoteSkillNum_; }
+      set {
+        subNoteSkillNum_ = value;
+      }
+    }
+
     /// <summary>Field number for the "NextPackage" field.</summary>
     public const int NextPackageFieldNumber = 2047;
     private pb::ByteString nextPackage_ = pb::ByteString.Empty;
@@ -4508,6 +4297,7 @@ namespace Proto {
       }
       if (TimeLimit != other.TimeLimit) return false;
       if (FateCard != other.FateCard) return false;
+      if (SubNoteSkillNum != other.SubNoteSkillNum) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -4518,6 +4308,7 @@ namespace Proto {
       int hash = 1;
       if (TimeLimit != false) hash ^= TimeLimit.GetHashCode();
       if (FateCard != false) hash ^= FateCard.GetHashCode();
+      if (SubNoteSkillNum != 0) hash ^= SubNoteSkillNum.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -4545,6 +4336,10 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteBool(FateCard);
       }
+      if (SubNoteSkillNum != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(SubNoteSkillNum);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -4567,6 +4362,10 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteBool(FateCard);
       }
+      if (SubNoteSkillNum != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(SubNoteSkillNum);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -4586,6 +4385,9 @@ namespace Proto {
       }
       if (FateCard != false) {
         size += 1 + 1;
+      }
+      if (SubNoteSkillNum != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(SubNoteSkillNum);
       }
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
@@ -4607,6 +4409,9 @@ namespace Proto {
       }
       if (other.FateCard != false) {
         FateCard = other.FateCard;
+      }
+      if (other.SubNoteSkillNum != 0) {
+        SubNoteSkillNum = other.SubNoteSkillNum;
       }
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
@@ -4638,6 +4443,10 @@ namespace Proto {
             FateCard = input.ReadBool();
             break;
           }
+          case 24: {
+            SubNoteSkillNum = input.ReadUInt32();
+            break;
+          }
           case 16378: {
             NextPackage = input.ReadBytes();
             break;
@@ -4667,6 +4476,10 @@ namespace Proto {
           }
           case 16: {
             FateCard = input.ReadBool();
+            break;
+          }
+          case 24: {
+            SubNoteSkillNum = input.ReadUInt32();
             break;
           }
           case 16378: {
@@ -6037,230 +5850,6 @@ namespace Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class SelectNoteCaseData : pb::IMessage<SelectNoteCaseData>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<SelectNoteCaseData> _parser = new pb::MessageParser<SelectNoteCaseData>(() => new SelectNoteCaseData());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<SelectNoteCaseData> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[14]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SelectNoteCaseData() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SelectNoteCaseData(SelectNoteCaseData other) : this() {
-      info_ = other.info_.Clone();
-      nextPackage_ = other.nextPackage_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SelectNoteCaseData Clone() {
-      return new SelectNoteCaseData(this);
-    }
-
-    /// <summary>Field number for the "Info" field.</summary>
-    public const int InfoFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Proto.SelectNote> _repeated_info_codec
-        = pb::FieldCodec.ForMessage(10, global::Proto.SelectNote.Parser);
-    private readonly pbc::RepeatedField<global::Proto.SelectNote> info_ = new pbc::RepeatedField<global::Proto.SelectNote>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::Proto.SelectNote> Info {
-      get { return info_; }
-    }
-
-    /// <summary>Field number for the "NextPackage" field.</summary>
-    public const int NextPackageFieldNumber = 2047;
-    private pb::ByteString nextPackage_ = pb::ByteString.Empty;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pb::ByteString NextPackage {
-      get { return nextPackage_; }
-      set {
-        nextPackage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as SelectNoteCaseData);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(SelectNoteCaseData other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if(!info_.Equals(other.info_)) return false;
-      if (NextPackage != other.NextPackage) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= info_.GetHashCode();
-      if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      info_.WriteTo(output, _repeated_info_codec);
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      info_.WriteTo(ref output, _repeated_info_codec);
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      size += info_.CalculateSize(_repeated_info_codec);
-      if (NextPackage.Length != 0) {
-        size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(SelectNoteCaseData other) {
-      if (other == null) {
-        return;
-      }
-      info_.Add(other.info_);
-      if (other.NextPackage.Length != 0) {
-        NextPackage = other.NextPackage;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10: {
-            info_.AddEntriesFrom(input, _repeated_info_codec);
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10: {
-            info_.AddEntriesFrom(ref input, _repeated_info_codec);
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SelectFateCardCaseData : pb::IMessage<SelectFateCardCaseData>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -6275,7 +5864,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6640,7 +6229,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6875,7 +6464,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7110,7 +6699,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7308,7 +6897,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -7333,6 +6922,9 @@ namespace Proto {
       charPos_ = other.charPos_;
       price_ = other.price_;
       discount_ = other.discount_;
+      type_ = other.type_;
+      goodsId_ = other.goodsId_;
+      tag_ = other.tag_;
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -7403,6 +6995,42 @@ namespace Proto {
       }
     }
 
+    /// <summary>Field number for the "Type" field.</summary>
+    public const int TypeFieldNumber = 6;
+    private uint type_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Type {
+      get { return type_; }
+      set {
+        type_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "GoodsId" field.</summary>
+    public const int GoodsIdFieldNumber = 7;
+    private uint goodsId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint GoodsId {
+      get { return goodsId_; }
+      set {
+        goodsId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Tag" field.</summary>
+    public const int TagFieldNumber = 15;
+    private uint tag_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Tag {
+      get { return tag_; }
+      set {
+        tag_ = value;
+      }
+    }
+
     /// <summary>Field number for the "NextPackage" field.</summary>
     public const int NextPackageFieldNumber = 2047;
     private pb::ByteString nextPackage_ = pb::ByteString.Empty;
@@ -7435,6 +7063,9 @@ namespace Proto {
       if (CharPos != other.CharPos) return false;
       if (Price != other.Price) return false;
       if (Discount != other.Discount) return false;
+      if (Type != other.Type) return false;
+      if (GoodsId != other.GoodsId) return false;
+      if (Tag != other.Tag) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -7448,6 +7079,9 @@ namespace Proto {
       if (CharPos != 0) hash ^= CharPos.GetHashCode();
       if (Price != 0) hash ^= Price.GetHashCode();
       if (Discount != 0) hash ^= Discount.GetHashCode();
+      if (Type != 0) hash ^= Type.GetHashCode();
+      if (GoodsId != 0) hash ^= GoodsId.GetHashCode();
+      if (Tag != 0) hash ^= Tag.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -7487,6 +7121,18 @@ namespace Proto {
         output.WriteRawTag(40);
         output.WriteInt32(Discount);
       }
+      if (Type != 0) {
+        output.WriteRawTag(48);
+        output.WriteUInt32(Type);
+      }
+      if (GoodsId != 0) {
+        output.WriteRawTag(56);
+        output.WriteUInt32(GoodsId);
+      }
+      if (Tag != 0) {
+        output.WriteRawTag(120);
+        output.WriteUInt32(Tag);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -7521,6 +7167,18 @@ namespace Proto {
         output.WriteRawTag(40);
         output.WriteInt32(Discount);
       }
+      if (Type != 0) {
+        output.WriteRawTag(48);
+        output.WriteUInt32(Type);
+      }
+      if (GoodsId != 0) {
+        output.WriteRawTag(56);
+        output.WriteUInt32(GoodsId);
+      }
+      if (Tag != 0) {
+        output.WriteRawTag(120);
+        output.WriteUInt32(Tag);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -7549,6 +7207,15 @@ namespace Proto {
       }
       if (Discount != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(Discount);
+      }
+      if (Type != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Type);
+      }
+      if (GoodsId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(GoodsId);
+      }
+      if (Tag != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Tag);
       }
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
@@ -7579,6 +7246,15 @@ namespace Proto {
       }
       if (other.Discount != 0) {
         Discount = other.Discount;
+      }
+      if (other.Type != 0) {
+        Type = other.Type;
+      }
+      if (other.GoodsId != 0) {
+        GoodsId = other.GoodsId;
+      }
+      if (other.Tag != 0) {
+        Tag = other.Tag;
       }
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
@@ -7620,6 +7296,18 @@ namespace Proto {
           }
           case 40: {
             Discount = input.ReadInt32();
+            break;
+          }
+          case 48: {
+            Type = input.ReadUInt32();
+            break;
+          }
+          case 56: {
+            GoodsId = input.ReadUInt32();
+            break;
+          }
+          case 120: {
+            Tag = input.ReadUInt32();
             break;
           }
           case 16378: {
@@ -7665,6 +7353,18 @@ namespace Proto {
             Discount = input.ReadInt32();
             break;
           }
+          case 48: {
+            Type = input.ReadUInt32();
+            break;
+          }
+          case 56: {
+            GoodsId = input.ReadUInt32();
+            break;
+          }
+          case 120: {
+            Tag = input.ReadUInt32();
+            break;
+          }
           case 16378: {
             NextPackage = input.ReadBytes();
             break;
@@ -7691,7 +7391,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[19]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8054,7 +7754,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8387,7 +8087,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8622,7 +8322,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -8917,315 +8617,6 @@ namespace Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class HarmonySkillCaseData : pb::IMessage<HarmonySkillCaseData>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<HarmonySkillCaseData> _parser = new pb::MessageParser<HarmonySkillCaseData>(() => new HarmonySkillCaseData());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<HarmonySkillCaseData> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[24]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HarmonySkillCaseData() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HarmonySkillCaseData(HarmonySkillCaseData other) : this() {
-      skill_ = other.skill_;
-      canReRoll_ = other.canReRoll_;
-      reRollPrice_ = other.reRollPrice_;
-      nextPackage_ = other.nextPackage_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public HarmonySkillCaseData Clone() {
-      return new HarmonySkillCaseData(this);
-    }
-
-    /// <summary>Field number for the "Skill" field.</summary>
-    public const int SkillFieldNumber = 1;
-    private uint skill_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint Skill {
-      get { return skill_; }
-      set {
-        skill_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "CanReRoll" field.</summary>
-    public const int CanReRollFieldNumber = 2;
-    private bool canReRoll_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool CanReRoll {
-      get { return canReRoll_; }
-      set {
-        canReRoll_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "ReRollPrice" field.</summary>
-    public const int ReRollPriceFieldNumber = 3;
-    private uint reRollPrice_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint ReRollPrice {
-      get { return reRollPrice_; }
-      set {
-        reRollPrice_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "NextPackage" field.</summary>
-    public const int NextPackageFieldNumber = 2047;
-    private pb::ByteString nextPackage_ = pb::ByteString.Empty;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pb::ByteString NextPackage {
-      get { return nextPackage_; }
-      set {
-        nextPackage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as HarmonySkillCaseData);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(HarmonySkillCaseData other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Skill != other.Skill) return false;
-      if (CanReRoll != other.CanReRoll) return false;
-      if (ReRollPrice != other.ReRollPrice) return false;
-      if (NextPackage != other.NextPackage) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Skill != 0) hash ^= Skill.GetHashCode();
-      if (CanReRoll != false) hash ^= CanReRoll.GetHashCode();
-      if (ReRollPrice != 0) hash ^= ReRollPrice.GetHashCode();
-      if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Skill != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(Skill);
-      }
-      if (CanReRoll != false) {
-        output.WriteRawTag(16);
-        output.WriteBool(CanReRoll);
-      }
-      if (ReRollPrice != 0) {
-        output.WriteRawTag(24);
-        output.WriteUInt32(ReRollPrice);
-      }
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Skill != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(Skill);
-      }
-      if (CanReRoll != false) {
-        output.WriteRawTag(16);
-        output.WriteBool(CanReRoll);
-      }
-      if (ReRollPrice != 0) {
-        output.WriteRawTag(24);
-        output.WriteUInt32(ReRollPrice);
-      }
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Skill != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Skill);
-      }
-      if (CanReRoll != false) {
-        size += 1 + 1;
-      }
-      if (ReRollPrice != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(ReRollPrice);
-      }
-      if (NextPackage.Length != 0) {
-        size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(HarmonySkillCaseData other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Skill != 0) {
-        Skill = other.Skill;
-      }
-      if (other.CanReRoll != false) {
-        CanReRoll = other.CanReRoll;
-      }
-      if (other.ReRollPrice != 0) {
-        ReRollPrice = other.ReRollPrice;
-      }
-      if (other.NextPackage.Length != 0) {
-        NextPackage = other.NextPackage;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Skill = input.ReadUInt32();
-            break;
-          }
-          case 16: {
-            CanReRoll = input.ReadBool();
-            break;
-          }
-          case 24: {
-            ReRollPrice = input.ReadUInt32();
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            Skill = input.ReadUInt32();
-            break;
-          }
-          case 16: {
-            CanReRoll = input.ReadBool();
-            break;
-          }
-          case 24: {
-            ReRollPrice = input.ReadUInt32();
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class InteractEnterReq : pb::IMessage<InteractEnterReq>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -9240,7 +8631,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9697,7 +9088,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -9941,7 +9332,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -10302,7 +9693,6 @@ namespace Proto {
           clientData_ = other.clientData_;
           fateCardUsage_ = other.fateCardUsage_.Clone();
           damages_ = other.damages_.Clone();
-          sample_ = other.sample_.Clone();
           events_ = other.events_ != null ? other.events_.Clone() : null;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
@@ -10383,17 +9773,6 @@ namespace Proto {
           get { return damages_; }
         }
 
-        /// <summary>Field number for the "Sample" field.</summary>
-        public const int SampleFieldNumber = 14;
-        private static readonly pb::FieldCodec<global::Proto.TravelerDuelBattleSample> _repeated_sample_codec
-            = pb::FieldCodec.ForMessage(114, global::Proto.TravelerDuelBattleSample.Parser);
-        private readonly pbc::RepeatedField<global::Proto.TravelerDuelBattleSample> sample_ = new pbc::RepeatedField<global::Proto.TravelerDuelBattleSample>();
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public pbc::RepeatedField<global::Proto.TravelerDuelBattleSample> Sample {
-          get { return sample_; }
-        }
-
         /// <summary>Field number for the "Events" field.</summary>
         public const int EventsFieldNumber = 15;
         private global::Proto.Events events_;
@@ -10427,7 +9806,6 @@ namespace Proto {
           if (ClientData != other.ClientData) return false;
           if(!fateCardUsage_.Equals(other.fateCardUsage_)) return false;
           if(!damages_.Equals(other.damages_)) return false;
-          if(!sample_.Equals(other.sample_)) return false;
           if (!object.Equals(Events, other.Events)) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
@@ -10442,7 +9820,6 @@ namespace Proto {
           if (ClientData.Length != 0) hash ^= ClientData.GetHashCode();
           hash ^= fateCardUsage_.GetHashCode();
           hash ^= damages_.GetHashCode();
-          hash ^= sample_.GetHashCode();
           if (events_ != null) hash ^= Events.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
@@ -10480,7 +9857,6 @@ namespace Proto {
           }
           fateCardUsage_.WriteTo(output, _repeated_fateCardUsage_codec);
           damages_.WriteTo(output, _repeated_damages_codec);
-          sample_.WriteTo(output, _repeated_sample_codec);
           if (events_ != null) {
             output.WriteRawTag(122);
             output.WriteMessage(Events);
@@ -10513,7 +9889,6 @@ namespace Proto {
           }
           fateCardUsage_.WriteTo(ref output, _repeated_fateCardUsage_codec);
           damages_.WriteTo(ref output, _repeated_damages_codec);
-          sample_.WriteTo(ref output, _repeated_sample_codec);
           if (events_ != null) {
             output.WriteRawTag(122);
             output.WriteMessage(Events);
@@ -10542,7 +9917,6 @@ namespace Proto {
           }
           size += fateCardUsage_.CalculateSize(_repeated_fateCardUsage_codec);
           size += damages_.CalculateSize(_repeated_damages_codec);
-          size += sample_.CalculateSize(_repeated_sample_codec);
           if (events_ != null) {
             size += 1 + pb::CodedOutputStream.ComputeMessageSize(Events);
           }
@@ -10572,7 +9946,6 @@ namespace Proto {
           }
           fateCardUsage_.Add(other.fateCardUsage_);
           damages_.Add(other.damages_);
-          sample_.Add(other.sample_);
           if (other.events_ != null) {
             if (events_ == null) {
               Events = new global::Proto.Events();
@@ -10621,10 +9994,6 @@ namespace Proto {
               case 50:
               case 48: {
                 damages_.AddEntriesFrom(input, _repeated_damages_codec);
-                break;
-              }
-              case 114: {
-                sample_.AddEntriesFrom(input, _repeated_sample_codec);
                 break;
               }
               case 122: {
@@ -10678,10 +10047,6 @@ namespace Proto {
                 damages_.AddEntriesFrom(ref input, _repeated_damages_codec);
                 break;
               }
-              case 114: {
-                sample_.AddEntriesFrom(ref input, _repeated_sample_codec);
-                break;
-              }
               case 122: {
                 if (events_ == null) {
                   Events = new global::Proto.Events();
@@ -10716,7 +10081,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11525,7 +10890,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -11760,7 +11125,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12032,7 +11397,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12365,7 +11730,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12401,9 +11766,6 @@ namespace Proto {
           break;
         case ResultOneofCase.HawkerCase:
           HawkerCase = other.HawkerCase.Clone();
-          break;
-        case ResultOneofCase.HarmonySkillCase:
-          HarmonySkillCase = other.HarmonySkillCase.Clone();
           break;
       }
 
@@ -12488,18 +11850,6 @@ namespace Proto {
       }
     }
 
-    /// <summary>Field number for the "HarmonySkillCase" field.</summary>
-    public const int HarmonySkillCaseFieldNumber = 6;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Proto.HarmonySkillCaseData HarmonySkillCase {
-      get { return resultCase_ == ResultOneofCase.HarmonySkillCase ? (global::Proto.HarmonySkillCaseData) result_ : null; }
-      set {
-        result_ = value;
-        resultCase_ = value == null ? ResultOneofCase.None : ResultOneofCase.HarmonySkillCase;
-      }
-    }
-
     private object result_;
     /// <summary>Enum of possible cases for the "Result" oneof.</summary>
     public enum ResultOneofCase {
@@ -12509,7 +11859,6 @@ namespace Proto {
       SelectPotentialCase = 3,
       SelectFateCardCase = 4,
       HawkerCase = 5,
-      HarmonySkillCase = 6,
     }
     private ResultOneofCase resultCase_ = ResultOneofCase.None;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -12546,7 +11895,6 @@ namespace Proto {
       if (!object.Equals(SelectPotentialCase, other.SelectPotentialCase)) return false;
       if (!object.Equals(SelectFateCardCase, other.SelectFateCardCase)) return false;
       if (!object.Equals(HawkerCase, other.HawkerCase)) return false;
-      if (!object.Equals(HarmonySkillCase, other.HarmonySkillCase)) return false;
       if (ResultCase != other.ResultCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -12561,7 +11909,6 @@ namespace Proto {
       if (resultCase_ == ResultOneofCase.SelectPotentialCase) hash ^= SelectPotentialCase.GetHashCode();
       if (resultCase_ == ResultOneofCase.SelectFateCardCase) hash ^= SelectFateCardCase.GetHashCode();
       if (resultCase_ == ResultOneofCase.HawkerCase) hash ^= HawkerCase.GetHashCode();
-      if (resultCase_ == ResultOneofCase.HarmonySkillCase) hash ^= HarmonySkillCase.GetHashCode();
       hash ^= (int) resultCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -12601,10 +11948,6 @@ namespace Proto {
         output.WriteRawTag(42);
         output.WriteMessage(HawkerCase);
       }
-      if (resultCase_ == ResultOneofCase.HarmonySkillCase) {
-        output.WriteRawTag(50);
-        output.WriteMessage(HarmonySkillCase);
-      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -12639,10 +11982,6 @@ namespace Proto {
         output.WriteRawTag(42);
         output.WriteMessage(HawkerCase);
       }
-      if (resultCase_ == ResultOneofCase.HarmonySkillCase) {
-        output.WriteRawTag(50);
-        output.WriteMessage(HarmonySkillCase);
-      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -12674,9 +12013,6 @@ namespace Proto {
       }
       if (resultCase_ == ResultOneofCase.HawkerCase) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(HawkerCase);
-      }
-      if (resultCase_ == ResultOneofCase.HarmonySkillCase) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(HarmonySkillCase);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -12723,12 +12059,6 @@ namespace Proto {
             HawkerCase = new global::Proto.HawkerCaseData();
           }
           HawkerCase.MergeFrom(other.HawkerCase);
-          break;
-        case ResultOneofCase.HarmonySkillCase:
-          if (HarmonySkillCase == null) {
-            HarmonySkillCase = new global::Proto.HarmonySkillCaseData();
-          }
-          HarmonySkillCase.MergeFrom(other.HarmonySkillCase);
           break;
       }
 
@@ -12794,15 +12124,6 @@ namespace Proto {
             }
             input.ReadMessage(subBuilder);
             HawkerCase = subBuilder;
-            break;
-          }
-          case 50: {
-            global::Proto.HarmonySkillCaseData subBuilder = new global::Proto.HarmonySkillCaseData();
-            if (resultCase_ == ResultOneofCase.HarmonySkillCase) {
-              subBuilder.MergeFrom(HarmonySkillCase);
-            }
-            input.ReadMessage(subBuilder);
-            HarmonySkillCase = subBuilder;
             break;
           }
           case 16378: {
@@ -12873,15 +12194,6 @@ namespace Proto {
             HawkerCase = subBuilder;
             break;
           }
-          case 50: {
-            global::Proto.HarmonySkillCaseData subBuilder = new global::Proto.HarmonySkillCaseData();
-            if (resultCase_ == ResultOneofCase.HarmonySkillCase) {
-              subBuilder.MergeFrom(HarmonySkillCase);
-            }
-            input.ReadMessage(subBuilder);
-            HarmonySkillCase = subBuilder;
-            break;
-          }
           case 16378: {
             NextPackage = input.ReadBytes();
             break;
@@ -12934,6 +12246,8 @@ namespace Proto {
           items_ = other.items_.Clone();
           optionsResult_ = other.optionsResult_;
           fateCard_ = other.fateCard_.Clone();
+          subNoteSkills_ = other.subNoteSkills_.Clone();
+          optionsParamId_ = other.optionsParamId_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -12977,6 +12291,29 @@ namespace Proto {
           get { return fateCard_; }
         }
 
+        /// <summary>Field number for the "SubNoteSkills" field.</summary>
+        public const int SubNoteSkillsFieldNumber = 4;
+        private static readonly pb::FieldCodec<global::Proto.SubNoteSkillInfo> _repeated_subNoteSkills_codec
+            = pb::FieldCodec.ForMessage(34, global::Proto.SubNoteSkillInfo.Parser);
+        private readonly pbc::RepeatedField<global::Proto.SubNoteSkillInfo> subNoteSkills_ = new pbc::RepeatedField<global::Proto.SubNoteSkillInfo>();
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public pbc::RepeatedField<global::Proto.SubNoteSkillInfo> SubNoteSkills {
+          get { return subNoteSkills_; }
+        }
+
+        /// <summary>Field number for the "OptionsParamId" field.</summary>
+        public const int OptionsParamIdFieldNumber = 5;
+        private uint optionsParamId_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+        public uint OptionsParamId {
+          get { return optionsParamId_; }
+          set {
+            optionsParamId_ = value;
+          }
+        }
+
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
@@ -12995,6 +12332,8 @@ namespace Proto {
           if(!items_.Equals(other.items_)) return false;
           if (OptionsResult != other.OptionsResult) return false;
           if(!fateCard_.Equals(other.fateCard_)) return false;
+          if(!subNoteSkills_.Equals(other.subNoteSkills_)) return false;
+          if (OptionsParamId != other.OptionsParamId) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -13005,6 +12344,8 @@ namespace Proto {
           hash ^= items_.GetHashCode();
           if (OptionsResult != false) hash ^= OptionsResult.GetHashCode();
           hash ^= fateCard_.GetHashCode();
+          hash ^= subNoteSkills_.GetHashCode();
+          if (OptionsParamId != 0) hash ^= OptionsParamId.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -13029,6 +12370,11 @@ namespace Proto {
             output.WriteBool(OptionsResult);
           }
           fateCard_.WriteTo(output, _repeated_fateCard_codec);
+          subNoteSkills_.WriteTo(output, _repeated_subNoteSkills_codec);
+          if (OptionsParamId != 0) {
+            output.WriteRawTag(40);
+            output.WriteUInt32(OptionsParamId);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -13045,6 +12391,11 @@ namespace Proto {
             output.WriteBool(OptionsResult);
           }
           fateCard_.WriteTo(ref output, _repeated_fateCard_codec);
+          subNoteSkills_.WriteTo(ref output, _repeated_subNoteSkills_codec);
+          if (OptionsParamId != 0) {
+            output.WriteRawTag(40);
+            output.WriteUInt32(OptionsParamId);
+          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -13060,6 +12411,10 @@ namespace Proto {
             size += 1 + 1;
           }
           size += fateCard_.CalculateSize(_repeated_fateCard_codec);
+          size += subNoteSkills_.CalculateSize(_repeated_subNoteSkills_codec);
+          if (OptionsParamId != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(OptionsParamId);
+          }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
           }
@@ -13077,6 +12432,10 @@ namespace Proto {
             OptionsResult = other.OptionsResult;
           }
           fateCard_.Add(other.fateCard_);
+          subNoteSkills_.Add(other.subNoteSkills_);
+          if (other.OptionsParamId != 0) {
+            OptionsParamId = other.OptionsParamId;
+          }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
 
@@ -13106,6 +12465,14 @@ namespace Proto {
               }
               case 26: {
                 fateCard_.AddEntriesFrom(input, _repeated_fateCard_codec);
+                break;
+              }
+              case 34: {
+                subNoteSkills_.AddEntriesFrom(input, _repeated_subNoteSkills_codec);
+                break;
+              }
+              case 40: {
+                OptionsParamId = input.ReadUInt32();
                 break;
               }
             }
@@ -13139,6 +12506,14 @@ namespace Proto {
                 fateCard_.AddEntriesFrom(ref input, _repeated_fateCard_codec);
                 break;
               }
+              case 34: {
+                subNoteSkills_.AddEntriesFrom(ref input, _repeated_subNoteSkills_codec);
+                break;
+              }
+              case 40: {
+                OptionsParamId = input.ReadUInt32();
+                break;
+              }
             }
           }
         }
@@ -13166,7 +12541,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13512,7 +12887,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -13770,278 +13145,6 @@ namespace Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class NoteInfo : pb::IMessage<NoteInfo>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<NoteInfo> _parser = new pb::MessageParser<NoteInfo>(() => new NoteInfo());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<NoteInfo> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[35]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public NoteInfo() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public NoteInfo(NoteInfo other) : this() {
-      tid_ = other.tid_;
-      qty_ = other.qty_;
-      nextPackage_ = other.nextPackage_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public NoteInfo Clone() {
-      return new NoteInfo(this);
-    }
-
-    /// <summary>Field number for the "Tid" field.</summary>
-    public const int TidFieldNumber = 1;
-    private uint tid_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint Tid {
-      get { return tid_; }
-      set {
-        tid_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "Qty" field.</summary>
-    public const int QtyFieldNumber = 2;
-    private int qty_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int Qty {
-      get { return qty_; }
-      set {
-        qty_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "NextPackage" field.</summary>
-    public const int NextPackageFieldNumber = 2047;
-    private pb::ByteString nextPackage_ = pb::ByteString.Empty;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pb::ByteString NextPackage {
-      get { return nextPackage_; }
-      set {
-        nextPackage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as NoteInfo);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(NoteInfo other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Tid != other.Tid) return false;
-      if (Qty != other.Qty) return false;
-      if (NextPackage != other.NextPackage) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Tid != 0) hash ^= Tid.GetHashCode();
-      if (Qty != 0) hash ^= Qty.GetHashCode();
-      if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Tid != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(Tid);
-      }
-      if (Qty != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Qty);
-      }
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Tid != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(Tid);
-      }
-      if (Qty != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Qty);
-      }
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Tid != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Tid);
-      }
-      if (Qty != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Qty);
-      }
-      if (NextPackage.Length != 0) {
-        size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(NoteInfo other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Tid != 0) {
-        Tid = other.Tid;
-      }
-      if (other.Qty != 0) {
-        Qty = other.Qty;
-      }
-      if (other.NextPackage.Length != 0) {
-        NextPackage = other.NextPackage;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Tid = input.ReadUInt32();
-            break;
-          }
-          case 16: {
-            Qty = input.ReadInt32();
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            Tid = input.ReadUInt32();
-            break;
-          }
-          case 16: {
-            Qty = input.ReadInt32();
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TowerItemInfo : pb::IMessage<TowerItemInfo>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -14056,7 +13159,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14328,7 +13431,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14586,21 +13689,21 @@ namespace Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class SelectNote : pb::IMessage<SelectNote>
+  public sealed partial class SubNoteSkillInfo : pb::IMessage<SubNoteSkillInfo>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
   #endif
   {
-    private static readonly pb::MessageParser<SelectNote> _parser = new pb::MessageParser<SelectNote>(() => new SelectNote());
+    private static readonly pb::MessageParser<SubNoteSkillInfo> _parser = new pb::MessageParser<SubNoteSkillInfo>(() => new SubNoteSkillInfo());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<SelectNote> Parser { get { return _parser; } }
+    public static pb::MessageParser<SubNoteSkillInfo> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14611,7 +13714,7 @@ namespace Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SelectNote() {
+    public SubNoteSkillInfo() {
       OnConstruction();
     }
 
@@ -14619,64 +13722,67 @@ namespace Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SelectNote(SelectNote other) : this() {
-      idx_ = other.idx_;
-      list_ = other.list_.Clone();
-      final_ = other.final_.Clone();
-      bonus_ = other.bonus_.Clone();
+    public SubNoteSkillInfo(SubNoteSkillInfo other) : this() {
+      tid_ = other.tid_;
+      qty_ = other.qty_;
+      new_ = other.new_;
+      luckyLevel_ = other.luckyLevel_;
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public SelectNote Clone() {
-      return new SelectNote(this);
+    public SubNoteSkillInfo Clone() {
+      return new SubNoteSkillInfo(this);
     }
 
-    /// <summary>Field number for the "Idx" field.</summary>
-    public const int IdxFieldNumber = 1;
-    private uint idx_;
+    /// <summary>Field number for the "Tid" field.</summary>
+    public const int TidFieldNumber = 1;
+    private uint tid_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint Idx {
-      get { return idx_; }
+    public uint Tid {
+      get { return tid_; }
       set {
-        idx_ = value;
+        tid_ = value;
       }
     }
 
-    /// <summary>Field number for the "List" field.</summary>
-    public const int ListFieldNumber = 2;
-    private static readonly pb::FieldCodec<uint> _repeated_list_codec
-        = pb::FieldCodec.ForUInt32(18);
-    private readonly pbc::RepeatedField<uint> list_ = new pbc::RepeatedField<uint>();
+    /// <summary>Field number for the "Qty" field.</summary>
+    public const int QtyFieldNumber = 2;
+    private int qty_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> List {
-      get { return list_; }
+    public int Qty {
+      get { return qty_; }
+      set {
+        qty_ = value;
+      }
     }
 
-    /// <summary>Field number for the "Final" field.</summary>
-    public const int FinalFieldNumber = 3;
-    private static readonly pb::FieldCodec<uint> _repeated_final_codec
-        = pb::FieldCodec.ForUInt32(26);
-    private readonly pbc::RepeatedField<uint> final_ = new pbc::RepeatedField<uint>();
+    /// <summary>Field number for the "New" field.</summary>
+    public const int NewFieldNumber = 3;
+    private bool new_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> Final {
-      get { return final_; }
+    public bool New {
+      get { return new_; }
+      set {
+        new_ = value;
+      }
     }
 
-    /// <summary>Field number for the "Bonus" field.</summary>
-    public const int BonusFieldNumber = 4;
-    private static readonly pb::FieldCodec<uint> _repeated_bonus_codec
-        = pb::FieldCodec.ForUInt32(34);
-    private readonly pbc::RepeatedField<uint> bonus_ = new pbc::RepeatedField<uint>();
+    /// <summary>Field number for the "LuckyLevel" field.</summary>
+    public const int LuckyLevelFieldNumber = 4;
+    private uint luckyLevel_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> Bonus {
-      get { return bonus_; }
+    public uint LuckyLevel {
+      get { return luckyLevel_; }
+      set {
+        luckyLevel_ = value;
+      }
     }
 
     /// <summary>Field number for the "NextPackage" field.</summary>
@@ -14694,22 +13800,22 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
-      return Equals(other as SelectNote);
+      return Equals(other as SubNoteSkillInfo);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(SelectNote other) {
+    public bool Equals(SubNoteSkillInfo other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (Idx != other.Idx) return false;
-      if(!list_.Equals(other.list_)) return false;
-      if(!final_.Equals(other.final_)) return false;
-      if(!bonus_.Equals(other.bonus_)) return false;
+      if (Tid != other.Tid) return false;
+      if (Qty != other.Qty) return false;
+      if (New != other.New) return false;
+      if (LuckyLevel != other.LuckyLevel) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -14718,10 +13824,10 @@ namespace Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (Idx != 0) hash ^= Idx.GetHashCode();
-      hash ^= list_.GetHashCode();
-      hash ^= final_.GetHashCode();
-      hash ^= bonus_.GetHashCode();
+      if (Tid != 0) hash ^= Tid.GetHashCode();
+      if (Qty != 0) hash ^= Qty.GetHashCode();
+      if (New != false) hash ^= New.GetHashCode();
+      if (LuckyLevel != 0) hash ^= LuckyLevel.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -14741,13 +13847,22 @@ namespace Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (Idx != 0) {
+      if (Tid != 0) {
         output.WriteRawTag(8);
-        output.WriteUInt32(Idx);
+        output.WriteUInt32(Tid);
       }
-      list_.WriteTo(output, _repeated_list_codec);
-      final_.WriteTo(output, _repeated_final_codec);
-      bonus_.WriteTo(output, _repeated_bonus_codec);
+      if (Qty != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Qty);
+      }
+      if (New != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(New);
+      }
+      if (LuckyLevel != 0) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(LuckyLevel);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -14762,13 +13877,22 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Idx != 0) {
+      if (Tid != 0) {
         output.WriteRawTag(8);
-        output.WriteUInt32(Idx);
+        output.WriteUInt32(Tid);
       }
-      list_.WriteTo(ref output, _repeated_list_codec);
-      final_.WriteTo(ref output, _repeated_final_codec);
-      bonus_.WriteTo(ref output, _repeated_bonus_codec);
+      if (Qty != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Qty);
+      }
+      if (New != false) {
+        output.WriteRawTag(24);
+        output.WriteBool(New);
+      }
+      if (LuckyLevel != 0) {
+        output.WriteRawTag(32);
+        output.WriteUInt32(LuckyLevel);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -14783,12 +13907,18 @@ namespace Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (Idx != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Idx);
+      if (Tid != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Tid);
       }
-      size += list_.CalculateSize(_repeated_list_codec);
-      size += final_.CalculateSize(_repeated_final_codec);
-      size += bonus_.CalculateSize(_repeated_bonus_codec);
+      if (Qty != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Qty);
+      }
+      if (New != false) {
+        size += 1 + 1;
+      }
+      if (LuckyLevel != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(LuckyLevel);
+      }
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
       }
@@ -14800,16 +13930,22 @@ namespace Proto {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(SelectNote other) {
+    public void MergeFrom(SubNoteSkillInfo other) {
       if (other == null) {
         return;
       }
-      if (other.Idx != 0) {
-        Idx = other.Idx;
+      if (other.Tid != 0) {
+        Tid = other.Tid;
       }
-      list_.Add(other.list_);
-      final_.Add(other.final_);
-      bonus_.Add(other.bonus_);
+      if (other.Qty != 0) {
+        Qty = other.Qty;
+      }
+      if (other.New != false) {
+        New = other.New;
+      }
+      if (other.LuckyLevel != 0) {
+        LuckyLevel = other.LuckyLevel;
+      }
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
       }
@@ -14833,22 +13969,19 @@ namespace Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            Idx = input.ReadUInt32();
+            Tid = input.ReadUInt32();
             break;
           }
-          case 18:
           case 16: {
-            list_.AddEntriesFrom(input, _repeated_list_codec);
+            Qty = input.ReadInt32();
             break;
           }
-          case 26:
           case 24: {
-            final_.AddEntriesFrom(input, _repeated_final_codec);
+            New = input.ReadBool();
             break;
           }
-          case 34:
           case 32: {
-            bonus_.AddEntriesFrom(input, _repeated_bonus_codec);
+            LuckyLevel = input.ReadUInt32();
             break;
           }
           case 16378: {
@@ -14875,22 +14008,19 @@ namespace Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            Idx = input.ReadUInt32();
+            Tid = input.ReadUInt32();
             break;
           }
-          case 18:
           case 16: {
-            list_.AddEntriesFrom(ref input, _repeated_list_codec);
+            Qty = input.ReadInt32();
             break;
           }
-          case 26:
           case 24: {
-            final_.AddEntriesFrom(ref input, _repeated_final_codec);
+            New = input.ReadBool();
             break;
           }
-          case 34:
           case 32: {
-            bonus_.AddEntriesFrom(ref input, _repeated_bonus_codec);
+            LuckyLevel = input.ReadUInt32();
             break;
           }
           case 16378: {
@@ -14919,7 +14049,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -14941,13 +14071,6 @@ namespace Proto {
     public SettleDataResp(SettleDataResp other) : this() {
       change_ = other.change_ != null ? other.change_.Clone() : null;
       build_ = other.build_ != null ? other.build_.Clone() : null;
-      token_ = other.token_;
-      baseScore_ = other.baseScore_;
-      timeScore_ = other.timeScore_;
-      finalScore_ = other.finalScore_;
-      old_ = other.old_;
-      new_ = other.new_;
-      rankTimes_ = other.rankTimes_;
       totalTime_ = other.totalTime_;
       totalDamages_ = other.totalDamages_.Clone();
       nextPackage_ = other.nextPackage_;
@@ -14981,90 +14104,6 @@ namespace Proto {
       get { return build_; }
       set {
         build_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "Token" field.</summary>
-    public const int TokenFieldNumber = 7;
-    private string token_ = "";
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public string Token {
-      get { return token_; }
-      set {
-        token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    /// <summary>Field number for the "BaseScore" field.</summary>
-    public const int BaseScoreFieldNumber = 8;
-    private uint baseScore_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint BaseScore {
-      get { return baseScore_; }
-      set {
-        baseScore_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "TimeScore" field.</summary>
-    public const int TimeScoreFieldNumber = 9;
-    private uint timeScore_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint TimeScore {
-      get { return timeScore_; }
-      set {
-        timeScore_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "FinalScore" field.</summary>
-    public const int FinalScoreFieldNumber = 10;
-    private uint finalScore_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint FinalScore {
-      get { return finalScore_; }
-      set {
-        finalScore_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "Old" field.</summary>
-    public const int OldFieldNumber = 11;
-    private uint old_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint Old {
-      get { return old_; }
-      set {
-        old_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "New" field.</summary>
-    public const int NewFieldNumber = 12;
-    private uint new_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint New {
-      get { return new_; }
-      set {
-        new_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "RankTimes" field.</summary>
-    public const int RankTimesFieldNumber = 13;
-    private uint rankTimes_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint RankTimes {
-      get { return rankTimes_; }
-      set {
-        rankTimes_ = value;
       }
     }
 
@@ -15120,13 +14159,6 @@ namespace Proto {
       }
       if (!object.Equals(Change, other.Change)) return false;
       if (!object.Equals(Build, other.Build)) return false;
-      if (Token != other.Token) return false;
-      if (BaseScore != other.BaseScore) return false;
-      if (TimeScore != other.TimeScore) return false;
-      if (FinalScore != other.FinalScore) return false;
-      if (Old != other.Old) return false;
-      if (New != other.New) return false;
-      if (RankTimes != other.RankTimes) return false;
       if (TotalTime != other.TotalTime) return false;
       if(!totalDamages_.Equals(other.totalDamages_)) return false;
       if (NextPackage != other.NextPackage) return false;
@@ -15139,13 +14171,6 @@ namespace Proto {
       int hash = 1;
       if (change_ != null) hash ^= Change.GetHashCode();
       if (build_ != null) hash ^= Build.GetHashCode();
-      if (Token.Length != 0) hash ^= Token.GetHashCode();
-      if (BaseScore != 0) hash ^= BaseScore.GetHashCode();
-      if (TimeScore != 0) hash ^= TimeScore.GetHashCode();
-      if (FinalScore != 0) hash ^= FinalScore.GetHashCode();
-      if (Old != 0) hash ^= Old.GetHashCode();
-      if (New != 0) hash ^= New.GetHashCode();
-      if (RankTimes != 0) hash ^= RankTimes.GetHashCode();
       if (TotalTime != 0) hash ^= TotalTime.GetHashCode();
       hash ^= totalDamages_.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
@@ -15175,34 +14200,6 @@ namespace Proto {
         output.WriteRawTag(18);
         output.WriteMessage(Build);
       }
-      if (Token.Length != 0) {
-        output.WriteRawTag(58);
-        output.WriteString(Token);
-      }
-      if (BaseScore != 0) {
-        output.WriteRawTag(64);
-        output.WriteUInt32(BaseScore);
-      }
-      if (TimeScore != 0) {
-        output.WriteRawTag(72);
-        output.WriteUInt32(TimeScore);
-      }
-      if (FinalScore != 0) {
-        output.WriteRawTag(80);
-        output.WriteUInt32(FinalScore);
-      }
-      if (Old != 0) {
-        output.WriteRawTag(88);
-        output.WriteUInt32(Old);
-      }
-      if (New != 0) {
-        output.WriteRawTag(96);
-        output.WriteUInt32(New);
-      }
-      if (RankTimes != 0) {
-        output.WriteRawTag(104);
-        output.WriteUInt32(RankTimes);
-      }
       if (TotalTime != 0) {
         output.WriteRawTag(112);
         output.WriteUInt32(TotalTime);
@@ -15230,34 +14227,6 @@ namespace Proto {
         output.WriteRawTag(18);
         output.WriteMessage(Build);
       }
-      if (Token.Length != 0) {
-        output.WriteRawTag(58);
-        output.WriteString(Token);
-      }
-      if (BaseScore != 0) {
-        output.WriteRawTag(64);
-        output.WriteUInt32(BaseScore);
-      }
-      if (TimeScore != 0) {
-        output.WriteRawTag(72);
-        output.WriteUInt32(TimeScore);
-      }
-      if (FinalScore != 0) {
-        output.WriteRawTag(80);
-        output.WriteUInt32(FinalScore);
-      }
-      if (Old != 0) {
-        output.WriteRawTag(88);
-        output.WriteUInt32(Old);
-      }
-      if (New != 0) {
-        output.WriteRawTag(96);
-        output.WriteUInt32(New);
-      }
-      if (RankTimes != 0) {
-        output.WriteRawTag(104);
-        output.WriteUInt32(RankTimes);
-      }
       if (TotalTime != 0) {
         output.WriteRawTag(112);
         output.WriteUInt32(TotalTime);
@@ -15282,27 +14251,6 @@ namespace Proto {
       }
       if (build_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Build);
-      }
-      if (Token.Length != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
-      }
-      if (BaseScore != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(BaseScore);
-      }
-      if (TimeScore != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TimeScore);
-      }
-      if (FinalScore != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(FinalScore);
-      }
-      if (Old != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Old);
-      }
-      if (New != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(New);
-      }
-      if (RankTimes != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(RankTimes);
       }
       if (TotalTime != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TotalTime);
@@ -15334,27 +14282,6 @@ namespace Proto {
           Build = new global::Proto.StarTowerBuildInfo();
         }
         Build.MergeFrom(other.Build);
-      }
-      if (other.Token.Length != 0) {
-        Token = other.Token;
-      }
-      if (other.BaseScore != 0) {
-        BaseScore = other.BaseScore;
-      }
-      if (other.TimeScore != 0) {
-        TimeScore = other.TimeScore;
-      }
-      if (other.FinalScore != 0) {
-        FinalScore = other.FinalScore;
-      }
-      if (other.Old != 0) {
-        Old = other.Old;
-      }
-      if (other.New != 0) {
-        New = other.New;
-      }
-      if (other.RankTimes != 0) {
-        RankTimes = other.RankTimes;
       }
       if (other.TotalTime != 0) {
         TotalTime = other.TotalTime;
@@ -15394,34 +14321,6 @@ namespace Proto {
               Build = new global::Proto.StarTowerBuildInfo();
             }
             input.ReadMessage(Build);
-            break;
-          }
-          case 58: {
-            Token = input.ReadString();
-            break;
-          }
-          case 64: {
-            BaseScore = input.ReadUInt32();
-            break;
-          }
-          case 72: {
-            TimeScore = input.ReadUInt32();
-            break;
-          }
-          case 80: {
-            FinalScore = input.ReadUInt32();
-            break;
-          }
-          case 88: {
-            Old = input.ReadUInt32();
-            break;
-          }
-          case 96: {
-            New = input.ReadUInt32();
-            break;
-          }
-          case 104: {
-            RankTimes = input.ReadUInt32();
             break;
           }
           case 112: {
@@ -15470,34 +14369,6 @@ namespace Proto {
             input.ReadMessage(Build);
             break;
           }
-          case 58: {
-            Token = input.ReadString();
-            break;
-          }
-          case 64: {
-            BaseScore = input.ReadUInt32();
-            break;
-          }
-          case 72: {
-            TimeScore = input.ReadUInt32();
-            break;
-          }
-          case 80: {
-            FinalScore = input.ReadUInt32();
-            break;
-          }
-          case 88: {
-            Old = input.ReadUInt32();
-            break;
-          }
-          case 96: {
-            New = input.ReadUInt32();
-            break;
-          }
-          case 104: {
-            RankTimes = input.ReadUInt32();
-            break;
-          }
           case 112: {
             TotalTime = input.ReadUInt32();
             break;
@@ -15505,313 +14376,6 @@ namespace Proto {
           case 122:
           case 120: {
             totalDamages_.AddEntriesFrom(ref input, _repeated_totalDamages_codec);
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class BuildDisc : pb::IMessage<BuildDisc>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<BuildDisc> _parser = new pb::MessageParser<BuildDisc>(() => new BuildDisc());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<BuildDisc> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[40]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public BuildDisc() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public BuildDisc(BuildDisc other) : this() {
-      discId_ = other.discId_;
-      commonSkills_ = other.commonSkills_.Clone();
-      passiveSkill_ = other.passiveSkill_ != null ? other.passiveSkill_.Clone() : null;
-      nextPackage_ = other.nextPackage_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public BuildDisc Clone() {
-      return new BuildDisc(this);
-    }
-
-    /// <summary>Field number for the "DiscId" field.</summary>
-    public const int DiscIdFieldNumber = 1;
-    private uint discId_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint DiscId {
-      get { return discId_; }
-      set {
-        discId_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "CommonSkills" field.</summary>
-    public const int CommonSkillsFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::Proto.DiscSkillInfo> _repeated_commonSkills_codec
-        = pb::FieldCodec.ForMessage(18, global::Proto.DiscSkillInfo.Parser);
-    private readonly pbc::RepeatedField<global::Proto.DiscSkillInfo> commonSkills_ = new pbc::RepeatedField<global::Proto.DiscSkillInfo>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::Proto.DiscSkillInfo> CommonSkills {
-      get { return commonSkills_; }
-    }
-
-    /// <summary>Field number for the "PassiveSkill" field.</summary>
-    public const int PassiveSkillFieldNumber = 3;
-    private global::Proto.DiscSkillInfo passiveSkill_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::Proto.DiscSkillInfo PassiveSkill {
-      get { return passiveSkill_; }
-      set {
-        passiveSkill_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "NextPackage" field.</summary>
-    public const int NextPackageFieldNumber = 2047;
-    private pb::ByteString nextPackage_ = pb::ByteString.Empty;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pb::ByteString NextPackage {
-      get { return nextPackage_; }
-      set {
-        nextPackage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as BuildDisc);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(BuildDisc other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (DiscId != other.DiscId) return false;
-      if(!commonSkills_.Equals(other.commonSkills_)) return false;
-      if (!object.Equals(PassiveSkill, other.PassiveSkill)) return false;
-      if (NextPackage != other.NextPackage) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (DiscId != 0) hash ^= DiscId.GetHashCode();
-      hash ^= commonSkills_.GetHashCode();
-      if (passiveSkill_ != null) hash ^= PassiveSkill.GetHashCode();
-      if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (DiscId != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(DiscId);
-      }
-      commonSkills_.WriteTo(output, _repeated_commonSkills_codec);
-      if (passiveSkill_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(PassiveSkill);
-      }
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (DiscId != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(DiscId);
-      }
-      commonSkills_.WriteTo(ref output, _repeated_commonSkills_codec);
-      if (passiveSkill_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(PassiveSkill);
-      }
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (DiscId != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(DiscId);
-      }
-      size += commonSkills_.CalculateSize(_repeated_commonSkills_codec);
-      if (passiveSkill_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PassiveSkill);
-      }
-      if (NextPackage.Length != 0) {
-        size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(BuildDisc other) {
-      if (other == null) {
-        return;
-      }
-      if (other.DiscId != 0) {
-        DiscId = other.DiscId;
-      }
-      commonSkills_.Add(other.commonSkills_);
-      if (other.passiveSkill_ != null) {
-        if (passiveSkill_ == null) {
-          PassiveSkill = new global::Proto.DiscSkillInfo();
-        }
-        PassiveSkill.MergeFrom(other.PassiveSkill);
-      }
-      if (other.NextPackage.Length != 0) {
-        NextPackage = other.NextPackage;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            DiscId = input.ReadUInt32();
-            break;
-          }
-          case 18: {
-            commonSkills_.AddEntriesFrom(input, _repeated_commonSkills_codec);
-            break;
-          }
-          case 26: {
-            if (passiveSkill_ == null) {
-              PassiveSkill = new global::Proto.DiscSkillInfo();
-            }
-            input.ReadMessage(PassiveSkill);
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            DiscId = input.ReadUInt32();
-            break;
-          }
-          case 18: {
-            commonSkills_.AddEntriesFrom(ref input, _repeated_commonSkills_codec);
-            break;
-          }
-          case 26: {
-            if (passiveSkill_ == null) {
-              PassiveSkill = new global::Proto.DiscSkillInfo();
-            }
-            input.ReadMessage(PassiveSkill);
             break;
           }
           case 16378: {
@@ -15840,7 +14404,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[41]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16112,7 +14676,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[42]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16384,7 +14948,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[43]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16711,7 +15275,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[44]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -16738,6 +15302,7 @@ namespace Proto {
       score_ = other.score_;
       discIds_ = other.discIds_.Clone();
       chars_ = other.chars_.Clone();
+      starTowerId_ = other.starTowerId_;
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -16830,6 +15395,18 @@ namespace Proto {
       get { return chars_; }
     }
 
+    /// <summary>Field number for the "StarTowerId" field.</summary>
+    public const int StarTowerIdFieldNumber = 8;
+    private uint starTowerId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint StarTowerId {
+      get { return starTowerId_; }
+      set {
+        starTowerId_ = value;
+      }
+    }
+
     /// <summary>Field number for the "NextPackage" field.</summary>
     public const int NextPackageFieldNumber = 2047;
     private pb::ByteString nextPackage_ = pb::ByteString.Empty;
@@ -16864,6 +15441,7 @@ namespace Proto {
       if (Score != other.Score) return false;
       if(!discIds_.Equals(other.discIds_)) return false;
       if(!chars_.Equals(other.chars_)) return false;
+      if (StarTowerId != other.StarTowerId) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -16879,6 +15457,7 @@ namespace Proto {
       if (Score != 0) hash ^= Score.GetHashCode();
       hash ^= discIds_.GetHashCode();
       hash ^= chars_.GetHashCode();
+      if (StarTowerId != 0) hash ^= StarTowerId.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -16920,6 +15499,10 @@ namespace Proto {
       }
       discIds_.WriteTo(output, _repeated_discIds_codec);
       chars_.WriteTo(output, _repeated_chars_codec);
+      if (StarTowerId != 0) {
+        output.WriteRawTag(64);
+        output.WriteUInt32(StarTowerId);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -16956,6 +15539,10 @@ namespace Proto {
       }
       discIds_.WriteTo(ref output, _repeated_discIds_codec);
       chars_.WriteTo(ref output, _repeated_chars_codec);
+      if (StarTowerId != 0) {
+        output.WriteRawTag(64);
+        output.WriteUInt32(StarTowerId);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -16987,6 +15574,9 @@ namespace Proto {
       }
       size += discIds_.CalculateSize(_repeated_discIds_codec);
       size += chars_.CalculateSize(_repeated_chars_codec);
+      if (StarTowerId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(StarTowerId);
+      }
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
       }
@@ -17019,6 +15609,9 @@ namespace Proto {
       }
       discIds_.Add(other.discIds_);
       chars_.Add(other.chars_);
+      if (other.StarTowerId != 0) {
+        StarTowerId = other.StarTowerId;
+      }
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
       }
@@ -17068,6 +15661,10 @@ namespace Proto {
           }
           case 58: {
             chars_.AddEntriesFrom(input, _repeated_chars_codec);
+            break;
+          }
+          case 64: {
+            StarTowerId = input.ReadUInt32();
             break;
           }
           case 16378: {
@@ -17122,6 +15719,10 @@ namespace Proto {
             chars_.AddEntriesFrom(ref input, _repeated_chars_codec);
             break;
           }
+          case 64: {
+            StarTowerId = input.ReadUInt32();
+            break;
+          }
           case 16378: {
             NextPackage = input.ReadBytes();
             break;
@@ -17148,7 +15749,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[45]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17168,10 +15769,9 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public StarTowerBuildDetail(StarTowerBuildDetail other) : this() {
-      discs_ = other.discs_.Clone();
       potentials_ = other.potentials_.Clone();
-      notes_ = other.notes_.Clone();
-      harmonySkillIds_ = other.harmonySkillIds_.Clone();
+      subNoteSkills_ = other.subNoteSkills_.Clone();
+      activeSecondaryIds_ = other.activeSecondaryIds_.Clone();
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -17182,21 +15782,10 @@ namespace Proto {
       return new StarTowerBuildDetail(this);
     }
 
-    /// <summary>Field number for the "Discs" field.</summary>
-    public const int DiscsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::Proto.BuildDisc> _repeated_discs_codec
-        = pb::FieldCodec.ForMessage(10, global::Proto.BuildDisc.Parser);
-    private readonly pbc::RepeatedField<global::Proto.BuildDisc> discs_ = new pbc::RepeatedField<global::Proto.BuildDisc>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::Proto.BuildDisc> Discs {
-      get { return discs_; }
-    }
-
     /// <summary>Field number for the "Potentials" field.</summary>
-    public const int PotentialsFieldNumber = 2;
+    public const int PotentialsFieldNumber = 1;
     private static readonly pb::FieldCodec<global::Proto.BuildPotential> _repeated_potentials_codec
-        = pb::FieldCodec.ForMessage(18, global::Proto.BuildPotential.Parser);
+        = pb::FieldCodec.ForMessage(10, global::Proto.BuildPotential.Parser);
     private readonly pbc::RepeatedField<global::Proto.BuildPotential> potentials_ = new pbc::RepeatedField<global::Proto.BuildPotential>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -17204,26 +15793,26 @@ namespace Proto {
       get { return potentials_; }
     }
 
-    /// <summary>Field number for the "Notes" field.</summary>
-    public const int NotesFieldNumber = 3;
-    private static readonly pb::FieldCodec<uint> _repeated_notes_codec
-        = pb::FieldCodec.ForUInt32(26);
-    private readonly pbc::RepeatedField<uint> notes_ = new pbc::RepeatedField<uint>();
+    /// <summary>Field number for the "SubNoteSkills" field.</summary>
+    public const int SubNoteSkillsFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Proto.ItemTpl> _repeated_subNoteSkills_codec
+        = pb::FieldCodec.ForMessage(18, global::Proto.ItemTpl.Parser);
+    private readonly pbc::RepeatedField<global::Proto.ItemTpl> subNoteSkills_ = new pbc::RepeatedField<global::Proto.ItemTpl>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> Notes {
-      get { return notes_; }
+    public pbc::RepeatedField<global::Proto.ItemTpl> SubNoteSkills {
+      get { return subNoteSkills_; }
     }
 
-    /// <summary>Field number for the "HarmonySkillIds" field.</summary>
-    public const int HarmonySkillIdsFieldNumber = 4;
-    private static readonly pb::FieldCodec<uint> _repeated_harmonySkillIds_codec
-        = pb::FieldCodec.ForUInt32(34);
-    private readonly pbc::RepeatedField<uint> harmonySkillIds_ = new pbc::RepeatedField<uint>();
+    /// <summary>Field number for the "ActiveSecondaryIds" field.</summary>
+    public const int ActiveSecondaryIdsFieldNumber = 3;
+    private static readonly pb::FieldCodec<uint> _repeated_activeSecondaryIds_codec
+        = pb::FieldCodec.ForUInt32(26);
+    private readonly pbc::RepeatedField<uint> activeSecondaryIds_ = new pbc::RepeatedField<uint>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> HarmonySkillIds {
-      get { return harmonySkillIds_; }
+    public pbc::RepeatedField<uint> ActiveSecondaryIds {
+      get { return activeSecondaryIds_; }
     }
 
     /// <summary>Field number for the "NextPackage" field.</summary>
@@ -17253,10 +15842,9 @@ namespace Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!discs_.Equals(other.discs_)) return false;
       if(!potentials_.Equals(other.potentials_)) return false;
-      if(!notes_.Equals(other.notes_)) return false;
-      if(!harmonySkillIds_.Equals(other.harmonySkillIds_)) return false;
+      if(!subNoteSkills_.Equals(other.subNoteSkills_)) return false;
+      if(!activeSecondaryIds_.Equals(other.activeSecondaryIds_)) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -17265,10 +15853,9 @@ namespace Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= discs_.GetHashCode();
       hash ^= potentials_.GetHashCode();
-      hash ^= notes_.GetHashCode();
-      hash ^= harmonySkillIds_.GetHashCode();
+      hash ^= subNoteSkills_.GetHashCode();
+      hash ^= activeSecondaryIds_.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -17288,10 +15875,9 @@ namespace Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      discs_.WriteTo(output, _repeated_discs_codec);
       potentials_.WriteTo(output, _repeated_potentials_codec);
-      notes_.WriteTo(output, _repeated_notes_codec);
-      harmonySkillIds_.WriteTo(output, _repeated_harmonySkillIds_codec);
+      subNoteSkills_.WriteTo(output, _repeated_subNoteSkills_codec);
+      activeSecondaryIds_.WriteTo(output, _repeated_activeSecondaryIds_codec);
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -17306,10 +15892,9 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      discs_.WriteTo(ref output, _repeated_discs_codec);
       potentials_.WriteTo(ref output, _repeated_potentials_codec);
-      notes_.WriteTo(ref output, _repeated_notes_codec);
-      harmonySkillIds_.WriteTo(ref output, _repeated_harmonySkillIds_codec);
+      subNoteSkills_.WriteTo(ref output, _repeated_subNoteSkills_codec);
+      activeSecondaryIds_.WriteTo(ref output, _repeated_activeSecondaryIds_codec);
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -17324,10 +15909,9 @@ namespace Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      size += discs_.CalculateSize(_repeated_discs_codec);
       size += potentials_.CalculateSize(_repeated_potentials_codec);
-      size += notes_.CalculateSize(_repeated_notes_codec);
-      size += harmonySkillIds_.CalculateSize(_repeated_harmonySkillIds_codec);
+      size += subNoteSkills_.CalculateSize(_repeated_subNoteSkills_codec);
+      size += activeSecondaryIds_.CalculateSize(_repeated_activeSecondaryIds_codec);
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
       }
@@ -17343,10 +15927,9 @@ namespace Proto {
       if (other == null) {
         return;
       }
-      discs_.Add(other.discs_);
       potentials_.Add(other.potentials_);
-      notes_.Add(other.notes_);
-      harmonySkillIds_.Add(other.harmonySkillIds_);
+      subNoteSkills_.Add(other.subNoteSkills_);
+      activeSecondaryIds_.Add(other.activeSecondaryIds_);
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
       }
@@ -17370,21 +15953,16 @@ namespace Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            discs_.AddEntriesFrom(input, _repeated_discs_codec);
+            potentials_.AddEntriesFrom(input, _repeated_potentials_codec);
             break;
           }
           case 18: {
-            potentials_.AddEntriesFrom(input, _repeated_potentials_codec);
+            subNoteSkills_.AddEntriesFrom(input, _repeated_subNoteSkills_codec);
             break;
           }
           case 26:
           case 24: {
-            notes_.AddEntriesFrom(input, _repeated_notes_codec);
-            break;
-          }
-          case 34:
-          case 32: {
-            harmonySkillIds_.AddEntriesFrom(input, _repeated_harmonySkillIds_codec);
+            activeSecondaryIds_.AddEntriesFrom(input, _repeated_activeSecondaryIds_codec);
             break;
           }
           case 16378: {
@@ -17411,21 +15989,16 @@ namespace Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            discs_.AddEntriesFrom(ref input, _repeated_discs_codec);
+            potentials_.AddEntriesFrom(ref input, _repeated_potentials_codec);
             break;
           }
           case 18: {
-            potentials_.AddEntriesFrom(ref input, _repeated_potentials_codec);
+            subNoteSkills_.AddEntriesFrom(ref input, _repeated_subNoteSkills_codec);
             break;
           }
           case 26:
           case 24: {
-            notes_.AddEntriesFrom(ref input, _repeated_notes_codec);
-            break;
-          }
-          case 34:
-          case 32: {
-            harmonySkillIds_.AddEntriesFrom(ref input, _repeated_harmonySkillIds_codec);
+            activeSecondaryIds_.AddEntriesFrom(ref input, _repeated_activeSecondaryIds_codec);
             break;
           }
           case 16378: {
@@ -17454,7 +16027,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[46]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[42]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17726,7 +16299,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[47]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[43]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -17998,7 +16571,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[48]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18245,278 +16818,6 @@ namespace Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class DiscSkillInfo : pb::IMessage<DiscSkillInfo>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<DiscSkillInfo> _parser = new pb::MessageParser<DiscSkillInfo>(() => new DiscSkillInfo());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<DiscSkillInfo> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[49]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DiscSkillInfo() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DiscSkillInfo(DiscSkillInfo other) : this() {
-      id_ = other.id_;
-      level_ = other.level_;
-      nextPackage_ = other.nextPackage_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public DiscSkillInfo Clone() {
-      return new DiscSkillInfo(this);
-    }
-
-    /// <summary>Field number for the "Id" field.</summary>
-    public const int IdFieldNumber = 1;
-    private uint id_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint Id {
-      get { return id_; }
-      set {
-        id_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "Level" field.</summary>
-    public const int LevelFieldNumber = 2;
-    private uint level_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint Level {
-      get { return level_; }
-      set {
-        level_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "NextPackage" field.</summary>
-    public const int NextPackageFieldNumber = 2047;
-    private pb::ByteString nextPackage_ = pb::ByteString.Empty;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pb::ByteString NextPackage {
-      get { return nextPackage_; }
-      set {
-        nextPackage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as DiscSkillInfo);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(DiscSkillInfo other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if (Id != other.Id) return false;
-      if (Level != other.Level) return false;
-      if (NextPackage != other.NextPackage) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (Id != 0) hash ^= Id.GetHashCode();
-      if (Level != 0) hash ^= Level.GetHashCode();
-      if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      if (Id != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(Id);
-      }
-      if (Level != 0) {
-        output.WriteRawTag(16);
-        output.WriteUInt32(Level);
-      }
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (Id != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(Id);
-      }
-      if (Level != 0) {
-        output.WriteRawTag(16);
-        output.WriteUInt32(Level);
-      }
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      if (Id != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Id);
-      }
-      if (Level != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Level);
-      }
-      if (NextPackage.Length != 0) {
-        size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(DiscSkillInfo other) {
-      if (other == null) {
-        return;
-      }
-      if (other.Id != 0) {
-        Id = other.Id;
-      }
-      if (other.Level != 0) {
-        Level = other.Level;
-      }
-      if (other.NextPackage.Length != 0) {
-        NextPackage = other.NextPackage;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 8: {
-            Id = input.ReadUInt32();
-            break;
-          }
-          case 16: {
-            Level = input.ReadUInt32();
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 8: {
-            Id = input.ReadUInt32();
-            break;
-          }
-          case 16: {
-            Level = input.ReadUInt32();
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TowerChangeData : pb::IMessage<TowerChangeData>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -18531,7 +16832,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[50]; }
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[45]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -18551,8 +16852,8 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public TowerChangeData(TowerChangeData other) : this() {
-      discSkillActiveNumber_ = other.discSkillActiveNumber_;
-      harmonySkillIds_ = other.harmonySkillIds_.Clone();
+      infos_ = other.infos_.Clone();
+      secondaries_ = other.secondaries_.Clone();
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -18563,27 +16864,26 @@ namespace Proto {
       return new TowerChangeData(this);
     }
 
-    /// <summary>Field number for the "DiscSkillActiveNumber" field.</summary>
-    public const int DiscSkillActiveNumberFieldNumber = 1;
-    private uint discSkillActiveNumber_;
+    /// <summary>Field number for the "Infos" field.</summary>
+    public const int InfosFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::Proto.SubNoteSkillInfo> _repeated_infos_codec
+        = pb::FieldCodec.ForMessage(10, global::Proto.SubNoteSkillInfo.Parser);
+    private readonly pbc::RepeatedField<global::Proto.SubNoteSkillInfo> infos_ = new pbc::RepeatedField<global::Proto.SubNoteSkillInfo>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint DiscSkillActiveNumber {
-      get { return discSkillActiveNumber_; }
-      set {
-        discSkillActiveNumber_ = value;
-      }
+    public pbc::RepeatedField<global::Proto.SubNoteSkillInfo> Infos {
+      get { return infos_; }
     }
 
-    /// <summary>Field number for the "HarmonySkillIds" field.</summary>
-    public const int HarmonySkillIdsFieldNumber = 2;
-    private static readonly pb::FieldCodec<uint> _repeated_harmonySkillIds_codec
-        = pb::FieldCodec.ForUInt32(18);
-    private readonly pbc::RepeatedField<uint> harmonySkillIds_ = new pbc::RepeatedField<uint>();
+    /// <summary>Field number for the "Secondaries" field.</summary>
+    public const int SecondariesFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Proto.ActiveSecondaryChange> _repeated_secondaries_codec
+        = pb::FieldCodec.ForMessage(18, global::Proto.ActiveSecondaryChange.Parser);
+    private readonly pbc::RepeatedField<global::Proto.ActiveSecondaryChange> secondaries_ = new pbc::RepeatedField<global::Proto.ActiveSecondaryChange>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> HarmonySkillIds {
-      get { return harmonySkillIds_; }
+    public pbc::RepeatedField<global::Proto.ActiveSecondaryChange> Secondaries {
+      get { return secondaries_; }
     }
 
     /// <summary>Field number for the "NextPackage" field.</summary>
@@ -18613,8 +16913,8 @@ namespace Proto {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (DiscSkillActiveNumber != other.DiscSkillActiveNumber) return false;
-      if(!harmonySkillIds_.Equals(other.harmonySkillIds_)) return false;
+      if(!infos_.Equals(other.infos_)) return false;
+      if(!secondaries_.Equals(other.secondaries_)) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -18623,8 +16923,8 @@ namespace Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override int GetHashCode() {
       int hash = 1;
-      if (DiscSkillActiveNumber != 0) hash ^= DiscSkillActiveNumber.GetHashCode();
-      hash ^= harmonySkillIds_.GetHashCode();
+      hash ^= infos_.GetHashCode();
+      hash ^= secondaries_.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -18644,11 +16944,8 @@ namespace Proto {
     #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       output.WriteRawMessage(this);
     #else
-      if (DiscSkillActiveNumber != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(DiscSkillActiveNumber);
-      }
-      harmonySkillIds_.WriteTo(output, _repeated_harmonySkillIds_codec);
+      infos_.WriteTo(output, _repeated_infos_codec);
+      secondaries_.WriteTo(output, _repeated_secondaries_codec);
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -18663,11 +16960,8 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      if (DiscSkillActiveNumber != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(DiscSkillActiveNumber);
-      }
-      harmonySkillIds_.WriteTo(ref output, _repeated_harmonySkillIds_codec);
+      infos_.WriteTo(ref output, _repeated_infos_codec);
+      secondaries_.WriteTo(ref output, _repeated_secondaries_codec);
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -18682,10 +16976,8 @@ namespace Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public int CalculateSize() {
       int size = 0;
-      if (DiscSkillActiveNumber != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(DiscSkillActiveNumber);
-      }
-      size += harmonySkillIds_.CalculateSize(_repeated_harmonySkillIds_codec);
+      size += infos_.CalculateSize(_repeated_infos_codec);
+      size += secondaries_.CalculateSize(_repeated_secondaries_codec);
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
       }
@@ -18701,10 +16993,280 @@ namespace Proto {
       if (other == null) {
         return;
       }
-      if (other.DiscSkillActiveNumber != 0) {
-        DiscSkillActiveNumber = other.DiscSkillActiveNumber;
+      infos_.Add(other.infos_);
+      secondaries_.Add(other.secondaries_);
+      if (other.NextPackage.Length != 0) {
+        NextPackage = other.NextPackage;
       }
-      harmonySkillIds_.Add(other.harmonySkillIds_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            infos_.AddEntriesFrom(input, _repeated_infos_codec);
+            break;
+          }
+          case 18: {
+            secondaries_.AddEntriesFrom(input, _repeated_secondaries_codec);
+            break;
+          }
+          case 16378: {
+            NextPackage = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            infos_.AddEntriesFrom(ref input, _repeated_infos_codec);
+            break;
+          }
+          case 18: {
+            secondaries_.AddEntriesFrom(ref input, _repeated_secondaries_codec);
+            break;
+          }
+          case 16378: {
+            NextPackage = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class ActiveSecondaryChange : pb::IMessage<ActiveSecondaryChange>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<ActiveSecondaryChange> _parser = new pb::MessageParser<ActiveSecondaryChange>(() => new ActiveSecondaryChange());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<ActiveSecondaryChange> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Proto.PublicStarTowerReflection.Descriptor.MessageTypes[46]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ActiveSecondaryChange() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ActiveSecondaryChange(ActiveSecondaryChange other) : this() {
+      secondaryId_ = other.secondaryId_;
+      active_ = other.active_;
+      nextPackage_ = other.nextPackage_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ActiveSecondaryChange Clone() {
+      return new ActiveSecondaryChange(this);
+    }
+
+    /// <summary>Field number for the "SecondaryId" field.</summary>
+    public const int SecondaryIdFieldNumber = 1;
+    private uint secondaryId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint SecondaryId {
+      get { return secondaryId_; }
+      set {
+        secondaryId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Active" field.</summary>
+    public const int ActiveFieldNumber = 2;
+    private bool active_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Active {
+      get { return active_; }
+      set {
+        active_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "NextPackage" field.</summary>
+    public const int NextPackageFieldNumber = 2047;
+    private pb::ByteString nextPackage_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString NextPackage {
+      get { return nextPackage_; }
+      set {
+        nextPackage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as ActiveSecondaryChange);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(ActiveSecondaryChange other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (SecondaryId != other.SecondaryId) return false;
+      if (Active != other.Active) return false;
+      if (NextPackage != other.NextPackage) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (SecondaryId != 0) hash ^= SecondaryId.GetHashCode();
+      if (Active != false) hash ^= Active.GetHashCode();
+      if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (SecondaryId != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(SecondaryId);
+      }
+      if (Active != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Active);
+      }
+      if (NextPackage.Length != 0) {
+        output.WriteRawTag(250, 127);
+        output.WriteBytes(NextPackage);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (SecondaryId != 0) {
+        output.WriteRawTag(8);
+        output.WriteUInt32(SecondaryId);
+      }
+      if (Active != false) {
+        output.WriteRawTag(16);
+        output.WriteBool(Active);
+      }
+      if (NextPackage.Length != 0) {
+        output.WriteRawTag(250, 127);
+        output.WriteBytes(NextPackage);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (SecondaryId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(SecondaryId);
+      }
+      if (Active != false) {
+        size += 1 + 1;
+      }
+      if (NextPackage.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(ActiveSecondaryChange other) {
+      if (other == null) {
+        return;
+      }
+      if (other.SecondaryId != 0) {
+        SecondaryId = other.SecondaryId;
+      }
+      if (other.Active != false) {
+        Active = other.Active;
+      }
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
       }
@@ -18728,12 +17290,11 @@ namespace Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            DiscSkillActiveNumber = input.ReadUInt32();
+            SecondaryId = input.ReadUInt32();
             break;
           }
-          case 18:
           case 16: {
-            harmonySkillIds_.AddEntriesFrom(input, _repeated_harmonySkillIds_codec);
+            Active = input.ReadBool();
             break;
           }
           case 16378: {
@@ -18760,12 +17321,11 @@ namespace Proto {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 8: {
-            DiscSkillActiveNumber = input.ReadUInt32();
+            SecondaryId = input.ReadUInt32();
             break;
           }
-          case 18:
           case 16: {
-            harmonySkillIds_.AddEntriesFrom(ref input, _repeated_harmonySkillIds_codec);
+            Active = input.ReadBool();
             break;
           }
           case 16378: {

@@ -28,14 +28,14 @@ namespace Proto {
             "F3B1YmxpY19zdGFyX3Rvd2VyLnByb3RvInkKHFN0YXJUb3dlckJ1aWxkV2hl",
             "dGhlclNhdmVSZXESDgoGRGVsZXRlGAEgASgIEgwKBExvY2sYAiABKAgSEgoK",
             "UHJlZmVyZW5jZRgDIAEoCBIRCglCdWlsZE5hbWUYBCABKAkSFAoLTmV4dFBh",
-            "Y2thZ2UY/w8gASgMIlgKHVN0YXJUb3dlckJ1aWxkV2hldGhlclNhdmVSZXNw",
-            "EiEKBkNoYW5nZRgBIAEoCzIRLnByb3RvLkNoYW5nZUluZm8SFAoLTmV4dFBh",
-            "Y2thZ2UY/w8gASgMUABiBnByb3RvMw=="));
+            "Y2thZ2UY/w8gASgMImgKHVN0YXJUb3dlckJ1aWxkV2hldGhlclNhdmVSZXNw",
+            "EiEKBkNoYW5nZRgBIAEoCzIRLnByb3RvLkNoYW5nZUluZm8SDgoGVGlja2V0",
+            "GAIgASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDFAAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Proto.PublicStarTowerReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildWhetherSaveReq), global::Proto.StarTowerBuildWhetherSaveReq.Parser, new[]{ "Delete", "Lock", "Preference", "BuildName", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildWhetherSaveResp), global::Proto.StarTowerBuildWhetherSaveResp.Parser, new[]{ "Change", "NextPackage" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildWhetherSaveResp), global::Proto.StarTowerBuildWhetherSaveResp.Parser, new[]{ "Change", "Ticket", "NextPackage" }, null, null, null, null)
           }));
     }
     #endregion
@@ -424,6 +424,7 @@ namespace Proto {
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public StarTowerBuildWhetherSaveResp(StarTowerBuildWhetherSaveResp other) : this() {
       change_ = other.change_ != null ? other.change_.Clone() : null;
+      ticket_ = other.ticket_;
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -443,6 +444,18 @@ namespace Proto {
       get { return change_; }
       set {
         change_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Ticket" field.</summary>
+    public const int TicketFieldNumber = 2;
+    private uint ticket_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Ticket {
+      get { return ticket_; }
+      set {
+        ticket_ = value;
       }
     }
 
@@ -474,6 +487,7 @@ namespace Proto {
         return true;
       }
       if (!object.Equals(Change, other.Change)) return false;
+      if (Ticket != other.Ticket) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -483,6 +497,7 @@ namespace Proto {
     public override int GetHashCode() {
       int hash = 1;
       if (change_ != null) hash ^= Change.GetHashCode();
+      if (Ticket != 0) hash ^= Ticket.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -506,6 +521,10 @@ namespace Proto {
         output.WriteRawTag(10);
         output.WriteMessage(Change);
       }
+      if (Ticket != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Ticket);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -524,6 +543,10 @@ namespace Proto {
         output.WriteRawTag(10);
         output.WriteMessage(Change);
       }
+      if (Ticket != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Ticket);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -540,6 +563,9 @@ namespace Proto {
       int size = 0;
       if (change_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Change);
+      }
+      if (Ticket != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Ticket);
       }
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
@@ -561,6 +587,9 @@ namespace Proto {
           Change = new global::Proto.ChangeInfo();
         }
         Change.MergeFrom(other.Change);
+      }
+      if (other.Ticket != 0) {
+        Ticket = other.Ticket;
       }
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
@@ -591,6 +620,10 @@ namespace Proto {
             input.ReadMessage(Change);
             break;
           }
+          case 16: {
+            Ticket = input.ReadUInt32();
+            break;
+          }
           case 16378: {
             NextPackage = input.ReadBytes();
             break;
@@ -619,6 +652,10 @@ namespace Proto {
               Change = new global::Proto.ChangeInfo();
             }
             input.ReadMessage(Change);
+            break;
+          }
+          case 16: {
+            Ticket = input.ReadUInt32();
             break;
           }
           case 16378: {

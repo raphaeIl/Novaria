@@ -29,18 +29,18 @@ namespace Proto {
             "ZXESCgoCSWQYASABKA0SEwoLRm9ybWF0aW9uSWQYAiABKA0SDgoGQ2hhckhw",
             "GAMgASgNEg0KBU1hcElkGAQgASgNEg8KB1BhcmFtSWQYBSABKA0SEAoITWFw",
             "UGFyYW0YBiABKAkSEgoKTWFwVGFibGVJZBgHIAEoDRINCgVTd2VlcBgPIAEo",
-            "CBIUCgtOZXh0UGFja2FnZRj/DyABKAwi8QEKElN0YXJUb3dlckFwcGx5UmVz",
+            "CBIUCgtOZXh0UGFja2FnZRj/DyABKAwi+AEKElN0YXJUb3dlckFwcGx5UmVz",
             "cBIiCgRJbmZvGAEgASgLMhQucHJvdG8uU3RhclRvd2VySW5mbxIOCgZMYXN0",
-            "SWQYAiABKA0SEAoIUmVwb3J0SWQYAyABKAQSDwoHQ29pblF0eRgEIAEoDRIN",
-            "CgVOb3RlcxgFIAMoDRISCgpGYXRlQ2FyZElkGAYgASgNEhMKC05ld0ZhdGVD",
-            "YXJkGAcgASgIEhMKC1N3ZWVwVGlja2V0GAggASgNEiEKBkNoYW5nZRgPIAEo",
-            "CzIRLnByb3RvLkNoYW5nZUluZm8SFAoLTmV4dFBhY2thZ2UY/w8gASgMUABi",
-            "BnByb3RvMw=="));
+            "SWQYAiABKA0SDwoHQ29pblF0eRgEIAEoDRImCgVJbmZvcxgFIAMoCzIXLnBy",
+            "b3RvLlN1Yk5vdGVTa2lsbEluZm8SEgoKRmF0ZUNhcmRJZBgGIAEoDRITCgtO",
+            "ZXdGYXRlQ2FyZBgHIAEoCBITCgtTd2VlcFRpY2tldBgIIAEoDRIhCgZDaGFu",
+            "Z2UYDyABKAsyES5wcm90by5DaGFuZ2VJbmZvEhQKC05leHRQYWNrYWdlGP8P",
+            "IAEoDFAAYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Proto.PublicReflection.Descriptor, global::Proto.PublicStarTowerReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerApplyReq), global::Proto.StarTowerApplyReq.Parser, new[]{ "Id", "FormationId", "CharHp", "MapId", "ParamId", "MapParam", "MapTableId", "Sweep", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerApplyResp), global::Proto.StarTowerApplyResp.Parser, new[]{ "Info", "LastId", "ReportId", "CoinQty", "Notes", "FateCardId", "NewFateCard", "SweepTicket", "Change", "NextPackage" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerApplyResp), global::Proto.StarTowerApplyResp.Parser, new[]{ "Info", "LastId", "CoinQty", "Infos", "FateCardId", "NewFateCard", "SweepTicket", "Change", "NextPackage" }, null, null, null, null)
           }));
     }
     #endregion
@@ -578,9 +578,8 @@ namespace Proto {
     public StarTowerApplyResp(StarTowerApplyResp other) : this() {
       info_ = other.info_ != null ? other.info_.Clone() : null;
       lastId_ = other.lastId_;
-      reportId_ = other.reportId_;
       coinQty_ = other.coinQty_;
-      notes_ = other.notes_.Clone();
+      infos_ = other.infos_.Clone();
       fateCardId_ = other.fateCardId_;
       newFateCard_ = other.newFateCard_;
       sweepTicket_ = other.sweepTicket_;
@@ -619,18 +618,6 @@ namespace Proto {
       }
     }
 
-    /// <summary>Field number for the "ReportId" field.</summary>
-    public const int ReportIdFieldNumber = 3;
-    private ulong reportId_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ulong ReportId {
-      get { return reportId_; }
-      set {
-        reportId_ = value;
-      }
-    }
-
     /// <summary>Field number for the "CoinQty" field.</summary>
     public const int CoinQtyFieldNumber = 4;
     private uint coinQty_;
@@ -643,15 +630,15 @@ namespace Proto {
       }
     }
 
-    /// <summary>Field number for the "Notes" field.</summary>
-    public const int NotesFieldNumber = 5;
-    private static readonly pb::FieldCodec<uint> _repeated_notes_codec
-        = pb::FieldCodec.ForUInt32(42);
-    private readonly pbc::RepeatedField<uint> notes_ = new pbc::RepeatedField<uint>();
+    /// <summary>Field number for the "Infos" field.</summary>
+    public const int InfosFieldNumber = 5;
+    private static readonly pb::FieldCodec<global::Proto.SubNoteSkillInfo> _repeated_infos_codec
+        = pb::FieldCodec.ForMessage(42, global::Proto.SubNoteSkillInfo.Parser);
+    private readonly pbc::RepeatedField<global::Proto.SubNoteSkillInfo> infos_ = new pbc::RepeatedField<global::Proto.SubNoteSkillInfo>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> Notes {
-      get { return notes_; }
+    public pbc::RepeatedField<global::Proto.SubNoteSkillInfo> Infos {
+      get { return infos_; }
     }
 
     /// <summary>Field number for the "FateCardId" field.</summary>
@@ -731,9 +718,8 @@ namespace Proto {
       }
       if (!object.Equals(Info, other.Info)) return false;
       if (LastId != other.LastId) return false;
-      if (ReportId != other.ReportId) return false;
       if (CoinQty != other.CoinQty) return false;
-      if(!notes_.Equals(other.notes_)) return false;
+      if(!infos_.Equals(other.infos_)) return false;
       if (FateCardId != other.FateCardId) return false;
       if (NewFateCard != other.NewFateCard) return false;
       if (SweepTicket != other.SweepTicket) return false;
@@ -748,9 +734,8 @@ namespace Proto {
       int hash = 1;
       if (info_ != null) hash ^= Info.GetHashCode();
       if (LastId != 0) hash ^= LastId.GetHashCode();
-      if (ReportId != 0UL) hash ^= ReportId.GetHashCode();
       if (CoinQty != 0) hash ^= CoinQty.GetHashCode();
-      hash ^= notes_.GetHashCode();
+      hash ^= infos_.GetHashCode();
       if (FateCardId != 0) hash ^= FateCardId.GetHashCode();
       if (NewFateCard != false) hash ^= NewFateCard.GetHashCode();
       if (SweepTicket != 0) hash ^= SweepTicket.GetHashCode();
@@ -782,15 +767,11 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteUInt32(LastId);
       }
-      if (ReportId != 0UL) {
-        output.WriteRawTag(24);
-        output.WriteUInt64(ReportId);
-      }
       if (CoinQty != 0) {
         output.WriteRawTag(32);
         output.WriteUInt32(CoinQty);
       }
-      notes_.WriteTo(output, _repeated_notes_codec);
+      infos_.WriteTo(output, _repeated_infos_codec);
       if (FateCardId != 0) {
         output.WriteRawTag(48);
         output.WriteUInt32(FateCardId);
@@ -829,15 +810,11 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteUInt32(LastId);
       }
-      if (ReportId != 0UL) {
-        output.WriteRawTag(24);
-        output.WriteUInt64(ReportId);
-      }
       if (CoinQty != 0) {
         output.WriteRawTag(32);
         output.WriteUInt32(CoinQty);
       }
-      notes_.WriteTo(ref output, _repeated_notes_codec);
+      infos_.WriteTo(ref output, _repeated_infos_codec);
       if (FateCardId != 0) {
         output.WriteRawTag(48);
         output.WriteUInt32(FateCardId);
@@ -874,13 +851,10 @@ namespace Proto {
       if (LastId != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(LastId);
       }
-      if (ReportId != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(ReportId);
-      }
       if (CoinQty != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(CoinQty);
       }
-      size += notes_.CalculateSize(_repeated_notes_codec);
+      size += infos_.CalculateSize(_repeated_infos_codec);
       if (FateCardId != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(FateCardId);
       }
@@ -917,13 +891,10 @@ namespace Proto {
       if (other.LastId != 0) {
         LastId = other.LastId;
       }
-      if (other.ReportId != 0UL) {
-        ReportId = other.ReportId;
-      }
       if (other.CoinQty != 0) {
         CoinQty = other.CoinQty;
       }
-      notes_.Add(other.notes_);
+      infos_.Add(other.infos_);
       if (other.FateCardId != 0) {
         FateCardId = other.FateCardId;
       }
@@ -972,17 +943,12 @@ namespace Proto {
             LastId = input.ReadUInt32();
             break;
           }
-          case 24: {
-            ReportId = input.ReadUInt64();
-            break;
-          }
           case 32: {
             CoinQty = input.ReadUInt32();
             break;
           }
-          case 42:
-          case 40: {
-            notes_.AddEntriesFrom(input, _repeated_notes_codec);
+          case 42: {
+            infos_.AddEntriesFrom(input, _repeated_infos_codec);
             break;
           }
           case 48: {
@@ -1038,17 +1004,12 @@ namespace Proto {
             LastId = input.ReadUInt32();
             break;
           }
-          case 24: {
-            ReportId = input.ReadUInt64();
-            break;
-          }
           case 32: {
             CoinQty = input.ReadUInt32();
             break;
           }
-          case 42:
-          case 40: {
-            notes_.AddEntriesFrom(ref input, _repeated_notes_codec);
+          case 42: {
+            infos_.AddEntriesFrom(ref input, _repeated_infos_codec);
             break;
           }
           case 48: {

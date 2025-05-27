@@ -26,14 +26,13 @@ namespace Proto {
           string.Concat(
             "CiJ2YW1waXJlX3N1cnZpdm9yX2FyZWFfY2hhbmdlLnByb3RvEgVwcm90bxoM",
             "cHVibGljLnByb3RvGh90cmF2ZWxlcl9kdWVsX3JhbmtfdXBsb2FkLnByb3Rv",
-            "IoYBChxWYW1waXJlU3Vydml2b3JBcmVhQ2hhbmdlUmVxEhEKCUtpbGxDb3Vu",
-            "dBgBIAMoDRIMCgRUaW1lGAIgASgNEi8KBlNhbXBsZRgIIAMoCzIfLnByb3Rv",
-            "LlRyYXZlbGVyRHVlbEJhdHRsZVNhbXBsZRIUCgtOZXh0UGFja2FnZRj/DyAB",
-            "KAxQAFABYgZwcm90bzM="));
+            "IlUKHFZhbXBpcmVTdXJ2aXZvckFyZWFDaGFuZ2VSZXESEQoJS2lsbENvdW50",
+            "GAEgAygNEgwKBFRpbWUYAiABKA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMUABQ",
+            "AWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Proto.PublicReflection.Descriptor, global::Proto.TravelerDuelRankUploadReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorAreaChangeReq), global::Proto.VampireSurvivorAreaChangeReq.Parser, new[]{ "KillCount", "Time", "Sample", "NextPackage" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorAreaChangeReq), global::Proto.VampireSurvivorAreaChangeReq.Parser, new[]{ "KillCount", "Time", "NextPackage" }, null, null, null, null)
           }));
     }
     #endregion
@@ -77,7 +76,6 @@ namespace Proto {
     public VampireSurvivorAreaChangeReq(VampireSurvivorAreaChangeReq other) : this() {
       killCount_ = other.killCount_.Clone();
       time_ = other.time_;
-      sample_ = other.sample_.Clone();
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -111,17 +109,6 @@ namespace Proto {
       }
     }
 
-    /// <summary>Field number for the "Sample" field.</summary>
-    public const int SampleFieldNumber = 8;
-    private static readonly pb::FieldCodec<global::Proto.TravelerDuelBattleSample> _repeated_sample_codec
-        = pb::FieldCodec.ForMessage(66, global::Proto.TravelerDuelBattleSample.Parser);
-    private readonly pbc::RepeatedField<global::Proto.TravelerDuelBattleSample> sample_ = new pbc::RepeatedField<global::Proto.TravelerDuelBattleSample>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::Proto.TravelerDuelBattleSample> Sample {
-      get { return sample_; }
-    }
-
     /// <summary>Field number for the "NextPackage" field.</summary>
     public const int NextPackageFieldNumber = 2047;
     private pb::ByteString nextPackage_ = pb::ByteString.Empty;
@@ -151,7 +138,6 @@ namespace Proto {
       }
       if(!killCount_.Equals(other.killCount_)) return false;
       if (Time != other.Time) return false;
-      if(!sample_.Equals(other.sample_)) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -162,7 +148,6 @@ namespace Proto {
       int hash = 1;
       hash ^= killCount_.GetHashCode();
       if (Time != 0) hash ^= Time.GetHashCode();
-      hash ^= sample_.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -187,7 +172,6 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteUInt32(Time);
       }
-      sample_.WriteTo(output, _repeated_sample_codec);
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -207,7 +191,6 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteUInt32(Time);
       }
-      sample_.WriteTo(ref output, _repeated_sample_codec);
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -226,7 +209,6 @@ namespace Proto {
       if (Time != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Time);
       }
-      size += sample_.CalculateSize(_repeated_sample_codec);
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
       }
@@ -246,7 +228,6 @@ namespace Proto {
       if (other.Time != 0) {
         Time = other.Time;
       }
-      sample_.Add(other.sample_);
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
       }
@@ -276,10 +257,6 @@ namespace Proto {
           }
           case 16: {
             Time = input.ReadUInt32();
-            break;
-          }
-          case 66: {
-            sample_.AddEntriesFrom(input, _repeated_sample_codec);
             break;
           }
           case 16378: {
@@ -312,10 +289,6 @@ namespace Proto {
           }
           case 16: {
             Time = input.ReadUInt32();
-            break;
-          }
-          case 66: {
-            sample_.AddEntriesFrom(ref input, _repeated_sample_codec);
             break;
           }
           case 16378: {

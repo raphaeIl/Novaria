@@ -25,27 +25,24 @@ namespace Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch12YW1waXJlX3N1cnZpdm9yX3NldHRsZS5wcm90bxIFcHJvdG8aDHB1Ymxp",
-            "Yy5wcm90bxofdHJhdmVsZXJfZHVlbF9yYW5rX3VwbG9hZC5wcm90byKkAQoY",
-            "VmFtcGlyZVN1cnZpdm9yU2V0dGxlUmVxEhEKCUtpbGxDb3VudBgBIAMoDRIM",
-            "CgRUaW1lGAIgASgNEg4KBkRlZmVhdBgDIAEoCBIQCghDaGVja3N1bRgHIAEo",
-            "BBIvCgZTYW1wbGUYCCADKAsyHy5wcm90by5UcmF2ZWxlckR1ZWxCYXR0bGVT",
-            "YW1wbGUSFAoLTmV4dFBhY2thZ2UY/w8gASgMItgCChlWYW1waXJlU3Vydml2",
-            "b3JTZXR0bGVSZXNwEhQKC05leHRQYWNrYWdlGP8PIAEoDBI/CgdWaWN0b3J5",
-            "GAEgASgLMiwucHJvdG8uVmFtcGlyZVN1cnZpdm9yU2V0dGxlUmVzcC5WaWN0",
-            "b3J5RGF0YUgAEj0KBkRlZmVhdBgCIAEoCzIrLnByb3RvLlZhbXBpcmVTdXJ2",
-            "aXZvclNldHRsZVJlc3AuRGVmZWF0RGF0YUgAGnkKC1ZpY3RvcnlEYXRhEi0K",
-            "BUluZm9zGAEgAygLMh4ucHJvdG8uVmFtcGlyZVN1cnZpdm9yQXJlYUluZm8S",
-            "EgoKRmluYWxTY29yZRgCIAEoDRILCgNPbGQYAyABKA0SCwoDTmV3GAQgASgN",
-            "Eg0KBVRva2VuGAggASgJGiAKCkRlZmVhdERhdGESEgoKRmluYWxTY29yZRgB",
-            "IAEoDUIICgZSZXN1bHQidgoXVmFtcGlyZVN1cnZpdm9yQXJlYUluZm8SEQoJ",
-            "S2lsbENvdW50GAEgAygNEhEKCUtpbGxTY29yZRgCIAMoDRIQCghCb3NzVGlt",
-            "ZRgDIAEoDRINCgVTY29yZRgEIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAxQ",
-            "AFABYgZwcm90bzM="));
+            "Yy5wcm90bxofdHJhdmVsZXJfZHVlbF9yYW5rX3VwbG9hZC5wcm90byJhChhW",
+            "YW1waXJlU3Vydml2b3JTZXR0bGVSZXESEQoJS2lsbENvdW50GAEgAygNEgwK",
+            "BFRpbWUYAiABKA0SDgoGRGVmZWF0GAMgASgIEhQKC05leHRQYWNrYWdlGP8P",
+            "IAEoDCKvAgoZVmFtcGlyZVN1cnZpdm9yU2V0dGxlUmVzcBIUCgtOZXh0UGFj",
+            "a2FnZRj/DyABKAwSPwoHVmljdG9yeRgBIAEoCzIsLnByb3RvLlZhbXBpcmVT",
+            "dXJ2aXZvclNldHRsZVJlc3AuVmljdG9yeURhdGFIABI9CgZEZWZlYXQYAiAB",
+            "KAsyKy5wcm90by5WYW1waXJlU3Vydml2b3JTZXR0bGVSZXNwLkRlZmVhdERh",
+            "dGFIABpQCgtWaWN0b3J5RGF0YRItCgVJbmZvcxgBIAMoCzIeLnByb3RvLlZh",
+            "bXBpcmVTdXJ2aXZvckFyZWFJbmZvEhIKCkZpbmFsU2NvcmUYAiABKA0aIAoK",
+            "RGVmZWF0RGF0YRISCgpGaW5hbFNjb3JlGAEgASgNQggKBlJlc3VsdCJ2ChdW",
+            "YW1waXJlU3Vydml2b3JBcmVhSW5mbxIRCglLaWxsQ291bnQYASADKA0SEQoJ",
+            "S2lsbFNjb3JlGAIgAygNEhAKCEJvc3NUaW1lGAMgASgNEg0KBVNjb3JlGAQg",
+            "ASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDFAAUAFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Proto.PublicReflection.Descriptor, global::Proto.TravelerDuelRankUploadReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorSettleReq), global::Proto.VampireSurvivorSettleReq.Parser, new[]{ "KillCount", "Time", "Defeat", "Checksum", "Sample", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorSettleResp), global::Proto.VampireSurvivorSettleResp.Parser, new[]{ "NextPackage", "Victory", "Defeat" }, new[]{ "Result" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorSettleResp.Types.VictoryData), global::Proto.VampireSurvivorSettleResp.Types.VictoryData.Parser, new[]{ "Infos", "FinalScore", "Old", "New", "Token" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorSettleReq), global::Proto.VampireSurvivorSettleReq.Parser, new[]{ "KillCount", "Time", "Defeat", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorSettleResp), global::Proto.VampireSurvivorSettleResp.Parser, new[]{ "NextPackage", "Victory", "Defeat" }, new[]{ "Result" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorSettleResp.Types.VictoryData), global::Proto.VampireSurvivorSettleResp.Types.VictoryData.Parser, new[]{ "Infos", "FinalScore" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorSettleResp.Types.DefeatData), global::Proto.VampireSurvivorSettleResp.Types.DefeatData.Parser, new[]{ "FinalScore" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.VampireSurvivorAreaInfo), global::Proto.VampireSurvivorAreaInfo.Parser, new[]{ "KillCount", "KillScore", "BossTime", "Score", "NextPackage" }, null, null, null, null)
           }));
@@ -92,8 +89,6 @@ namespace Proto {
       killCount_ = other.killCount_.Clone();
       time_ = other.time_;
       defeat_ = other.defeat_;
-      checksum_ = other.checksum_;
-      sample_ = other.sample_.Clone();
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -139,29 +134,6 @@ namespace Proto {
       }
     }
 
-    /// <summary>Field number for the "Checksum" field.</summary>
-    public const int ChecksumFieldNumber = 7;
-    private ulong checksum_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public ulong Checksum {
-      get { return checksum_; }
-      set {
-        checksum_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "Sample" field.</summary>
-    public const int SampleFieldNumber = 8;
-    private static readonly pb::FieldCodec<global::Proto.TravelerDuelBattleSample> _repeated_sample_codec
-        = pb::FieldCodec.ForMessage(66, global::Proto.TravelerDuelBattleSample.Parser);
-    private readonly pbc::RepeatedField<global::Proto.TravelerDuelBattleSample> sample_ = new pbc::RepeatedField<global::Proto.TravelerDuelBattleSample>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::Proto.TravelerDuelBattleSample> Sample {
-      get { return sample_; }
-    }
-
     /// <summary>Field number for the "NextPackage" field.</summary>
     public const int NextPackageFieldNumber = 2047;
     private pb::ByteString nextPackage_ = pb::ByteString.Empty;
@@ -192,8 +164,6 @@ namespace Proto {
       if(!killCount_.Equals(other.killCount_)) return false;
       if (Time != other.Time) return false;
       if (Defeat != other.Defeat) return false;
-      if (Checksum != other.Checksum) return false;
-      if(!sample_.Equals(other.sample_)) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -205,8 +175,6 @@ namespace Proto {
       hash ^= killCount_.GetHashCode();
       if (Time != 0) hash ^= Time.GetHashCode();
       if (Defeat != false) hash ^= Defeat.GetHashCode();
-      if (Checksum != 0UL) hash ^= Checksum.GetHashCode();
-      hash ^= sample_.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -235,11 +203,6 @@ namespace Proto {
         output.WriteRawTag(24);
         output.WriteBool(Defeat);
       }
-      if (Checksum != 0UL) {
-        output.WriteRawTag(56);
-        output.WriteUInt64(Checksum);
-      }
-      sample_.WriteTo(output, _repeated_sample_codec);
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -263,11 +226,6 @@ namespace Proto {
         output.WriteRawTag(24);
         output.WriteBool(Defeat);
       }
-      if (Checksum != 0UL) {
-        output.WriteRawTag(56);
-        output.WriteUInt64(Checksum);
-      }
-      sample_.WriteTo(ref output, _repeated_sample_codec);
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -289,10 +247,6 @@ namespace Proto {
       if (Defeat != false) {
         size += 1 + 1;
       }
-      if (Checksum != 0UL) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt64Size(Checksum);
-      }
-      size += sample_.CalculateSize(_repeated_sample_codec);
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
       }
@@ -315,10 +269,6 @@ namespace Proto {
       if (other.Defeat != false) {
         Defeat = other.Defeat;
       }
-      if (other.Checksum != 0UL) {
-        Checksum = other.Checksum;
-      }
-      sample_.Add(other.sample_);
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
       }
@@ -352,14 +302,6 @@ namespace Proto {
           }
           case 24: {
             Defeat = input.ReadBool();
-            break;
-          }
-          case 56: {
-            Checksum = input.ReadUInt64();
-            break;
-          }
-          case 66: {
-            sample_.AddEntriesFrom(input, _repeated_sample_codec);
             break;
           }
           case 16378: {
@@ -396,14 +338,6 @@ namespace Proto {
           }
           case 24: {
             Defeat = input.ReadBool();
-            break;
-          }
-          case 56: {
-            Checksum = input.ReadUInt64();
-            break;
-          }
-          case 66: {
-            sample_.AddEntriesFrom(ref input, _repeated_sample_codec);
             break;
           }
           case 16378: {
@@ -788,9 +722,6 @@ namespace Proto {
         public VictoryData(VictoryData other) : this() {
           infos_ = other.infos_.Clone();
           finalScore_ = other.finalScore_;
-          old_ = other.old_;
-          new_ = other.new_;
-          token_ = other.token_;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -823,42 +754,6 @@ namespace Proto {
           }
         }
 
-        /// <summary>Field number for the "Old" field.</summary>
-        public const int OldFieldNumber = 3;
-        private uint old_;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public uint Old {
-          get { return old_; }
-          set {
-            old_ = value;
-          }
-        }
-
-        /// <summary>Field number for the "New" field.</summary>
-        public const int NewFieldNumber = 4;
-        private uint new_;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public uint New {
-          get { return new_; }
-          set {
-            new_ = value;
-          }
-        }
-
-        /// <summary>Field number for the "Token" field.</summary>
-        public const int TokenFieldNumber = 8;
-        private string token_ = "";
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-        public string Token {
-          get { return token_; }
-          set {
-            token_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-          }
-        }
-
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
         public override bool Equals(object other) {
@@ -876,9 +771,6 @@ namespace Proto {
           }
           if(!infos_.Equals(other.infos_)) return false;
           if (FinalScore != other.FinalScore) return false;
-          if (Old != other.Old) return false;
-          if (New != other.New) return false;
-          if (Token != other.Token) return false;
           return Equals(_unknownFields, other._unknownFields);
         }
 
@@ -888,9 +780,6 @@ namespace Proto {
           int hash = 1;
           hash ^= infos_.GetHashCode();
           if (FinalScore != 0) hash ^= FinalScore.GetHashCode();
-          if (Old != 0) hash ^= Old.GetHashCode();
-          if (New != 0) hash ^= New.GetHashCode();
-          if (Token.Length != 0) hash ^= Token.GetHashCode();
           if (_unknownFields != null) {
             hash ^= _unknownFields.GetHashCode();
           }
@@ -914,18 +803,6 @@ namespace Proto {
             output.WriteRawTag(16);
             output.WriteUInt32(FinalScore);
           }
-          if (Old != 0) {
-            output.WriteRawTag(24);
-            output.WriteUInt32(Old);
-          }
-          if (New != 0) {
-            output.WriteRawTag(32);
-            output.WriteUInt32(New);
-          }
-          if (Token.Length != 0) {
-            output.WriteRawTag(66);
-            output.WriteString(Token);
-          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(output);
           }
@@ -941,18 +818,6 @@ namespace Proto {
             output.WriteRawTag(16);
             output.WriteUInt32(FinalScore);
           }
-          if (Old != 0) {
-            output.WriteRawTag(24);
-            output.WriteUInt32(Old);
-          }
-          if (New != 0) {
-            output.WriteRawTag(32);
-            output.WriteUInt32(New);
-          }
-          if (Token.Length != 0) {
-            output.WriteRawTag(66);
-            output.WriteString(Token);
-          }
           if (_unknownFields != null) {
             _unknownFields.WriteTo(ref output);
           }
@@ -966,15 +831,6 @@ namespace Proto {
           size += infos_.CalculateSize(_repeated_infos_codec);
           if (FinalScore != 0) {
             size += 1 + pb::CodedOutputStream.ComputeUInt32Size(FinalScore);
-          }
-          if (Old != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Old);
-          }
-          if (New != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeUInt32Size(New);
-          }
-          if (Token.Length != 0) {
-            size += 1 + pb::CodedOutputStream.ComputeStringSize(Token);
           }
           if (_unknownFields != null) {
             size += _unknownFields.CalculateSize();
@@ -991,15 +847,6 @@ namespace Proto {
           infos_.Add(other.infos_);
           if (other.FinalScore != 0) {
             FinalScore = other.FinalScore;
-          }
-          if (other.Old != 0) {
-            Old = other.Old;
-          }
-          if (other.New != 0) {
-            New = other.New;
-          }
-          if (other.Token.Length != 0) {
-            Token = other.Token;
           }
           _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
         }
@@ -1028,18 +875,6 @@ namespace Proto {
                 FinalScore = input.ReadUInt32();
                 break;
               }
-              case 24: {
-                Old = input.ReadUInt32();
-                break;
-              }
-              case 32: {
-                New = input.ReadUInt32();
-                break;
-              }
-              case 66: {
-                Token = input.ReadString();
-                break;
-              }
             }
           }
         #endif
@@ -1065,18 +900,6 @@ namespace Proto {
               }
               case 16: {
                 FinalScore = input.ReadUInt32();
-                break;
-              }
-              case 24: {
-                Old = input.ReadUInt32();
-                break;
-              }
-              case 32: {
-                New = input.ReadUInt32();
-                break;
-              }
-              case 66: {
-                Token = input.ReadString();
                 break;
               }
             }

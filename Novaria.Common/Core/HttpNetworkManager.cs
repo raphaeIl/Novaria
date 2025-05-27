@@ -61,12 +61,20 @@ namespace Novaria.Common.Core
             object parserInstance = parserProperty.GetValue(null);
             MethodInfo parseFromMethod = parserInstance.GetType().GetMethod("ParseFrom", new[] { typeof(byte[]) });
 
-            IMessage parsedMessage = (IMessage)parseFromMethod.Invoke(parserInstance, new object[] { packet.msgBody });
-
-            if (parsedMessage == null)
+            IMessage parsedMessage = null;
+            try 
+            { 
+                parsedMessage = (IMessage)parseFromMethod.Invoke(parserInstance, new object[] { packet.msgBody });
+            } catch (Exception ex)
             {
-                throw new InvalidOperationException("Failed to parse message.");
+                Log.Error($"Failed to parse message of type {targetType.Name}: {ex.Message}");
             }
+
+
+            //if (parsedMessage == null)
+            //{
+            //    throw new InvalidOperationException("Failed to parse message.");
+            //}
 
             return parsedMessage;
         }

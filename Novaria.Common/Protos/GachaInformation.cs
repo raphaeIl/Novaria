@@ -25,14 +25,16 @@ namespace Proto {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChdnYWNoYV9pbmZvcm1hdGlvbi5wcm90bxIFcHJvdG8aDHB1YmxpYy5wcm90",
-            "byJACglHYWNoYUluZm8SCgoCSWQYASABKA0SEQoJRGF5c0NvdW50GAIgASgN",
-            "EhQKC05leHRQYWNrYWdlGP8PIAEoDCJTChRHYWNoYUluZm9ybWF0aW9uUmVz",
-            "cBIlCgtJbmZvcm1hdGlvbhgBIAMoCzIQLnByb3RvLkdhY2hhSW5mbxIUCgtO",
-            "ZXh0UGFja2FnZRj/DyABKAxQAGIGcHJvdG8z"));
+            "byKFAQoJR2FjaGFJbmZvEgoKAklkGAEgASgNEhEKCURheXNDb3VudBgCIAEo",
+            "DRIUCgxBdXBNaXNzVGltZXMYAyABKA0SEgoKVG90YWxUaW1lcxgOIAEoDRIZ",
+            "ChFBdXBHdWFyYW50ZWVUaW1lcxgPIAEoDRIUCgtOZXh0UGFja2FnZRj/DyAB",
+            "KAwiUwoUR2FjaGFJbmZvcm1hdGlvblJlc3ASJQoLSW5mb3JtYXRpb24YASAD",
+            "KAsyEC5wcm90by5HYWNoYUluZm8SFAoLTmV4dFBhY2thZ2UY/w8gASgMUABi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Proto.PublicReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.GachaInfo), global::Proto.GachaInfo.Parser, new[]{ "Id", "DaysCount", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.GachaInfo), global::Proto.GachaInfo.Parser, new[]{ "Id", "DaysCount", "AupMissTimes", "TotalTimes", "AupGuaranteeTimes", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.GachaInformationResp), global::Proto.GachaInformationResp.Parser, new[]{ "Information", "NextPackage" }, null, null, null, null)
           }));
     }
@@ -77,6 +79,9 @@ namespace Proto {
     public GachaInfo(GachaInfo other) : this() {
       id_ = other.id_;
       daysCount_ = other.daysCount_;
+      aupMissTimes_ = other.aupMissTimes_;
+      totalTimes_ = other.totalTimes_;
+      aupGuaranteeTimes_ = other.aupGuaranteeTimes_;
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -111,6 +116,42 @@ namespace Proto {
       }
     }
 
+    /// <summary>Field number for the "AupMissTimes" field.</summary>
+    public const int AupMissTimesFieldNumber = 3;
+    private uint aupMissTimes_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint AupMissTimes {
+      get { return aupMissTimes_; }
+      set {
+        aupMissTimes_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "TotalTimes" field.</summary>
+    public const int TotalTimesFieldNumber = 14;
+    private uint totalTimes_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint TotalTimes {
+      get { return totalTimes_; }
+      set {
+        totalTimes_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "AupGuaranteeTimes" field.</summary>
+    public const int AupGuaranteeTimesFieldNumber = 15;
+    private uint aupGuaranteeTimes_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint AupGuaranteeTimes {
+      get { return aupGuaranteeTimes_; }
+      set {
+        aupGuaranteeTimes_ = value;
+      }
+    }
+
     /// <summary>Field number for the "NextPackage" field.</summary>
     public const int NextPackageFieldNumber = 2047;
     private pb::ByteString nextPackage_ = pb::ByteString.Empty;
@@ -140,6 +181,9 @@ namespace Proto {
       }
       if (Id != other.Id) return false;
       if (DaysCount != other.DaysCount) return false;
+      if (AupMissTimes != other.AupMissTimes) return false;
+      if (TotalTimes != other.TotalTimes) return false;
+      if (AupGuaranteeTimes != other.AupGuaranteeTimes) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -150,6 +194,9 @@ namespace Proto {
       int hash = 1;
       if (Id != 0) hash ^= Id.GetHashCode();
       if (DaysCount != 0) hash ^= DaysCount.GetHashCode();
+      if (AupMissTimes != 0) hash ^= AupMissTimes.GetHashCode();
+      if (TotalTimes != 0) hash ^= TotalTimes.GetHashCode();
+      if (AupGuaranteeTimes != 0) hash ^= AupGuaranteeTimes.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -177,6 +224,18 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteUInt32(DaysCount);
       }
+      if (AupMissTimes != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(AupMissTimes);
+      }
+      if (TotalTimes != 0) {
+        output.WriteRawTag(112);
+        output.WriteUInt32(TotalTimes);
+      }
+      if (AupGuaranteeTimes != 0) {
+        output.WriteRawTag(120);
+        output.WriteUInt32(AupGuaranteeTimes);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -199,6 +258,18 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteUInt32(DaysCount);
       }
+      if (AupMissTimes != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(AupMissTimes);
+      }
+      if (TotalTimes != 0) {
+        output.WriteRawTag(112);
+        output.WriteUInt32(TotalTimes);
+      }
+      if (AupGuaranteeTimes != 0) {
+        output.WriteRawTag(120);
+        output.WriteUInt32(AupGuaranteeTimes);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -218,6 +289,15 @@ namespace Proto {
       }
       if (DaysCount != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(DaysCount);
+      }
+      if (AupMissTimes != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(AupMissTimes);
+      }
+      if (TotalTimes != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(TotalTimes);
+      }
+      if (AupGuaranteeTimes != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(AupGuaranteeTimes);
       }
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
@@ -239,6 +319,15 @@ namespace Proto {
       }
       if (other.DaysCount != 0) {
         DaysCount = other.DaysCount;
+      }
+      if (other.AupMissTimes != 0) {
+        AupMissTimes = other.AupMissTimes;
+      }
+      if (other.TotalTimes != 0) {
+        TotalTimes = other.TotalTimes;
+      }
+      if (other.AupGuaranteeTimes != 0) {
+        AupGuaranteeTimes = other.AupGuaranteeTimes;
       }
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
@@ -270,6 +359,18 @@ namespace Proto {
             DaysCount = input.ReadUInt32();
             break;
           }
+          case 24: {
+            AupMissTimes = input.ReadUInt32();
+            break;
+          }
+          case 112: {
+            TotalTimes = input.ReadUInt32();
+            break;
+          }
+          case 120: {
+            AupGuaranteeTimes = input.ReadUInt32();
+            break;
+          }
           case 16378: {
             NextPackage = input.ReadBytes();
             break;
@@ -299,6 +400,18 @@ namespace Proto {
           }
           case 16: {
             DaysCount = input.ReadUInt32();
+            break;
+          }
+          case 24: {
+            AupMissTimes = input.ReadUInt32();
+            break;
+          }
+          case 112: {
+            TotalTimes = input.ReadUInt32();
+            break;
+          }
+          case 120: {
+            AupGuaranteeTimes = input.ReadUInt32();
             break;
           }
           case 16378: {

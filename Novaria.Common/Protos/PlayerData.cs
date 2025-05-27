@@ -24,53 +24,55 @@ namespace Proto {
     static PlayerDataReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "ChFwbGF5ZXJfZGF0YS5wcm90bxIFcHJvdG8aDHB1YmxpYy5wcm90byLeCQoK",
+            "ChFwbGF5ZXJfZGF0YS5wcm90bxIFcHJvdG8aDHB1YmxpYy5wcm90byKYCgoK",
             "UGxheWVySW5mbxIbCgNBY2MYASABKAsyDi5wcm90by5BY2NJbmZvEhcKA1Jl",
             "cxgCIAMoCzIKLnByb3RvLlJlcxIaCgVJdGVtcxgDIAMoCzILLnByb3RvLkl0",
             "ZW0SGgoFQ2hhcnMYBCADKAsyCy5wcm90by5DaGFyEigKCUZvcm1hdGlvbhgF",
-            "IAEoCzIVLnByb3RvLlRvd2VyRm9ybWF0aW9uEhsKE1N0YXJUb3dlclJhbmtU",
-            "aWNrZXQYBiABKA0SIQoGRW5lcmd5GAcgASgLMhEucHJvdG8uRW5lcmd5SW5m",
-            "bxIpCgpXb3JsZENsYXNzGAggASgLMhUucHJvdG8uV29ybGRDbGFzc0luZm8S",
-            "HwoFQWdlbnQYCSABKAsyEC5wcm90by5BZ2VudERhdGESFAoMUmdsUGFzc2Vk",
-            "SWRzGAogAygNEigKCkVxdWlwbWVudHMYCyADKAsyFC5wcm90by5FcXVpcG1l",
-            "bnRJbmZvEjAKEFJlZ2lvbkJvc3NMZXZlbHMYDCADKAsyFi5wcm90by5SZWdp",
-            "b25Cb3NzTGV2ZWwSHQoGUXVlc3RzGA0gASgLMg0ucHJvdG8uUXVlc3RzEh8K",
-            "BVN0YXRlGA4gASgLMhAucHJvdG8uU3RhdGVJbmZvEhMKC1NlbmRHaWZ0Q250",
-            "GA8gASgNEg0KBUJvYXJkGBAgAygNEhUKDURhdGluZ0NoYXJJZHMYESADKA0S",
-            "FAoMQWNoaWV2ZW1lbnRzGBIgASgMEiUKCEhhbmRib29rGBMgAygLMhMucHJv",
-            "dG8uSGFuZGJvb2tJbmZvEhMKC1NpZ25pbkluZGV4GBQgASgNEhwKBlRpdGxl",
-            "cxgVIAMoCzIMLnByb3RvLlRpdGxlEiwKDkRhaWx5SW5zdGFuY2VzGBYgAygL",
-            "MhQucHJvdG8uRGFpbHlJbnN0YW5jZRIqCgxEaWN0aW9uYXJpZXMYFyADKAsy",
-            "FC5wcm90by5EaWN0aW9uYXJ5VGFiEiMKCkFjdGl2aXRpZXMYGCADKAsyDy5w",
-            "cm90by5BY3Rpdml0eRIfCgVQaG9uZRgZIAEoCzIQLnByb3RvLlBob25lSW5m",
-            "bxIXCg9UYWxlbnRSZXNldFRpbWUYGiABKAMSHAoURXF1aXBtZW50RG91Ymxl",
-            "Q291bnQYGyABKA0SGgoFRGlzY3MYHCADKAsyCy5wcm90by5EaXNjEjQKEkVx",
-            "dWlwbWVudEluc3RhbmNlcxgdIAMoCzIYLnByb3RvLkVxdWlwbWVudEluc3Rh",
-            "bmNlEh8KBVN0b3J5GB4gASgLMhAucHJvdG8uU3RvcnlJbmZvEj8KFVZhbXBp",
-            "cmVTdXJ2aXZvclJlY29yZBgfIAEoCzIgLnByb3RvLlZhbXBpcmVTdXJ2aXZv",
-            "clJlY29yZEluZm8SFgoORGFpbHlBY3RpdmVJZHMYICADKA0SGwoTVG91ckd1",
-            "aWRlUXVlc3RHcm91cBghIAEoDRIRCglIb25vckxpc3QYeyADKA0SIAoGSG9u",
-            "b3JzGHwgAygLMhAucHJvdG8uSG9ub3JJbmZvEh0KFURhaWx5U2hvcFJld2Fy",
-            "ZFN0YXR1cxh9IAEoCBITCgtUb3dlclRpY2tldBh+IAEoDRIQCghTZXJ2ZXJU",
-            "cxh/IAEoAxIUCgtOZXh0UGFja2FnZRj/DyABKAwiTgoJUGhvbmVJbmZvEhIK",
-            "Ck5ld01lc3NhZ2UYASABKA0SFwoPUHJvZ3Jlc3NNZXNzYWdlGAIgASgNEhQK",
-            "C05leHRQYWNrYWdlGP8PIAEoDCJGCg9EaWN0aW9uYXJ5RW50cnkSDQoFSW5k",
-            "ZXgYASABKA0SDgoGU3RhdHVzGAIgASgNEhQKC05leHRQYWNrYWdlGP8PIAEo",
-            "DCJdCg1EaWN0aW9uYXJ5VGFiEg0KBVRhYklkGAEgASgNEicKB0VudHJpZXMY",
-            "AiADKAsyFi5wcm90by5EaWN0aW9uYXJ5RW50cnkSFAoLTmV4dFBhY2thZ2UY",
-            "/w8gASgMIlAKCkVuZXJneUluZm8SHQoGRW5lcmd5GAEgASgLMg0ucHJvdG8u",
-            "RW5lcmd5Eg0KBUNvdW50GAIgASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDCJE",
-            "Cg5Xb3JsZENsYXNzSW5mbxILCgNDdXIYASABKA0SDwoHTGFzdEV4cBgCIAEo",
-            "BRIUCgtOZXh0UGFja2FnZRj/DyABKAxQAGIGcHJvdG8z"));
+            "IAEoCzIVLnByb3RvLlRvd2VyRm9ybWF0aW9uEiEKBkVuZXJneRgHIAEoCzIR",
+            "LnByb3RvLkVuZXJneUluZm8SKQoKV29ybGRDbGFzcxgIIAEoCzIVLnByb3Rv",
+            "LldvcmxkQ2xhc3NJbmZvEh8KBUFnZW50GAkgASgLMhAucHJvdG8uQWdlbnRE",
+            "YXRhEhQKDFJnbFBhc3NlZElkcxgKIAMoDRIoCgpFcXVpcG1lbnRzGAsgAygL",
+            "MhQucHJvdG8uRXF1aXBtZW50SW5mbxIwChBSZWdpb25Cb3NzTGV2ZWxzGAwg",
+            "AygLMhYucHJvdG8uUmVnaW9uQm9zc0xldmVsEh0KBlF1ZXN0cxgNIAEoCzIN",
+            "LnByb3RvLlF1ZXN0cxIfCgVTdGF0ZRgOIAEoCzIQLnByb3RvLlN0YXRlSW5m",
+            "bxITCgtTZW5kR2lmdENudBgPIAEoDRINCgVCb2FyZBgQIAMoDRIVCg1EYXRp",
+            "bmdDaGFySWRzGBEgAygNEhQKDEFjaGlldmVtZW50cxgSIAEoDBIlCghIYW5k",
+            "Ym9vaxgTIAMoCzITLnByb3RvLkhhbmRib29rSW5mbxITCgtTaWduaW5JbmRl",
+            "eBgUIAEoDRIcCgZUaXRsZXMYFSADKAsyDC5wcm90by5UaXRsZRIsCg5EYWls",
+            "eUluc3RhbmNlcxgWIAMoCzIULnByb3RvLkRhaWx5SW5zdGFuY2USKgoMRGlj",
+            "dGlvbmFyaWVzGBcgAygLMhQucHJvdG8uRGljdGlvbmFyeVRhYhIjCgpBY3Rp",
+            "dml0aWVzGBggAygLMg8ucHJvdG8uQWN0aXZpdHkSHwoFUGhvbmUYGSABKAsy",
+            "EC5wcm90by5QaG9uZUluZm8SFwoPVGFsZW50UmVzZXRUaW1lGBogASgDEhwK",
+            "FEVxdWlwbWVudERvdWJsZUNvdW50GBsgASgNEhoKBURpc2NzGBwgAygLMgsu",
+            "cHJvdG8uRGlzYxI0ChJFcXVpcG1lbnRJbnN0YW5jZXMYHSADKAsyGC5wcm90",
+            "by5FcXVpcG1lbnRJbnN0YW5jZRIfCgVTdG9yeRgeIAEoCzIQLnByb3RvLlN0",
+            "b3J5SW5mbxI/ChVWYW1waXJlU3Vydml2b3JSZWNvcmQYHyABKAsyIC5wcm90",
+            "by5WYW1waXJlU3Vydml2b3JSZWNvcmRJbmZvEhYKDkRhaWx5QWN0aXZlSWRz",
+            "GCAgAygNEhsKE1RvdXJHdWlkZVF1ZXN0R3JvdXAYISABKA0SLAoOU2tpbGxJ",
+            "bnN0YW5jZXMYIiADKAsyFC5wcm90by5Ta2lsbEluc3RhbmNlEicKCFdlZWtC",
+            "b3NzGCMgASgLMhUucHJvdG8uV2Vla0Jvc3NSZWNvcmQSEQoJSG9ub3JMaXN0",
+            "GHsgAygNEiAKBkhvbm9ycxh8IAMoCzIQLnByb3RvLkhvbm9ySW5mbxIdChVE",
+            "YWlseVNob3BSZXdhcmRTdGF0dXMYfSABKAgSEwoLVG93ZXJUaWNrZXQYfiAB",
+            "KA0SEAoIU2VydmVyVHMYfyABKAMSFAoLTmV4dFBhY2thZ2UY/w8gASgMIk4K",
+            "CVBob25lSW5mbxISCgpOZXdNZXNzYWdlGAEgASgNEhcKD1Byb2dyZXNzTWVz",
+            "c2FnZRgCIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwiRgoPRGljdGlvbmFy",
+            "eUVudHJ5Eg0KBUluZGV4GAEgASgNEg4KBlN0YXR1cxgCIAEoDRIUCgtOZXh0",
+            "UGFja2FnZRj/DyABKAwiXQoNRGljdGlvbmFyeVRhYhINCgVUYWJJZBgBIAEo",
+            "DRInCgdFbnRyaWVzGAIgAygLMhYucHJvdG8uRGljdGlvbmFyeUVudHJ5EhQK",
+            "C05leHRQYWNrYWdlGP8PIAEoDCJQCgpFbmVyZ3lJbmZvEh0KBkVuZXJneRgB",
+            "IAEoCzINLnByb3RvLkVuZXJneRINCgVDb3VudBgCIAEoDRIUCgtOZXh0UGFj",
+            "a2FnZRj/DyABKAwiUwoOV29ybGRDbGFzc0luZm8SCwoDQ3VyGAEgASgNEg8K",
+            "B0xhc3RFeHAYAiABKAUSDQoFU3RhZ2UYAyABKA0SFAoLTmV4dFBhY2thZ2UY",
+            "/w8gASgMUABiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Proto.PublicReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.PlayerInfo), global::Proto.PlayerInfo.Parser, new[]{ "Acc", "Res", "Items", "Chars", "Formation", "StarTowerRankTicket", "Energy", "WorldClass", "Agent", "RglPassedIds", "Equipments", "RegionBossLevels", "Quests", "State", "SendGiftCnt", "Board", "DatingCharIds", "Achievements", "Handbook", "SigninIndex", "Titles", "DailyInstances", "Dictionaries", "Activities", "Phone", "TalentResetTime", "EquipmentDoubleCount", "Discs", "EquipmentInstances", "Story", "VampireSurvivorRecord", "DailyActiveIds", "TourGuideQuestGroup", "HonorList", "Honors", "DailyShopRewardStatus", "TowerTicket", "ServerTs", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.PlayerInfo), global::Proto.PlayerInfo.Parser, new[]{ "Acc", "Res", "Items", "Chars", "Formation", "Energy", "WorldClass", "Agent", "RglPassedIds", "Equipments", "RegionBossLevels", "Quests", "State", "SendGiftCnt", "Board", "DatingCharIds", "Achievements", "Handbook", "SigninIndex", "Titles", "DailyInstances", "Dictionaries", "Activities", "Phone", "TalentResetTime", "EquipmentDoubleCount", "Discs", "EquipmentInstances", "Story", "VampireSurvivorRecord", "DailyActiveIds", "TourGuideQuestGroup", "SkillInstances", "WeekBoss", "HonorList", "Honors", "DailyShopRewardStatus", "TowerTicket", "ServerTs", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.PhoneInfo), global::Proto.PhoneInfo.Parser, new[]{ "NewMessage", "ProgressMessage", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.DictionaryEntry), global::Proto.DictionaryEntry.Parser, new[]{ "Index", "Status", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.DictionaryTab), global::Proto.DictionaryTab.Parser, new[]{ "TabId", "Entries", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.EnergyInfo), global::Proto.EnergyInfo.Parser, new[]{ "Energy", "Count", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.WorldClassInfo), global::Proto.WorldClassInfo.Parser, new[]{ "Cur", "LastExp", "NextPackage" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.WorldClassInfo), global::Proto.WorldClassInfo.Parser, new[]{ "Cur", "LastExp", "Stage", "NextPackage" }, null, null, null, null)
           }));
     }
     #endregion
@@ -117,7 +119,6 @@ namespace Proto {
       items_ = other.items_.Clone();
       chars_ = other.chars_.Clone();
       formation_ = other.formation_ != null ? other.formation_.Clone() : null;
-      starTowerRankTicket_ = other.starTowerRankTicket_;
       energy_ = other.energy_ != null ? other.energy_.Clone() : null;
       worldClass_ = other.worldClass_ != null ? other.worldClass_.Clone() : null;
       agent_ = other.agent_ != null ? other.agent_.Clone() : null;
@@ -145,6 +146,8 @@ namespace Proto {
       vampireSurvivorRecord_ = other.vampireSurvivorRecord_ != null ? other.vampireSurvivorRecord_.Clone() : null;
       dailyActiveIds_ = other.dailyActiveIds_.Clone();
       tourGuideQuestGroup_ = other.tourGuideQuestGroup_;
+      skillInstances_ = other.skillInstances_.Clone();
+      weekBoss_ = other.weekBoss_ != null ? other.weekBoss_.Clone() : null;
       honorList_ = other.honorList_.Clone();
       honors_ = other.honors_.Clone();
       dailyShopRewardStatus_ = other.dailyShopRewardStatus_;
@@ -214,18 +217,6 @@ namespace Proto {
       get { return formation_; }
       set {
         formation_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "StarTowerRankTicket" field.</summary>
-    public const int StarTowerRankTicketFieldNumber = 6;
-    private uint starTowerRankTicket_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public uint StarTowerRankTicket {
-      get { return starTowerRankTicket_; }
-      set {
-        starTowerRankTicket_ = value;
       }
     }
 
@@ -540,6 +531,29 @@ namespace Proto {
       }
     }
 
+    /// <summary>Field number for the "SkillInstances" field.</summary>
+    public const int SkillInstancesFieldNumber = 34;
+    private static readonly pb::FieldCodec<global::Proto.SkillInstance> _repeated_skillInstances_codec
+        = pb::FieldCodec.ForMessage(274, global::Proto.SkillInstance.Parser);
+    private readonly pbc::RepeatedField<global::Proto.SkillInstance> skillInstances_ = new pbc::RepeatedField<global::Proto.SkillInstance>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Proto.SkillInstance> SkillInstances {
+      get { return skillInstances_; }
+    }
+
+    /// <summary>Field number for the "WeekBoss" field.</summary>
+    public const int WeekBossFieldNumber = 35;
+    private global::Proto.WeekBossRecord weekBoss_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Proto.WeekBossRecord WeekBoss {
+      get { return weekBoss_; }
+      set {
+        weekBoss_ = value;
+      }
+    }
+
     /// <summary>Field number for the "HonorList" field.</summary>
     public const int HonorListFieldNumber = 123;
     private static readonly pb::FieldCodec<uint> _repeated_honorList_codec
@@ -630,7 +644,6 @@ namespace Proto {
       if(!items_.Equals(other.items_)) return false;
       if(!chars_.Equals(other.chars_)) return false;
       if (!object.Equals(Formation, other.Formation)) return false;
-      if (StarTowerRankTicket != other.StarTowerRankTicket) return false;
       if (!object.Equals(Energy, other.Energy)) return false;
       if (!object.Equals(WorldClass, other.WorldClass)) return false;
       if (!object.Equals(Agent, other.Agent)) return false;
@@ -658,6 +671,8 @@ namespace Proto {
       if (!object.Equals(VampireSurvivorRecord, other.VampireSurvivorRecord)) return false;
       if(!dailyActiveIds_.Equals(other.dailyActiveIds_)) return false;
       if (TourGuideQuestGroup != other.TourGuideQuestGroup) return false;
+      if(!skillInstances_.Equals(other.skillInstances_)) return false;
+      if (!object.Equals(WeekBoss, other.WeekBoss)) return false;
       if(!honorList_.Equals(other.honorList_)) return false;
       if(!honors_.Equals(other.honors_)) return false;
       if (DailyShopRewardStatus != other.DailyShopRewardStatus) return false;
@@ -676,7 +691,6 @@ namespace Proto {
       hash ^= items_.GetHashCode();
       hash ^= chars_.GetHashCode();
       if (formation_ != null) hash ^= Formation.GetHashCode();
-      if (StarTowerRankTicket != 0) hash ^= StarTowerRankTicket.GetHashCode();
       if (energy_ != null) hash ^= Energy.GetHashCode();
       if (worldClass_ != null) hash ^= WorldClass.GetHashCode();
       if (agent_ != null) hash ^= Agent.GetHashCode();
@@ -704,6 +718,8 @@ namespace Proto {
       if (vampireSurvivorRecord_ != null) hash ^= VampireSurvivorRecord.GetHashCode();
       hash ^= dailyActiveIds_.GetHashCode();
       if (TourGuideQuestGroup != 0) hash ^= TourGuideQuestGroup.GetHashCode();
+      hash ^= skillInstances_.GetHashCode();
+      if (weekBoss_ != null) hash ^= WeekBoss.GetHashCode();
       hash ^= honorList_.GetHashCode();
       hash ^= honors_.GetHashCode();
       if (DailyShopRewardStatus != false) hash ^= DailyShopRewardStatus.GetHashCode();
@@ -738,10 +754,6 @@ namespace Proto {
       if (formation_ != null) {
         output.WriteRawTag(42);
         output.WriteMessage(Formation);
-      }
-      if (StarTowerRankTicket != 0) {
-        output.WriteRawTag(48);
-        output.WriteUInt32(StarTowerRankTicket);
       }
       if (energy_ != null) {
         output.WriteRawTag(58);
@@ -812,6 +824,11 @@ namespace Proto {
         output.WriteRawTag(136, 2);
         output.WriteUInt32(TourGuideQuestGroup);
       }
+      skillInstances_.WriteTo(output, _repeated_skillInstances_codec);
+      if (weekBoss_ != null) {
+        output.WriteRawTag(154, 2);
+        output.WriteMessage(WeekBoss);
+      }
       honorList_.WriteTo(output, _repeated_honorList_codec);
       honors_.WriteTo(output, _repeated_honors_codec);
       if (DailyShopRewardStatus != false) {
@@ -850,10 +867,6 @@ namespace Proto {
       if (formation_ != null) {
         output.WriteRawTag(42);
         output.WriteMessage(Formation);
-      }
-      if (StarTowerRankTicket != 0) {
-        output.WriteRawTag(48);
-        output.WriteUInt32(StarTowerRankTicket);
       }
       if (energy_ != null) {
         output.WriteRawTag(58);
@@ -924,6 +937,11 @@ namespace Proto {
         output.WriteRawTag(136, 2);
         output.WriteUInt32(TourGuideQuestGroup);
       }
+      skillInstances_.WriteTo(ref output, _repeated_skillInstances_codec);
+      if (weekBoss_ != null) {
+        output.WriteRawTag(154, 2);
+        output.WriteMessage(WeekBoss);
+      }
       honorList_.WriteTo(ref output, _repeated_honorList_codec);
       honors_.WriteTo(ref output, _repeated_honors_codec);
       if (DailyShopRewardStatus != false) {
@@ -960,9 +978,6 @@ namespace Proto {
       size += chars_.CalculateSize(_repeated_chars_codec);
       if (formation_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Formation);
-      }
-      if (StarTowerRankTicket != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(StarTowerRankTicket);
       }
       if (energy_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Energy);
@@ -1019,6 +1034,10 @@ namespace Proto {
       if (TourGuideQuestGroup != 0) {
         size += 2 + pb::CodedOutputStream.ComputeUInt32Size(TourGuideQuestGroup);
       }
+      size += skillInstances_.CalculateSize(_repeated_skillInstances_codec);
+      if (weekBoss_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(WeekBoss);
+      }
       size += honorList_.CalculateSize(_repeated_honorList_codec);
       size += honors_.CalculateSize(_repeated_honors_codec);
       if (DailyShopRewardStatus != false) {
@@ -1059,9 +1078,6 @@ namespace Proto {
           Formation = new global::Proto.TowerFormation();
         }
         Formation.MergeFrom(other.Formation);
-      }
-      if (other.StarTowerRankTicket != 0) {
-        StarTowerRankTicket = other.StarTowerRankTicket;
       }
       if (other.energy_ != null) {
         if (energy_ == null) {
@@ -1142,6 +1158,13 @@ namespace Proto {
       if (other.TourGuideQuestGroup != 0) {
         TourGuideQuestGroup = other.TourGuideQuestGroup;
       }
+      skillInstances_.Add(other.skillInstances_);
+      if (other.weekBoss_ != null) {
+        if (weekBoss_ == null) {
+          WeekBoss = new global::Proto.WeekBossRecord();
+        }
+        WeekBoss.MergeFrom(other.WeekBoss);
+      }
       honorList_.Add(other.honorList_);
       honors_.Add(other.honors_);
       if (other.DailyShopRewardStatus != false) {
@@ -1199,10 +1222,6 @@ namespace Proto {
               Formation = new global::Proto.TowerFormation();
             }
             input.ReadMessage(Formation);
-            break;
-          }
-          case 48: {
-            StarTowerRankTicket = input.ReadUInt32();
             break;
           }
           case 58: {
@@ -1341,6 +1360,17 @@ namespace Proto {
             TourGuideQuestGroup = input.ReadUInt32();
             break;
           }
+          case 274: {
+            skillInstances_.AddEntriesFrom(input, _repeated_skillInstances_codec);
+            break;
+          }
+          case 282: {
+            if (weekBoss_ == null) {
+              WeekBoss = new global::Proto.WeekBossRecord();
+            }
+            input.ReadMessage(WeekBoss);
+            break;
+          }
           case 986:
           case 984: {
             honorList_.AddEntriesFrom(input, _repeated_honorList_codec);
@@ -1409,10 +1439,6 @@ namespace Proto {
               Formation = new global::Proto.TowerFormation();
             }
             input.ReadMessage(Formation);
-            break;
-          }
-          case 48: {
-            StarTowerRankTicket = input.ReadUInt32();
             break;
           }
           case 58: {
@@ -1549,6 +1575,17 @@ namespace Proto {
           }
           case 264: {
             TourGuideQuestGroup = input.ReadUInt32();
+            break;
+          }
+          case 274: {
+            skillInstances_.AddEntriesFrom(ref input, _repeated_skillInstances_codec);
+            break;
+          }
+          case 282: {
+            if (weekBoss_ == null) {
+              WeekBoss = new global::Proto.WeekBossRecord();
+            }
+            input.ReadMessage(WeekBoss);
             break;
           }
           case 986:
@@ -2706,6 +2743,7 @@ namespace Proto {
     public WorldClassInfo(WorldClassInfo other) : this() {
       cur_ = other.cur_;
       lastExp_ = other.lastExp_;
+      stage_ = other.stage_;
       nextPackage_ = other.nextPackage_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2740,6 +2778,18 @@ namespace Proto {
       }
     }
 
+    /// <summary>Field number for the "Stage" field.</summary>
+    public const int StageFieldNumber = 3;
+    private uint stage_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Stage {
+      get { return stage_; }
+      set {
+        stage_ = value;
+      }
+    }
+
     /// <summary>Field number for the "NextPackage" field.</summary>
     public const int NextPackageFieldNumber = 2047;
     private pb::ByteString nextPackage_ = pb::ByteString.Empty;
@@ -2769,6 +2819,7 @@ namespace Proto {
       }
       if (Cur != other.Cur) return false;
       if (LastExp != other.LastExp) return false;
+      if (Stage != other.Stage) return false;
       if (NextPackage != other.NextPackage) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -2779,6 +2830,7 @@ namespace Proto {
       int hash = 1;
       if (Cur != 0) hash ^= Cur.GetHashCode();
       if (LastExp != 0) hash ^= LastExp.GetHashCode();
+      if (Stage != 0) hash ^= Stage.GetHashCode();
       if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -2806,6 +2858,10 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteInt32(LastExp);
       }
+      if (Stage != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(Stage);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -2828,6 +2884,10 @@ namespace Proto {
         output.WriteRawTag(16);
         output.WriteInt32(LastExp);
       }
+      if (Stage != 0) {
+        output.WriteRawTag(24);
+        output.WriteUInt32(Stage);
+      }
       if (NextPackage.Length != 0) {
         output.WriteRawTag(250, 127);
         output.WriteBytes(NextPackage);
@@ -2847,6 +2907,9 @@ namespace Proto {
       }
       if (LastExp != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(LastExp);
+      }
+      if (Stage != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Stage);
       }
       if (NextPackage.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
@@ -2868,6 +2931,9 @@ namespace Proto {
       }
       if (other.LastExp != 0) {
         LastExp = other.LastExp;
+      }
+      if (other.Stage != 0) {
+        Stage = other.Stage;
       }
       if (other.NextPackage.Length != 0) {
         NextPackage = other.NextPackage;
@@ -2899,6 +2965,10 @@ namespace Proto {
             LastExp = input.ReadInt32();
             break;
           }
+          case 24: {
+            Stage = input.ReadUInt32();
+            break;
+          }
           case 16378: {
             NextPackage = input.ReadBytes();
             break;
@@ -2928,6 +2998,10 @@ namespace Proto {
           }
           case 16: {
             LastExp = input.ReadInt32();
+            break;
+          }
+          case 24: {
+            Stage = input.ReadUInt32();
             break;
           }
           case 16378: {

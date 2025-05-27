@@ -24,34 +24,33 @@ namespace Proto {
     static NotifyReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "Cgxub3RpZnkucHJvdG8SBXByb3RvGgxwdWJsaWMucHJvdG8aF3B1YmxpY19z",
-            "dGFyX3Rvd2VyLnByb3RvIi0KCE5ld0FnZW50EgsKA0lkcxgBIAMoDRIUCgtO",
-            "ZXh0UGFja2FnZRj/DyABKAwibAoSU2lnbmluUmV3YXJkVXBkYXRlEg0KBUlu",
-            "ZGV4GAEgASgNEiEKBkNoYW5nZRgCIAEoCzIRLnByb3RvLkNoYW5nZUluZm8S",
-            "DgoGU3dpdGNoGAYgASgIEhQKC05leHRQYWNrYWdlGP8PIAEoDCKAAQocU3Rh",
-            "clRvd2VyQm9va1BvdGVudGlhbENoYW5nZRI5Cg5DaGFyUG90ZW50aWFscxgB",
-            "IAMoCzIhLnByb3RvLlN0YXJUb3dlckJvb2tDaGFyUG90ZW50aWFsEg8KB0No",
-            "YXJJZHMYAiADKA0SFAoLTmV4dFBhY2thZ2UY/w8gASgMIkIKGFN0YXJUb3dl",
-            "ckJvb2tFdmVudENoYW5nZRIQCghFdmVudElkcxgBIAMoDRIUCgtOZXh0UGFj",
-            "a2FnZRj/DyABKAwipQEKBFNraW4SFAoLTmV4dFBhY2thZ2UY/w8gASgMEhoK",
-            "A05ldxgBIAEoCzILLnByb3RvLlVJMzJIABIrCgpEdXBsaWNhdGVkGAIgASgL",
-            "MhUucHJvdG8uU2tpbi5UcmFuc2Zvcm1IABo2CglUcmFuc2Zvcm0SCgoCSUQY",
-            "ASABKA0SHQoFSXRlbXMYAiADKAsyDi5wcm90by5JdGVtVHBsQgYKBFR5cGUi",
-            "QgoKU2tpbkNoYW5nZRIOCgZDaGFySWQYASABKA0SDgoGU2tpbklkGAIgASgN",
-            "EhQKC05leHRQYWNrYWdlGP8PIAEoDCKuAQoSTW9udGhseUNhcmRSZXdhcmRz",
-            "EgoKAklkGAEgASgNEiEKBkNoYW5nZRgCIAEoCzIRLnByb3RvLkNoYW5nZUlu",
-            "Zm8SDwoHRW5kVGltZRgDIAEoAxIfCgdSZXdhcmRzGAQgAygLMg4ucHJvdG8u",
-            "SXRlbVRwbBIRCglSZW1haW5pbmcYBSABKA0SDgoGU3dpdGNoGAYgASgIEhQK",
-            "C05leHRQYWNrYWdlGP8PIAEoDCI+ChRJbmZpbml0eVRvd2VyUmV3YXJkcxIQ",
-            "CghUb3dlcklkcxgBIAMoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwiWwoeVG93",
-            "ZXJCb29rRmF0ZUNhcmRDb2xsZWN0Tm90aWZ5Eg0KBUNhcmRzGAEgAygNEhQK",
-            "DFRhbGVudFBvaW50cxgCIAEoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwiWQoj",
-            "VG93ZXJCb29rRmF0ZUNhcmRSZXdhcmRDaGFuZ2VOb3RpZnkSDAoETGlzdBgB",
-            "IAMoDRIOCgZPcHRpb24YAiABKAgSFAoLTmV4dFBhY2thZ2UY/w8gASgMIksK",
-            "EUhvbm9yQ2hhbmdlTm90aWZ5EiAKBkhvbm9ycxgBIAMoCzIQLnByb3RvLkhv",
-            "bm9ySW5mbxIUCgtOZXh0UGFja2FnZRj/DyABKAxQAFABYgZwcm90bzM="));
+            "Cgxub3RpZnkucHJvdG8SBXByb3RvGgxwdWJsaWMucHJvdG8aE3B1YmxpY19t",
+            "aW5pbmcucHJvdG8aF3B1YmxpY19zdGFyX3Rvd2VyLnByb3RvIi0KCE5ld0Fn",
+            "ZW50EgsKA0lkcxgBIAMoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwibAoSU2ln",
+            "bmluUmV3YXJkVXBkYXRlEg0KBUluZGV4GAEgASgNEiEKBkNoYW5nZRgCIAEo",
+            "CzIRLnByb3RvLkNoYW5nZUluZm8SDgoGU3dpdGNoGAYgASgIEhQKC05leHRQ",
+            "YWNrYWdlGP8PIAEoDCKAAQocU3RhclRvd2VyQm9va1BvdGVudGlhbENoYW5n",
+            "ZRI5Cg5DaGFyUG90ZW50aWFscxgBIAMoCzIhLnByb3RvLlN0YXJUb3dlckJv",
+            "b2tDaGFyUG90ZW50aWFsEg8KB0NoYXJJZHMYAiADKA0SFAoLTmV4dFBhY2th",
+            "Z2UY/w8gASgMIkIKGFN0YXJUb3dlckJvb2tFdmVudENoYW5nZRIQCghFdmVu",
+            "dElkcxgBIAMoDRIUCgtOZXh0UGFja2FnZRj/DyABKAwipQEKBFNraW4SFAoL",
+            "TmV4dFBhY2thZ2UY/w8gASgMEhoKA05ldxgBIAEoCzILLnByb3RvLlVJMzJI",
+            "ABIrCgpEdXBsaWNhdGVkGAIgASgLMhUucHJvdG8uU2tpbi5UcmFuc2Zvcm1I",
+            "ABo2CglUcmFuc2Zvcm0SCgoCSUQYASABKA0SHQoFSXRlbXMYAiADKAsyDi5w",
+            "cm90by5JdGVtVHBsQgYKBFR5cGUiQgoKU2tpbkNoYW5nZRIOCgZDaGFySWQY",
+            "ASABKA0SDgoGU2tpbklkGAIgASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDCKu",
+            "AQoSTW9udGhseUNhcmRSZXdhcmRzEgoKAklkGAEgASgNEiEKBkNoYW5nZRgC",
+            "IAEoCzIRLnByb3RvLkNoYW5nZUluZm8SDwoHRW5kVGltZRgDIAEoAxIfCgdS",
+            "ZXdhcmRzGAQgAygLMg4ucHJvdG8uSXRlbVRwbBIRCglSZW1haW5pbmcYBSAB",
+            "KA0SDgoGU3dpdGNoGAYgASgIEhQKC05leHRQYWNrYWdlGP8PIAEoDCJbCh5U",
+            "b3dlckJvb2tGYXRlQ2FyZENvbGxlY3ROb3RpZnkSDQoFQ2FyZHMYASADKA0S",
+            "FAoMVGFsZW50UG9pbnRzGAIgASgNEhQKC05leHRQYWNrYWdlGP8PIAEoDCJZ",
+            "CiNUb3dlckJvb2tGYXRlQ2FyZFJld2FyZENoYW5nZU5vdGlmeRIMCgRMaXN0",
+            "GAEgAygNEg4KBk9wdGlvbhgCIAEoCBIUCgtOZXh0UGFja2FnZRj/DyABKAwi",
+            "SwoRSG9ub3JDaGFuZ2VOb3RpZnkSIAoGSG9ub3JzGAEgAygLMhAucHJvdG8u",
+            "SG9ub3JJbmZvEhQKC05leHRQYWNrYWdlGP8PIAEoDFAAUAFQAmIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Proto.PublicReflection.Descriptor, global::Proto.PublicStarTowerReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Proto.PublicReflection.Descriptor, global::Proto.PublicMiningReflection.Descriptor, global::Proto.PublicStarTowerReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.NewAgent), global::Proto.NewAgent.Parser, new[]{ "Ids", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SigninRewardUpdate), global::Proto.SigninRewardUpdate.Parser, new[]{ "Index", "Change", "Switch", "NextPackage" }, null, null, null, null),
@@ -60,7 +59,6 @@ namespace Proto {
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.Skin), global::Proto.Skin.Parser, new[]{ "NextPackage", "New", "Duplicated" }, new[]{ "Type" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Proto.Skin.Types.Transform), global::Proto.Skin.Types.Transform.Parser, new[]{ "ID", "Items" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.SkinChange), global::Proto.SkinChange.Parser, new[]{ "CharId", "SkinId", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.MonthlyCardRewards), global::Proto.MonthlyCardRewards.Parser, new[]{ "Id", "Change", "EndTime", "Rewards", "Remaining", "Switch", "NextPackage" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.InfinityTowerRewards), global::Proto.InfinityTowerRewards.Parser, new[]{ "TowerIds", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.TowerBookFateCardCollectNotify), global::Proto.TowerBookFateCardCollectNotify.Parser, new[]{ "Cards", "TalentPoints", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.TowerBookFateCardRewardChangeNotify), global::Proto.TowerBookFateCardRewardChangeNotify.Parser, new[]{ "List", "Option", "NextPackage" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Proto.HonorChangeNotify), global::Proto.HonorChangeNotify.Parser, new[]{ "Honors", "NextPackage" }, null, null, null, null)
@@ -2346,232 +2344,6 @@ namespace Proto {
   }
 
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
-  public sealed partial class InfinityTowerRewards : pb::IMessage<InfinityTowerRewards>
-  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      , pb::IBufferMessage
-  #endif
-  {
-    private static readonly pb::MessageParser<InfinityTowerRewards> _parser = new pb::MessageParser<InfinityTowerRewards>(() => new InfinityTowerRewards());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pb::MessageParser<InfinityTowerRewards> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.NotifyReflection.Descriptor.MessageTypes[7]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InfinityTowerRewards() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InfinityTowerRewards(InfinityTowerRewards other) : this() {
-      towerIds_ = other.towerIds_.Clone();
-      nextPackage_ = other.nextPackage_;
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public InfinityTowerRewards Clone() {
-      return new InfinityTowerRewards(this);
-    }
-
-    /// <summary>Field number for the "TowerIds" field.</summary>
-    public const int TowerIdsFieldNumber = 1;
-    private static readonly pb::FieldCodec<uint> _repeated_towerIds_codec
-        = pb::FieldCodec.ForUInt32(10);
-    private readonly pbc::RepeatedField<uint> towerIds_ = new pbc::RepeatedField<uint>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<uint> TowerIds {
-      get { return towerIds_; }
-    }
-
-    /// <summary>Field number for the "NextPackage" field.</summary>
-    public const int NextPackageFieldNumber = 2047;
-    private pb::ByteString nextPackage_ = pb::ByteString.Empty;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pb::ByteString NextPackage {
-      get { return nextPackage_; }
-      set {
-        nextPackage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override bool Equals(object other) {
-      return Equals(other as InfinityTowerRewards);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public bool Equals(InfinityTowerRewards other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      if(!towerIds_.Equals(other.towerIds_)) return false;
-      if (NextPackage != other.NextPackage) return false;
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override int GetHashCode() {
-      int hash = 1;
-      hash ^= towerIds_.GetHashCode();
-      if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void WriteTo(pb::CodedOutputStream output) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      output.WriteRawMessage(this);
-    #else
-      towerIds_.WriteTo(output, _repeated_towerIds_codec);
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
-      towerIds_.WriteTo(ref output, _repeated_towerIds_codec);
-      if (NextPackage.Length != 0) {
-        output.WriteRawTag(250, 127);
-        output.WriteBytes(NextPackage);
-      }
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(ref output);
-      }
-    }
-    #endif
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public int CalculateSize() {
-      int size = 0;
-      size += towerIds_.CalculateSize(_repeated_towerIds_codec);
-      if (NextPackage.Length != 0) {
-        size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
-      }
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(InfinityTowerRewards other) {
-      if (other == null) {
-        return;
-      }
-      towerIds_.Add(other.towerIds_);
-      if (other.NextPackage.Length != 0) {
-        NextPackage = other.NextPackage;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public void MergeFrom(pb::CodedInputStream input) {
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-      input.ReadRawMessage(this);
-    #else
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-          case 10:
-          case 8: {
-            towerIds_.AddEntriesFrom(input, _repeated_towerIds_codec);
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    #endif
-    }
-
-    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-      if ((tag & 7) == 4) {
-        // Abort on any end group tag.
-        return;
-      }
-      switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
-            break;
-          case 10:
-          case 8: {
-            towerIds_.AddEntriesFrom(ref input, _repeated_towerIds_codec);
-            break;
-          }
-          case 16378: {
-            NextPackage = input.ReadBytes();
-            break;
-          }
-        }
-      }
-    }
-    #endif
-
-  }
-
-  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class TowerBookFateCardCollectNotify : pb::IMessage<TowerBookFateCardCollectNotify>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2586,7 +2358,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.NotifyReflection.Descriptor.MessageTypes[8]; }
+      get { return global::Proto.NotifyReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2849,7 +2621,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.NotifyReflection.Descriptor.MessageTypes[9]; }
+      get { return global::Proto.NotifyReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3112,7 +2884,7 @@ namespace Proto {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Proto.NotifyReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Proto.NotifyReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

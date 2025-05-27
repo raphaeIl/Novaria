@@ -26,12 +26,15 @@ namespace Proto {
           string.Concat(
             "Ch1zdGFyX3Rvd2VyX2J1aWxkX2RlbGV0ZS5wcm90bxIFcHJvdG8aF3B1Ymxp",
             "Y19zdGFyX3Rvd2VyLnByb3RvIkEKF1N0YXJUb3dlckJ1aWxkRGVsZXRlUmVx",
-            "EhAKCEJ1aWxkSWRzGAEgAygEEhQKC05leHRQYWNrYWdlGP8PIAEoDFAAYgZw",
-            "cm90bzM="));
+            "EhAKCEJ1aWxkSWRzGAEgAygEEhQKC05leHRQYWNrYWdlGP8PIAEoDCJjChhT",
+            "dGFyVG93ZXJCdWlsZERlbGV0ZVJlc3ASIQoGQ2hhbmdlGAEgASgLMhEucHJv",
+            "dG8uQ2hhbmdlSW5mbxIOCgZUaWNrZXQYAiABKA0SFAoLTmV4dFBhY2thZ2UY",
+            "/w8gASgMUABiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Proto.PublicStarTowerReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildDeleteReq), global::Proto.StarTowerBuildDeleteReq.Parser, new[]{ "BuildIds", "NextPackage" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildDeleteReq), global::Proto.StarTowerBuildDeleteReq.Parser, new[]{ "BuildIds", "NextPackage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Proto.StarTowerBuildDeleteResp), global::Proto.StarTowerBuildDeleteResp.Parser, new[]{ "Change", "Ticket", "NextPackage" }, null, null, null, null)
           }));
     }
     #endregion
@@ -251,6 +254,287 @@ namespace Proto {
           case 10:
           case 8: {
             buildIds_.AddEntriesFrom(ref input, _repeated_buildIds_codec);
+            break;
+          }
+          case 16378: {
+            NextPackage = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class StarTowerBuildDeleteResp : pb::IMessage<StarTowerBuildDeleteResp>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<StarTowerBuildDeleteResp> _parser = new pb::MessageParser<StarTowerBuildDeleteResp>(() => new StarTowerBuildDeleteResp());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<StarTowerBuildDeleteResp> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Proto.StarTowerBuildDeleteReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StarTowerBuildDeleteResp() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StarTowerBuildDeleteResp(StarTowerBuildDeleteResp other) : this() {
+      change_ = other.change_ != null ? other.change_.Clone() : null;
+      ticket_ = other.ticket_;
+      nextPackage_ = other.nextPackage_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public StarTowerBuildDeleteResp Clone() {
+      return new StarTowerBuildDeleteResp(this);
+    }
+
+    /// <summary>Field number for the "Change" field.</summary>
+    public const int ChangeFieldNumber = 1;
+    private global::Proto.ChangeInfo change_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Proto.ChangeInfo Change {
+      get { return change_; }
+      set {
+        change_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "Ticket" field.</summary>
+    public const int TicketFieldNumber = 2;
+    private uint ticket_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public uint Ticket {
+      get { return ticket_; }
+      set {
+        ticket_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "NextPackage" field.</summary>
+    public const int NextPackageFieldNumber = 2047;
+    private pb::ByteString nextPackage_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pb::ByteString NextPackage {
+      get { return nextPackage_; }
+      set {
+        nextPackage_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as StarTowerBuildDeleteResp);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(StarTowerBuildDeleteResp other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Change, other.Change)) return false;
+      if (Ticket != other.Ticket) return false;
+      if (NextPackage != other.NextPackage) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (change_ != null) hash ^= Change.GetHashCode();
+      if (Ticket != 0) hash ^= Ticket.GetHashCode();
+      if (NextPackage.Length != 0) hash ^= NextPackage.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (change_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Change);
+      }
+      if (Ticket != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Ticket);
+      }
+      if (NextPackage.Length != 0) {
+        output.WriteRawTag(250, 127);
+        output.WriteBytes(NextPackage);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (change_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Change);
+      }
+      if (Ticket != 0) {
+        output.WriteRawTag(16);
+        output.WriteUInt32(Ticket);
+      }
+      if (NextPackage.Length != 0) {
+        output.WriteRawTag(250, 127);
+        output.WriteBytes(NextPackage);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (change_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Change);
+      }
+      if (Ticket != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(Ticket);
+      }
+      if (NextPackage.Length != 0) {
+        size += 2 + pb::CodedOutputStream.ComputeBytesSize(NextPackage);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(StarTowerBuildDeleteResp other) {
+      if (other == null) {
+        return;
+      }
+      if (other.change_ != null) {
+        if (change_ == null) {
+          Change = new global::Proto.ChangeInfo();
+        }
+        Change.MergeFrom(other.Change);
+      }
+      if (other.Ticket != 0) {
+        Ticket = other.Ticket;
+      }
+      if (other.NextPackage.Length != 0) {
+        NextPackage = other.NextPackage;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (change_ == null) {
+              Change = new global::Proto.ChangeInfo();
+            }
+            input.ReadMessage(Change);
+            break;
+          }
+          case 16: {
+            Ticket = input.ReadUInt32();
+            break;
+          }
+          case 16378: {
+            NextPackage = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+      if ((tag & 7) == 4) {
+        // Abort on any end group tag.
+        return;
+      }
+      switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (change_ == null) {
+              Change = new global::Proto.ChangeInfo();
+            }
+            input.ReadMessage(Change);
+            break;
+          }
+          case 16: {
+            Ticket = input.ReadUInt32();
             break;
           }
           case 16378: {

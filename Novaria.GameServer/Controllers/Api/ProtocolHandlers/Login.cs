@@ -14,25 +14,10 @@ namespace Novaria.GameServer.Controllers.Api.ProtocolHandlers
     {
         public Login(IProtocolHandlerFactory protocolHandlerFactory, TableService tableService) : base(protocolHandlerFactory)
         {
-            table_Achievement achievements = (table_Achievement)tableService.GetTable<Nova.Client.Achievement>();
-        }
+            //table_Achievement achievements = (table_Achievement)tableService.GetTable<Nova.Client.Achievement>();
+            table_Character characters = (table_Character)tableService.GetTable<Nova.Client.Character>();
 
-        [ProtocolHandler(NetMsgId.gacha_information_req)]
-        public Packet PlayerLoginHandler(Nil req)
-        {
-            GachaInformationResp gachaInfoResp = new GachaInformationResp()
-            {
-                Information =
-                {
-                  new GachaInfo()
-                  {
-                      Id = 1,
-                      DaysCount = 31,
-                  }
-                },
-            };
-
-            return Packet.Create(NetMsgId.gacha_information_req, gachaInfoResp);
+            Log.Information(Newtonsoft.Json.JsonConvert.SerializeObject(characters, Newtonsoft.Json.Formatting.Indented));
         }
 
         [ProtocolHandler(NetMsgId.player_login_req)] // req id goes here
@@ -597,8 +582,11 @@ namespace Novaria.GameServer.Controllers.Api.ProtocolHandlers
                 //]);
             playerInfoResponse.Res.AddRange(pcapPlayerInfo.Res);
             playerInfoResponse.Items.AddRange(pcapPlayerInfo.Items);
+
+            playerInfoResponse.Res.Where(i => i.Tid == 2).SingleOrDefault().Qty = 777777771; // gacha stone
+
             playerInfoResponse.Formation = pcapPlayerInfo.Formation;
-            playerInfoResponse.StarTowerRankTicket = 3;
+            //playerInfoResponse.StarTowerRankTicket = 3;
             playerInfoResponse.Energy = pcapPlayerInfo.Energy;
             playerInfoResponse.WorldClass = pcapPlayerInfo.WorldClass;
             playerInfoResponse.Agent = pcapPlayerInfo.Agent;
@@ -642,6 +630,15 @@ namespace Novaria.GameServer.Controllers.Api.ProtocolHandlers
             return Packet.Create(NetMsgId.player_ping_succeed_ack, new Pong()
             {
                 ServerTs = 1736745112,
+            });
+        }
+
+        [ProtocolHandler(NetMsgId.player_learn_req)]
+        public Packet PlayerLearnHandler(NewbieInfo newbieInfo)
+        {
+            return Packet.Create(NetMsgId.player_learn_succeed_ack, new Nil()
+            {
+
             });
         }
 
